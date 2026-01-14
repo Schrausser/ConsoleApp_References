@@ -1,6 +1,6 @@
 # ConsoleApp_References
 
-References (Bibtex, HTML) for Console applications (Schrausser, [2023a](https://doi.org/10.5281/zenodo.7664141), [b](https://doi.org/10.5281/zenodo.10701350), [c](https://doi.org/10.5281/zenodo.7655056), [d](https://doi.org/10.5281/zenodo.7655046), [e](https://doi.org/10.5281/zenodo.7653790), [f](https://doi.org/10.5281/zenodo.7655239)).
+References (`Bibtex`, `HTML`) for Console applications (Schrausser, [2023a](https://doi.org/10.5281/zenodo.7664141), [b](https://doi.org/10.5281/zenodo.10701350), [c](https://doi.org/10.5281/zenodo.7655056), [d](https://doi.org/10.5281/zenodo.7655046), [e](https://doi.org/10.5281/zenodo.7653790), [f](https://doi.org/10.5281/zenodo.7655239)).
 
 ## References
 
