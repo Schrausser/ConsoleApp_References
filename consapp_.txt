@@ -1,5 +1,3 @@
-
-
 Abduganiev, M., Azimov, R., & Muydinov, L. 2023. “Digital Processing
 Algorithms of Biomedical Signals Using Cubic Base Splines.” In
 Intelligent Human Computer Interaction, edited by Zaynidinov, H., Singh,
