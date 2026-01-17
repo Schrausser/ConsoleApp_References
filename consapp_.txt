@@ -1,0 +1,985 @@
+
+
+Abduganiev, M., Azimov, R., & Muydinov, L. 2023. “Digital Processing
+Algorithms of Biomedical Signals Using Cubic Base Splines.” In
+Intelligent Human Computer Interaction, edited by Zaynidinov, H., Singh,
+M., Tiwary, U. S., & Singh, D., 18–26. Cham: Springer Nature
+Switzerland. https://doi.org/10.1007/978-3-031-27199-1_3.
+
+Abdulhameed, A. F., & Memon, Q. A. 2021. “An Improved Trapezoidal Rule
+for Numerical Integration.” Journal of Physics: Conference Series 2090
+(1): 012104. https://doi.org/10.1088/1742-6596/2090/1/012104.
+
+Agarwal, R. P., & Wong, P. J. Y. 1993. “Spline Interpolation.” In Error
+Inequalities in Polynomial Interpolation and Their Applications,
+281–362. Dordrecht: Springer Netherlands.
+https://doi.org/10.1007/978-94-011-2026-5_6.
+
+Allen, M. B., & Isaacson, E. L. 2019. “Numerical Integration.” In
+Numerical Analysis for Applied Science, 363–401. John Wiley & Sons, Ltd.
+https://doi.org/10.1002/9781119245476.ch7.
+
+Altham, P. M. E. 1969. “Exact Bayesian Analysis of a 2 × 2 Contingency
+Table, and Fisher’s "Exact" Significance Test.” Journal of the Royal
+Statistical Society. Series B (Methodological) 31 (2): 261–69.
+http://www.jstor.org/stable/2984209.
+
+———. 1978. “Two Generalizations of the Binomial Distribution.” Journal
+of the Royal Statistical Society. Series C (Applied Statistics) 27 (2):
+162–67. http://www.jstor.org/stable/2346943.
+
+Bach, F. 2021. “On the Effectiveness of Richardson Extrapolation in Data
+Science.” SIAM Journal on Mathematics of Data Science 3 (4): 1251–77.
+https://doi.org/10.1137/21M1397349.
+
+Baíllo, A., & Cárcamo, J. 2025. “Bootstrap Tests for Almost
+Goodness-of-Fit.” Statistics and Computing 36 (1): 10.
+https://doi.org/10.1007/s11222-025-10762-z.
+
+Batir, N. 2008. “On Some Properties of the Gamma Function.” Expositiones
+Mathematicae 26 (2): 187–96.
+https://doi.org/10.1016/j.exmath.2007.10.001.
+
+Behnke, J., & Behnke, N. 2006. “Verteilungen, Die von Der
+Standardnormalverteilung Abgeleitet Werden können.” In Grundlagen Der
+Statistischen Datenanalyse: Eine Einführung für Politikwissenschaftler,
+344–55. Wiesbaden: VS Verlag für Sozialwissenschaften.
+https://doi.org/10.1007/978-3-531-90003-2_26.
+
+Benzon, B. 2021. “The Normal Distribution, an Epistemological View.” St
+Open 2 (July): 1–16. https://doi.org/10.48188/so.2.6.
+
+Bera, A. K., Galvao, A. F., Wang, L., & Xiao, Z. 2016. “A New
+Characterisazion Of The Normal Distribution And Test For Normality.”
+Econometric Theory 32 (5): 1216–52.
+http://www.jstor.org/stable/43948011.
+
+Berggren, L., Borwein, J., & Borwein, P. 2000. “Wallis. Arithmetica
+Infinitorum (1655).” In Pi: A Source Book, 78–80. New York, NY:
+Springer. https://doi.org/10.1007/978-1-4757-3240-5_11.
+
+Bernoulli, D. 1729. “Lettre XLVII. D. Bernoulli a Goldbach.”
+St.-Petersbourg ce 6. octobre 1729.
+https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg.
+
+Bernoulli, J. 1713. Ars conjectandi, opus posthumum. Accedit Tractatus
+de seriebus infinitis, et epistola gallicé scripta de ludo pilae
+reticularis. Basileae: Impensis Thurnisiorum, Fratrum.
+https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001.
+
+Bickel, P. J., & Ren, J.-J. 2001. “The Bootstrap in Hypothesis Testing.”
+Lecture Notes-Monograph Series 36: 91–112.
+http://www.jstor.org/stable/4356107.
+
+Bickel, P. J., & Yahav, J. A. 1988. “Richardson Extrapolation and the
+Bootstrap.” Journal of the American Statistical Association 83 (402):
+387–93. http://www.jstor.org/stable/2288854.
+
+Bond, C. F., & Richardson, K. 2004. “Seeing the Fisher
+Z-transformation.” Psychometrika 69 (2): 291–303.
+https://doi.org/10.1007/BF02295945.
+
+Borwein, J. M., & Corless, R. M. 2018. “Gamma and Factorial in the
+Monthly.” The American Mathematical Monthly 125 (5): 400–424.
+https://www.jstor.org/stable/48663320.
+
+Bowring, A., Telschow, F. J. E., Schwartzman, A., & Nichols, T. E. 2021.
+“Confidence Sets for Cohen’s d Effect Size Images.” NeuroImage 226:
+117477. https://doi.org/10.1016/j.neuroimage.2020.117477.
+
+Brandmaier, A. M. 2025. “Stop Calling Cohen’s d an Effect Size.”
+PsyArXiv. https://doi.org/10.31234/osf.io/n9ta7_v1.
+
+Breitenberger, E. 1963. “Analogues of the Normal Distribution on the
+Circle and the Sphere.” Biometrika 50 (1/2): 81–88.
+http://www.jstor.org/stable/2333749.
+
+Brereton, R. G. 2014. “The Normal Distribution.” Journal of Chemometrics
+28 (11): 789–92. https://doi.org/10.1002/cem.2655.
+
+———. 2015. “The F distribution and its relationship to the chi squared
+and t distributions.” Journal of Chemometrics 29 (11): 582–86.
+https://doi.org/10.1002/cem.2734.
+
+Brigola, R. 2025. Fourier Analysis and Distributions. 1st ed. Texts in
+Applied Mathematics. Cham: Springer.
+https://doi.org/10.1007/978-3-031-81311-5.
+
+Büchter, A., & Henn, H.-W. 2010. “Grenzwerte von Riemann’schen Summen:
+Das Integral.” In Elementare Analysis: Von Der Anschauung Zur Theorie,
+221–35. Heidelberg: Spektrum Akademischer Verlag.
+https://doi.org/10.1007/978-3-8274-2680-2_6.
+
+Bujang, N., Nasir, M. A. S., & Ijam, H. M. 2025. “Numerical Integration
+of Function Using the Modified Trapezoidal Rule and Mean Averaging
+Method.” AIP Conference Proceedings 3338 (1): 040010.
+https://doi.org/10.1063/5.0294833.
+
+Cacoullos, T. 1965. “A Relation Between t and F-Distributions.” Journal
+of the American Statistical Association 60 (310): 528–31.
+http://www.jstor.org/stable/2282687.
+
+Camilli, G. 1995. “The Relationship Between Fisher’s Exact Test and
+Pearson’s Chi-Square Test: A Bayesian Perspective.” Psychometrika 60
+(2). https://doi.org/10.1007/BF02301418.
+
+Canal, L. 2005. “A Normal Approximation for the Chi-Square
+Distribution.” Computational Statistics & Data Analysis 48 (4): 803–8.
+https://doi.org/10.1016/j.csda.2004.04.001.
+
+Carbonell, F., Worsley, K. J., & Trujillo-Barreto, N. J. 2009. “On the
+Fisher’s Z transformation of correlation random fields.” Statistics &
+Probability Letters 79 (6): 780–88.
+https://doi.org/10.1016/j.spl.2008.11.007.
+
+Cardano, G. 1545. ARTIS MAGNAE, SIVE DE REGVLIS ALGEBRAICIS, LIBER VNVS.
+S. P. D: ANDREAE OSIANDRO viro eruditiff.
+https://web.archive.org/web/20220201093634/http://www.filosofia.unimi.it/cardano/testi/operaomnia/vol_4_s_4.pdf.
+
+Chattamvelli, R., & Shanmugam, R. 2021. “F Distribution.” In Continuous
+Distributions in Engineering and the Applied Sciences – Part II, 227–34.
+Cham: Springer International Publishing.
+https://doi.org/10.1007/978-3-031-02435-1_7.
+
+Cheng, F., & Barsky, B. A. 1991. “Interproximation: Interpolation and
+Approximation Using Cubic Spline Curves.” Computer-Aided Design 23 (10):
+700–706. https://doi.org/10.1016/0010-4485(91)90023-P.
+
+Chiarion, G., Sparacino, L., Antonacci, Y., Faes, L., & Mesin, L. 2023.
+“Connectivity Analysis in EEG Data: A Tutorial Review of the State of
+the Art and Emerging Trends.” Bioengineering (Basel, Switzerland) 10
+(3). https://doi.org/10.3390/bioengineering10030372.
+
+Chung, K. L. 1974. “Poisson and Normal Distributions.” In Elementary
+Probability Theory with Stochastic Processes, 192–239. New York, NY:
+Springer. https://doi.org/10.1007/978-1-4757-3973-2_7.
+
+Cohen, J. 1977. Statistical Power Analysis for the Behavioral Science.
+Amsterdam: Elsevier Academic Press.
+https://doi.org/10.1016/C2013-0-10517-X.
+
+———. 1988. Statistical Power Analysis for the Behavioral Science. 2nd
+ed. Hillsdale, NJ: Lawrence Erlbaum Associates.
+https://doi.org/10.4324/9780203771587.
+
+———. 1992. “A Power Primer.” Psychological Bulletin 112 (1): 155–59.
+https://doi.org/10.1037/0033-2909.112.1.155.
+
+Collani, E., & Dräger, K. 2001. Binomial Distribution Handbook for
+Scientists and Engineers. 1st ed. Graduate Texts in Mathematics. Boston,
+MA: Birkhäuser. https://doi.org/10.1007/978-1-4612-0215-8.
+
+Congedo, M., Özen, C., & Sherlin, L. 2002. “Notes on EEG Resampling by
+Natural Cubic Spline Interpolation.” Journal of Neurotherapy 6 (4):
+73–80. https://doi.org/10.1300/J184v06n04_08.
+
+Crow, E. L. 1958. “The Mean Deviation of the Poisson Distribution.”
+Biometrika 45 (3/4): 556–59. http://www.jstor.org/stable/2333201.
+
+Das, A. 2025. “New Methods to Compute the Generalized Chi-Square
+Distribution.” https://arxiv.org/abs/2404.05062.
+
+David, F. N. 1949. “The Moments of the z and F Distributions.”
+Biometrika 36 (3/4): 394–403. http://www.jstor.org/stable/2332676.
+
+Davis, P. J. 1959. “Leonhard Euler’s Integral: A Historical Profile of
+the Gamma Function: In Memoriam: Milton Abramowitz.” The American
+Mathematical Monthly 66 (10): 849–69.
+http://www.jstor.org/stable/2309786.
+
+de Moivre, A. 1711. “De mensura sortis, seu, de probabilitate eventuum
+in ludis a casu fortuito pendentibus.” Philosophical Transactions of the
+Royal Society of London 27 (329): 213–64.
+https://doi.org/10.1098/rstl.1710.0018.
+
+———. 1738. The Doctrine of Chances: Or, A Method of Calculating the
+Probability of Events in Play. 2nd ed. London: H. Woodfall.
+https://books.google.com/books?id=PII\_AAAAcAAJ.
+
+de Montmort, P. R. 1713. Essay D’analyse Sur Les Jeux De Hazard. 2nd ed.
+A Paris, Chez Laurent Le Conte; Quay des Augustins, à la Ville de
+Montpiller. https://books.google.fr/books?id=DIM_AAAAcAAJ.
+
+Dubeau, F. 2019. “A Remark on Richardson’s Extrapolation Process and
+Numerical Differentiation Formulae.” Journal of Computational Physics: X
+2: 100017. https://doi.org/10.1016/j.jcpx.2019.100017.
+
+Dutka, J. 1984. “The Early History of the Hypergeometric Function.”
+Archive for History of Exact Sciences 31 (1): 15–34.
+http://www.jstor.org/stable/41133728.
+
+Edelman, D. 2025. “Worst-case Nonparametric Bounds for the Student
+t-statistic.” arXiv, September.
+https://doi.org/10.48550/arXiv.2508.13226.
+
+Efron, B. 1979. “Bootstrap Methods: Another Look at the Jackknife.” The
+Annals of Statistics 7 (1): 1–26.
+https://doi.org/10.1214/aos/1176344552.
+
+———. 1981. “Nonparametric Estimates of Standard Error: The Jackknife,
+the Bootstrap and Other Methods.” Biometrika 68 (3): 589–99.
+https://doi.org/10.1093/biomet/68.3.589.
+
+———. 1982. The Jackknife, the Bootstrap and Other Resampling Plans.
+CBMS-NSF Regional Conference Series in Applied Mathematics, Monograph
+38. Philadelphia: SIAM, Society for Industrial and Applied Mathematics.
+https://doi.org/10.1137/1.9781611970319.
+
+Eidous, O. 2025. “Does the Bootstrap Method Effectively Evaluate
+Estimators?” ResearchGate, September.
+https://doi.org/10.13140/RG.2.2.12238.11846.
+
+Epperson, J. F. 2021. “Interpolation and Approximation.” In An
+Introduction to Numerical Methods and Analysis, 101–48. John Wiley &
+Sons, Ltd. https://doi.org/10.1002/9781119604570.ch4.
+
+Farin, G. 1994. “Kubische Spline-Interpolation.” In Kurven Und Flächen
+Im Computer Aided Geometric Design: Eine Praktische Einführung, 104–21.
+Wiesbaden: Vieweg+Teubner Verlag.
+https://doi.org/10.1007/978-3-663-10602-9_9.
+
+Finkelshtein, D., Malyarenko, A., Mishura, Y., & Ralchenko, K. 2025.
+“Entropies of the Poisson Distribution as Functions of Intensity:
+‘Normal’ and ‘Anomalous’ Behavior.” Methodology and Computing in Applied
+Probability 27 (2): 45. https://doi.org/10.1007/s11009-025-10171-9.
+
+Fisher, R. A. 1915. “Frequency Distribution of the Values of the
+Correlation Coefficient in Samples from an Indefinitely Large
+Population.” Biometrika 10 (4): 507–21. https://doi.org/10.2307/2331838.
+
+———. 1922. “On the Interpretation of χ2 from Contingency Tables, and the
+Calculation of p.” Journal of the Royal Statistical Society 85 (1):
+87–94. https://doi.org/10.2307/2340521.
+
+———. 1924. “On a Distribution Yielding the Error Functions of Several
+Well-Known Statistics.” Proceedings International Mathematical Congress,
+Toronto 2: 805–13.
+https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics.
+
+Fonseca, T. C. O., Ferreira, M. A. R., & Migon, H. S. 2008. “Objective
+Bayesian Analysis for the Student-t Regression Model.” Biometrika 95
+(2): 325–33. http://www.jstor.org/stable/20441467.
+
+Forster, O., & Lindemann, F. 2023. “Das Riemannsche Integral.” In
+Analysis 1: Differential- und Integralrechnung einer Veränderlichen,
+283–302. Wiesbaden: Springer Fachmedien.
+https://doi.org/10.1007/978-3-658-40130-6_18.
+
+Fourier, J. B. J. 1822. Théorie analytique de la chaleur. A Paris: Chez
+Firmin Didot, pere et fils.
+https://archive.org/details/bub_gb_TDQJAAAAIAAJ/mode/1up.
+
+Fredenhagen, S., Oberle, H. J., & Opfer, G. 1999. “On the Construction
+of Optimal Monotone Cubic Spline Interpolations.” Journal of
+Approximation Theory 96 (2): 182–201.
+https://doi.org/10.1006/jath.1998.3247.
+
+French, C. C, & Graham, J. B. 1984. “A Critical Review of EEG Coherence
+Studies of Hemisphere Function.” International Journal of
+Psychophysiology 1 (3): 241–54.
+https://doi.org/10.1016/0167-8760(84)90044-8.
+
+Fritz, C. O., Morris, P. E., & Richler, J. J. 2012. “Effect Size
+Estimates: Current Use, Calculations, and Interpretation.” Journal of
+Experimental Psychology: General 141 (1): 2–18.
+https://doi.org/10.1037/a0024338.
+
+García-García, J. I., Fernández Coronado, N. A., Arredondo, E. H., &
+Imilpán Rivera, I. A. 2022. “The Binomial Distribution: Historical
+Origin and Evolution of Its Problem Situations.” Mathematics 10 (15).
+https://doi.org/10.3390/math10152680.
+
+Gentle, J. E. 2024. Matrix Algebra: Theory, Computations and
+Applications in Statistics. 3rd ed. Springer Texts in Statistics. Cham:
+Springer. https://doi.org/10.1007/978-3-031-42144-0.
+
+Gerlach, S. 2019. “Programmieren in C.” In Computerphysik: Einführung,
+Beispiele und Anwendungen, 31–54. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-59246-5_4.
+
+Gerthsen, C. 1966. Physik: Ein Lehrbuch Zum Gebrauch Neben Vorlesungen.
+Edited by Kneser, H. O. 9th ed. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-30201-9.
+
+Goel, S. K., & Rodriguez, D. M. 1987. “A Note on Evaluating Limits Using
+Riemann Sums.” Mathematics Magazine 60 (4): 225–28.
+http://www.jstor.org/stable/2689344.
+
+Gonzalez-Morris, G., & Horton, I. 2024. Beginning C: From Beginner to
+Pro. 7th ed. Berkeley, CA: Apress.
+https://doi.org/10.1007/979-8-8688-0149-5.
+
+Gosset, W. S. 1908. “The Probable Error of a Mean.” Biometrika 6 (1):
+1–25. https://doi.org/10.2307/2331554.
+
+Grafakos, L. 2024. Fundamentals of Fourier Analysis. 1st ed. Graduate
+Texts in Mathematics. Cham: Springer.
+https://doi.org/10.1007/978-3-031-56500-7.
+
+Grcar, J. F. 2011. “How Ordinary Elimination Became Gaussian
+Elimination.” Historia Mathematica 38 (2): 163–218.
+https://doi.org/10.1016/j.hm.2010.06.003.
+
+Grigelionis, B. 2012. Student’s t-Distribution and Related Stochastic
+Processes. 1st ed. Springer Briefs in Statistics. Berlin, Heidelberg:
+Springer. https://doi.org/10.1007/978-3-642-31146-8.
+
+Gronwall, T. H. 1918. “The Gamma Function in the Integral Calculus.”
+Annals of Mathematics 20 (2): 35–124.
+http://www.jstor.org/stable/1967180.
+
+Groß, J., & Möller, A. 2023. “A Note on Cohen’s d from a Partitioned
+Linear Regression Model.” Journal of Statistical Theory and Practice 17
+(2): 22. https://doi.org/10.1007/s42519-023-00323-w.
+
+———. 2024. “Some Additional Remarks on Statistical Properties of Cohen’s
+d in the Presence of Covariates.” Statistical Papers 65 (6): 3971–79.
+https://doi.org/10.1007/s00362-023-01527-9.
+
+Guevara, M., Hernández-González, M., Sanz-Martin, A., & Amezcua, C.
+2011. “EEGcorco: A Computer Program to Simultaneously Calculate and
+Statistically Analyze EEG Coherence and Correlation.” Journal of
+Biomedical Science and Engineering 4.
+https://doi.org/10.4236/jbise.2011.412096.
+
+Guillemin, V. W., & Stroock, D. W. 2008. “Some Riemann Sums Are Better
+Than Others.” In Representations, Wavelets, and Frames: A Celebration of
+the Mathematical Work of Lawrence w. Baggett, edited by Jorgensen, P. E.
+T., Merrill, K. D., & Packer, J. A., 3–12. Boston, MA: Birkhäuser.
+https://doi.org/10.1007/978-0-8176-4683-7_1.
+
+Hafner, R. 1992. “Der Chi-Quadrat-Test.” In Statistik: Für Sozial- Und
+Wirtschaftswissenschaftler, 164–70. Vienna: Springer.
+https://doi.org/10.1007/978-3-7091-3420-7_14.
+
+Haight, F. A. 1967. Handbook of the Poisson Distribution. Operations
+Research Society of America. Publications in Operations Research. Wiley.
+https://books.google.com/books?id=l8Y-AAAAIAAJ.
+
+Hall, P. 2003. “A Short Prehistory of the Bootstrap.” Statistical
+Science 18 (2): 158–67. http://www.jstor.org/stable/3182845.
+
+Hassler, U. 2007. “Riemann-Integrale.” In Stochastische Integration und
+Zeitreihenmodellierung: Eine Einführung mit Anwendungen aus Finanzierung
+und Ökonometrie, 137–53. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-540-73568-7_7.
+
+Heisenberg, W. 1925. “Über quantentheoretische Umdeutung kinematischer
+und mechanischer Beziehungen.” Zeitschrift Für Physik 33: 879–93.
+https://doi.org/10.1007/BF01328377.
+
+Helmert, F. R. 1876. “Ueber die Wahrscheinlichkeit der Potenzsummen der
+Beobachtungsfehler und über einige damit im Zusammenhange stehende
+Fragen.” Zeitschrift Für Mathematik Und Physik 21: 192–219.
+https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021.
+
+Herrmann, D. 1983. “Romberg-Integration.” In Numerische Mathematik — 40
+BASIC-Programme, 84–86. Wiesbaden: Vieweg+Teubner Verlag.
+https://doi.org/10.1007/978-3-322-96321-5_27.
+
+———. 1984. “F-Verteilung.” In Wahrscheinlichkeitsrechnung Und Statistik
+— 30 BASIC-Programme, 40–41. Wiesbaden: Vieweg+Teubner Verlag.
+https://doi.org/10.1007/978-3-322-96320-8_21.
+
+———. 2001. “System-Programmierung (MS-DOS).” In Effektiv Programmieren
+in C und C++: Eine aktuelle Einführung mit Beispielen aus Mathematik,
+Naturwissenschaft und Technik, 295–318. Wiesbaden: Vieweg+Teubner
+Verlag. https://doi.org/10.1007/978-3-322-94365-1_16.
+
+Hershberger, S. L. 2014. “Exact Methods for Categorical Data.” In Wiley
+StatsRef: Statistics Reference Online. John Wiley & Sons, Ltd.
+https://doi.org/10.1002/9781118445112.stat06165.
+
+Hjelm, H. F., & Norris, R. C. 1962. “Empirical Study of the Efficacy of
+Fisher’s Z-Transformation.” The Journal of Experimental Education 30
+(3): 269–77. http://www.jstor.org/stable/20156574.
+
+Horowitz, Joel L. 2001. “Chapter 52 - the Bootstrap.” In, edited by
+Heckman, J. J., & Leamer, E., 5:3159–3228. Handbook of Econometrics.
+Elsevier. https://doi.org/10.1016/S1573-4412(01)05005-X.
+
+Izzo, F., Runborg, O., & Tsai, R. 2022. “Corrected Trapezoidal Rules for
+Singular Implicit Boundary Integrals.” Journal of Computational Physics
+461: 111193. https://doi.org/10.1016/j.jcp.2022.111193.
+
+Janczyk, M., & Pfister, R. 2013. “Fehlertypen, Effektstärken Und Power.”
+In Inferenzstatistik Verstehen: Von a Wie Signifikanztest Bis z Wie
+Konfidenzintervall, 77–90. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-642-34825-9_7.
+
+Jarre, F. 2025. “Cubic Spline Functions Revisited.” arXiv.
+https://doi.org/10.48550/arXiv.2507.05083.
+
+———. 2026. “Cubic Spline Functions Revisited.” Journal of Computational
+and Applied Mathematics 478: 117240.
+https://doi.org/10.1016/j.cam.2025.117240.
+
+Jetter, K. 1984. “Ein Kurze Anmerkung Zur Romberg-Integration.”
+Numerische Mathematik 45 (2). https://doi.org/10.1007/BF01389471.
+
+Jiang, H., & Zhao, Y. 2009. “The Study of Interpolation Algorithm Based
+on Cubic Spline in Marching Cubes Method.” In 2009 Sixth International
+Conference on Fuzzy Systems and Knowledge Discovery, 5:80–83.
+https://doi.org/10.1109/FSKD.2009.591.
+
+Jolicoeur, P. 1999. “The Poisson Distribution.” In Introduction to
+Biometry, 124–33. Boston, MA: Springer.
+https://doi.org/10.1007/978-1-4615-4777-8_19.
+
+Joyce, P. 2019. Numerical C: Applied Computational Programming with Case
+Studies. 1st ed. Berkeley, CA: Apress.
+https://doi.org/10.1007/978-1-4842-5064-8.
+
+Kaier, E. 1990. “Referenz Zu MS-DOS.” In Informatik: Referenzbuch. Mit
+den vollständigen Befehlslisten zu MS-DOS, Turbo Pascal, dBase und
+Multiplan, 1–12. Wiesbaden: Vieweg+Teubner Verlag.
+https://doi.org/10.1007/978-3-322-89035-1_1.
+
+Karpfinger, C. 2022a. “Calculating with Matrices.” In Calculus and
+Linear Algebra in Recipes: Terms, Phrases and Numerous Examples in Short
+Learning Units, 87–100. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-65458-3_10.
+
+———. 2022b. “L r-Zerlegung Einer Matrix.” In Höhere Mathematik in
+Rezepten: Begriffe, sätze Und Zahlreiche Beispiele in Kurzen
+Lerneinheiten, 107–17. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-63305-2_11.
+
+Kenett, R., Zacks, S., & Gedeck, P. 2022. “Statistical Inference and
+Bootstrapping.” In Modern Statistics: A Computer-Based Approach with
+Python, 139–223. Cham: Springer International Publishing.
+https://doi.org/10.1007/978-3-031-07566-7_3.
+
+Khosravi, F., Izbirak, G., & Shavarani, S. M. 2021. “Application of
+Bootstrap Re-Sampling Method in Statistical Measurement of
+Sustainability.” Socio-Economic Planning Sciences 75: 100781.
+https://doi.org/10.1016/j.seps.2020.100781.
+
+Kirkby, J. L., Nguyen, D., & Nguyen, D. 2024. “Moments of Student’s
+t-Distribution: A Unified Approach.” arXiv, December.
+https://doi.org/10.48550/arXiv.1912.01607.
+
+Kleiner, A., Talwalkar, A., Sarkar, P., & Jordan, M. I. 2014. “A
+Scalable Bootstrap for Massive Data.” Journal of the Royal Statistical
+Society. Series B (Statistical Methodology) 76 (4): 795–816.
+http://www.jstor.org/stable/24774569.
+
+Koepf, W. 2014. “The Gamma Function.” In Hypergeometric Summation: An
+Algorithmic Approach to Summation and Special Function Identities, 1–10.
+London: Springer. https://doi.org/10.1007/978-1-4471-6464-7_1.
+
+Kumar, J. S., & Bhuvaneswari, P. 2012. “Analysis of
+Electroencephalography (EEG) Signals and Its Categorization–a Study.”
+Procedia Engineering 38: 2525–36.
+https://doi.org/10.1016/j.proeng.2012.06.298.
+
+Leaver, R. H., & Thomas, T. R. 1974. “Normal Distribution.” In Analysis
+and Presentation of Experimental Results, 30–37. London: Macmillan
+Education UK. https://doi.org/10.1007/978-1-349-01942-7_4.
+
+Lewis, J. T., Osgood, C. F., & Shisha, O. 1978. “Infinite Riemann Sums,
+the Simple Integral, and the Dominated Integral.” In General
+Inequalities 1 / Allgemeine Ungleichungen 1: Proceedings of the First
+International Conference on General Inequalities Held in the
+Mathematical Research Institute at Oberwolfach, Black Forest, May 10–14,
+1976 / Abhandlung Zur Ersten Internationalen Tagung über Allgemeine
+Ungleichungen Im Mathematischen Forschungsinstitut Oberwolfach,
+Schwarzwald Vom 10. Bis 14. Mai 1976, edited by Beckenbach, E. F.,
+233–42. Basel: Birkhäuser. https://doi.org/10.1007/978-3-0348-5563-1_25.
+
+Li, J. C.-H. 2016. “Effect Size Measures in a Two-Independent-Samples
+Case with Nonnormal and Nonhomogeneous Data.” Behavior Research Methods
+48 (4): 1560–74. https://doi.org/10.3758/s13428-015-0667-z.
+
+Li, R., & Nadarajah, S. 2020. “A review of Student’s t distribution and
+its generalizations.” Empirical Economics 58 (3): 1461–90.
+https://doi.org/10.1007/s00181-018-1570-0.
+
+Liu, X. S. 2025. “Bootstrap Power Calculation: A Flexible Alternative to
+Conventional Power Analysis for Prospective and Replication Studies.”
+Behaviormetrika. https://doi.org/10.1007/s41237-025-00283-4.
+
+Luke, Y. L., ed. 1969. “Chapter XV Trapezoidal Rule Integration
+Formulas.” In The Special Functions and Their Approximations, 53:214–26.
+Mathematics in Science and Engineering. Elsevier.
+https://doi.org/10.1016/S0076-5392(09)60075-8.
+
+Lüroth, J. 1876. “Vergleichung von zwei Werthen des wahrscheinlichen
+Fehlers.” Astronomische Nachrichten 87 (14): 209–20.
+https://doi.org/10.1002/asna.18760871402.
+
+Lyon, A. 2014. “Why Are Normal Distributions Normal?” The British
+Journal for the Philosophy of Science 65 (3): 621–49.
+https://doi.org/10.1093/bjps/axs046.
+
+Machado, J. A. F., & Parente, P. 2005. “Bootstrap Estimation of
+Covariance Matrices via the Percentile Method.” The Econometrics Journal
+8 (1): 70–78. http://www.jstor.org/stable/23114968.
+
+Magnus, W., Oberhettinger, F., & Soni, R. P. 1966a. “The Gamma Function
+and Related Functions.” In Formulas and Theorems for the Special
+Functions of Mathematical Physics, 1–37. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-11761-3_1.
+
+———. 1966b. “The Hypergeometric Function.” In Formulas and Theorems for
+the Special Functions of Mathematical Physics, 37–65. Berlin,
+Heidelberg: Springer. https://doi.org/10.1007/978-3-662-11761-3_2.
+
+Massart, D. L., Vandeginste, B. G. M., Buydens, L. M. C., De Jong, S.,
+Lewi, P. J., & Smeyers-Verbeke, J., ed. 1998. “Chapter 3 the Normal
+Distribution.” In Handbook of Chemometrics and Qualimetrics: Part a,
+20:47–72. Data Handling in Science and Technology. Elsevier.
+https://doi.org/10.1016/S0922-3487(97)80033-0.
+
+Mendoza, J. L. 1993. “Fisher Transformations for Correlations Corrected
+for Selection and Missing Data.” Psychometrika 58 (4): 601–15.
+https://doi.org/10.1007/BF02294830.
+
+Meschede, D., ed., Feld, L., Gross, R., Müller, R., Niedner-Schatteburg,
+G., Schäfer, G., Sokolowski, M., Vewinger, F., Reinhard F., Werner, R.
+F., & Zohm, H. 2026. Gerthsen Physik. 26th ed. Berlin, Heidelberg:
+Springer Spektrum. https://doi.org/10.1007/978-3-662-30201-9.
+
+Meyberg, K., & Vachenauer, P. 2001a. Höhere Mathematik 1: Differential-
+Und Integralrechnung Vektor- Und Matrizenrechnung. Berlin, Heidelberg:
+Springer. https://doi.org/10.1007/978-3-642-56654-7_4.
+
+———. 2001b. “Integration.” In Höhere Mathematik 1: Differential- Und
+Integralrechnung Vektor- Und Matrizenrechnung, 161–211. Berlin,
+Heidelberg: Springer. https://doi.org/10.1007/978-3-642-56654-7_4.
+
+Micheloyannis, S., Pachou, E., Stam, C. J., Vourkas, M., Erimaki, S., &
+Tsirka, V. 2006. “Using Graph Theoretical Analysis of Multi Channel EEG
+to Evaluate the Neural Efficiency Hypothesis.” Neuroscience Letters 402
+(3): 273–77. https://doi.org/10.1016/j.neulet.2006.04.006.
+
+Miller, T. R., Hendrie, D., & Derzon, J. 2011. “Exact Method for
+Computing Absolute Percent Change in a Dichotomous Outcome from
+Meta-Analytic Effect Size: Improving Impact and Cost-Outcome Estimates.”
+Value in Health 14 (1): 144–51.
+https://doi.org/10.1016/j.jval.2010.10.013.
+
+Molinari, L. 1977. “Distribution of the Chi-Squared Test in Nonstandard
+Situations.” Biometrika 64 (1): 115–21.
+http://www.jstor.org/stable/2335780.
+
+Moon, B. S. 2001. “An Explicit Solution for the Cubic Spline
+Interpolation for Functions of a Single Variable.” Applied Mathematics
+and Computation 117 (2): 251–55.
+https://doi.org/10.1016/S0096-3003(99)00178-2.
+
+Mulholland, H., & Jones, C. R. 1968a. “Elementary Probability.” In
+Fundamentals of Statistics, 32–58. Boston, MA: Springer US.
+https://doi.org/10.1007/978-1-4899-6507-3_3.
+
+———. 1968b. “The Normal Distribution.” In Fundamentals of Statistics,
+122–38. Boston, MA: Springer US.
+https://doi.org/10.1007/978-1-4899-6507-3_8.
+
+Neher, M. 2024. “Numerische Integration.” In Numerische Mathematik: Eine
+anschauliche modulare Einführung, 195–222. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-68815-1_7.
+
+Neubauer, A. C., & Fink, A. 2009. “Intelligence and Neural Efficiency.”
+Neuroscience & Biobehavioral Reviews 33 (7): 1004–23.
+https://doi.org/10.1016/j.neubiorev.2009.04.001.
+
+Neubauer, A. C., Fink, A., & Schrausser, D. G. 2002. “Intelligence and
+Neural Efficiency: The Influence of Task Content and Sex on the Brain–IQ
+Relationship.” Intelligence 30 (6): 515–36.
+https://doi.org/10.1016/S0160-2896(02)00091-0.
+
+Neubauer, A. C., Grabner, R. H., Fink, A., & Neuper, C. 2005.
+“Intelligence and Neural Efficiency: Further Evidence of the Influence
+of Task Content and Sex on the Brain–IQ Relationship.” Cognitive Brain
+Research 25 (1): 217–25.
+https://doi.org/10.1016/j.cogbrainres.2005.05.011.
+
+Newton, I. 1687. Philosophiae naturalis principia mathematica. 1st ed.
+Londini: Jussu Societatis Regiae ac typis Josephi Streater, prostant
+venales apud Sam. Smith.
+https://books.google.at/books?id=XJwx0lnKvOgC&pg=PP2&redir_esc=y#v=onepage&q&f=false.
+
+Panitz, C., Ward, R. T., Pouliot, J., & Keil, A. 2024. “EEG and ERP.” In
+The Cambridge Handbook of Research Methods and Statistics for the Social
+and Behavioral Sciences: Volume 2: Performing Research, edited by
+Edlund, J. E., & Nichols, A. L., 519–44. Cambridge Handbooks in
+Psychology. Cambridge University Press.
+https://doi.org/10.1017/9781009000796.024.
+
+Panov, G. 2023. “Quantitative EEG Analysis: Introduction and Basic
+Principles.” In Computational Neuroscience, edited by Stoyanov, D.,
+Draganski, B., Brambilla, P., & Lamm, C., 85–91. New York, NY: Springer
+US. https://doi.org/10.1007/978-1-0716-3230-7_5.
+
+Patnaik, P. B. 1949. “The Non-Central χ2- and F-Distribution and their
+Applications.” Biometrika 36 (1/2): 202–32.
+http://www.jstor.org/stable/2332542.
+
+Peña, V. H., Lai, T. L., & Shao, Q.-M. 2009. “The t-Statistic and
+Studentized Statistics", bookTitle="Self-Normalized Processes: Limit
+Theory and Statistical Applications.” In, 207–21. Berlin, Heidelberg:
+Springer. https://doi.org/10.1007/978-3-540-85636-8_15.
+
+Peng, C.-Y. J., & Chen, L.-T. 2014. “Beyond Cohen’s d: Alternative
+Effect Size Measures for Between-Subject Designs.” The Journal of
+Experimental Education 82 (1): 22–50.
+https://www.jstor.org/stable/26594399.
+
+Perrin, F., Pernier, J., Bertnard, O., Giard M. H., & Echallier, J. F.
+1987. “Mapping of Scalp Potentials by Surface Spline Interpolation.”
+Electroencephalography and Clinical Neurophysiology 66 (1): 75–81.
+https://doi.org/10.1016/0013-4694(87)90141-6.
+
+Pewsey, A. 2018. “Exploring the Limits of Bootstrap.” Journal of the
+Royal Statistical Society Series D: The Statistician 43 (1): 215–16.
+https://doi.org/10.2307/2348962.
+
+Philippou, A. N., & Antzoulakos, D. L. 2025. “Binomial Distribution.” In
+International Encyclopedia of Statistical Science, edited by Lovric, M.,
+306–9. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-662-69359-9_71.
+
+Poisson, S.-D. 1837. Recherches sur la probabilité des jugements en
+matière criminelle et en matière civile. Paris: Bachelier.
+https://gallica.bnf.fr/ark:/12148/bpt6k110193z/f218.image.
+
+Politis, D. N. 1998. “Computer-Intensive Methods in Statistical
+Analysis.” IEEE Signal Processing Magazine 15 (1): 39–55.
+https://doi.org/10.1109/79.647042.
+
+———. 2003. “The Impact of Bootstrap Methods on Time Series Analysis.”
+Statistical Science 18 (2): 219–30.
+https://doi.org/10.1214/ss/1063994977.
+
+Rabut, C. 1992. “An Introduction to Schoenberg’s Approximation.”
+Computers & Mathematics with Applications 24 (12): 149–75.
+https://doi.org/10.1016/0898-1221(92)90177-J.
+
+Rannacher, R. 1987. “Richardson Extrapolation with Finite Elements.” In
+Numerical Techniques in Continuum Mechanics: Proceedings of the Second
+GAMM-Seminar, Kiel, January 17 to 19, 1986, edited by Hackbusch, W., &
+Witsch, K., 90–101. Wiesbaden: Vieweg+Teubner Verlag.
+https://doi.org/10.1007/978-3-322-85997-6_9.
+
+Rao, C. R., & Chakravarti, I.M. 1956. “Some Small Sample Tests of
+Significance for a Poisson Distribution.” Biometrics 12 (3): 264–82.
+http://www.jstor.org/stable/3001466.
+
+Rasch, G. 1931. “Notes on the Gamma-Function.” Annals of Mathematics 32
+(3): 591–99. http://www.jstor.org/stable/1968254.
+
+Reyes, J., Rojas, M. A., & Arrué, J. 2021. “A New Generalization of the
+Student’s t Distribution with an Application in Quantile Regression.”
+Symmetry 13 (12). https://doi.org/10.3390/sym13122444.
+
+Richardson, L. F. 1911. “IX. The Approximate Arithmetical Solution by
+Finite Differences of Physical Problems Involving Differential
+Equations, with an Application to the Stresses in a Masonry Dam.”
+Philosophical Transactions of the Royal Society of London, Series A:
+Containing Papers of a Mathematical or Physical Character 210 (459-470):
+307–57. https://doi.org/10.1098/rsta.1911.0009.
+
+Riemann, B. 1868. “Ueber die Darstellbarkeit einer Function durch eine
+trigonometrische Reihe. (Mitgetheilt durch R. Dedekind).” Abhandlungen
+Der Königlichen Gesellschaft Der Wissenschaften in Göttingen 13: 87–131.
+http://eudml.org/doc/135759.
+
+Romberg, W. 1955. “Vereinfachte Numerische Integration.” Forhandlinger /
+Det Kongelige Norske Videnskabers Selskab 28 (7): 30–36.
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://web.eng.fiu.edu/LEVY/images/EGM5346/romberg%2520textbook%2520example.pdf&ved=2ahUKEwiSxr-u846SAxVFQvEDHd83Bj8QFnoECHMQAQ&usg=AOvVaw3vtOkKCF8WeDkOB49i_03i.
+
+Roy, V., & Shukla, S. 2017. “Effective EEG Motion Artifacts Elimination
+Based on Comparative Interpolation Analysis.” Wireless Personal
+Communications 97 (4): 6441–51.
+https://doi.org/10.1007/s11277-017-4846-3.
+
+Rutishauser, H. 1990. “Interpolation.” In Lectures on Numerical
+Mathematics, edited by Gutknecht, M., 128–74. Boston, MA: Birkhäuser
+Boston. https://doi.org/10.1007/978-1-4612-3468-5_6.
+
+Sachs, L. 1993. “Normalverteilung.” In Statistische Methoden: Planung
+Und Auswertung, 41–54. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-642-77717-2_4.
+
+Saff, E. B., & Snider, A. D. 2025. Matrix Fundamentals: From Equation
+Solving to Signal Processing. 2nd ed. Cham: Springer.
+https://doi.org/10.1007/978-3-031-97222-5.
+
+Saneii, S. H., & Doosti, H. 2024. “Normal Distribution.” In Practical
+Biostatistics for Medical and Health Sciences, 115–37. Singapore:
+Springer. https://doi.org/10.1007/978-981-97-3083-4_6.
+
+Sarfraz, M. 2008. “Visualization of Shaped Data by Cubic Spline
+Interpolation.” In Interactive Curve Modeling: With Applications to
+Computer Graphics, Vision and Image Processing, 157–72. London: Springer
+London. https://doi.org/10.1007/978-1-84628-871-5_8.
+
+Saunders, I. W., & Moran, P. A. P. 1978. “On the quantiles of the gamma
+and F distributions.” Journal of Applied Probability 15 (2): 426–32.
+https://doi.org/10.2307/3213414.
+
+Schäfer, T., & Schwarz, M. A. 2019. “The Meaningfulness of Effect Sizes
+in Psychological Research: Differences Between Sub-Disciplines and the
+Impact of Potential Biases.” Frontiers in Psychology Volume 10 - 2019.
+https://doi.org/10.3389/fpsyg.2019.00813.
+
+Scherer, P. O.J. 2010. “Interpolation.” In Computational Physics:
+Simulation of Classical and Quantum Systems, 15–27. Berlin, Heidelberg:
+Springer. https://doi.org/10.1007/978-3-642-13990-1_2.
+
+Schoenberg, I. J. 1946. “Contributions to the Problem of Approximation
+of Equidistant Data by Analytic Functions. Part a. On the Problem of
+Smoothing or Graduation. A First Class of Analytic Approximation
+Formulae.” Quarterly of Applied Mathematics 4: 45–99.
+https://doi.org/10.1090/qam/15914.
+
+Schrausser, D. G. 2000a. “Spectral and Coherence Analysis: Algorithms.”
+Method. ResearchGate. https://doi.org/10.13140/RG.2.2.28637.90083.
+
+———. 2000b. “Development of a Parameter to Indicate the
+Focussation-Level of Cortical Activation.” Method. ResearchGate.
+https://doi.org/10.13140/RG.2.2.32114.17601.
+
+———. 2009. “ThetaWin Overview.” Software. Academia.
+https://www.academia.edu/81800920.
+
+———. 2023a. Schrausser/ConsoleApp_DistributionFunctions: Console
+applications for distribution functions. Zenodo.
+https://doi.org/10.5281/zenodo.7664141.
+
+———. 2023b. Schrausser/ConsoleApp_EEG: 2.0. Zenodo.
+https://doi.org/10.5281/zenodo.10701350.
+
+———. 2023c. Schrausser/ConsoleApp_Integral: Console applications for
+integral and interpolation. Zenodo.
+https://doi.org/10.5281/zenodo.7655056.
+
+———. 2023d. Schrausser/ConsoleApp_Matrix: Console applications for
+matrix calculation and tools. Zenodo.
+https://doi.org/10.5281/zenodo.7655046.
+
+———. 2023e. Schrausser/ConsoleApp_String: Console applications for
+string and transformation. Zenodo.
+https://doi.org/10.5281/zenodo.7653790.
+
+———. 2023f. Schrausser/ConsoleApp_Tools: Console tool applications.
+Zenodo. https://doi.org/10.5281/zenodo.7655239.
+
+———. 2023g. Schrausser/FunktionWin: Windows Interface for distribution
+functions. Zenodo. https://doi.org/10.5281/zenodo.7651660.
+
+———. 2023h. Schrausser/ThetaWin: Distribution simulator. Zenodo.
+https://doi.org/10.5281/zenodo.7659263.
+
+———. 2024. Handbook: Distribution Functions (Verteilungs Funktionen).
+PsyArXiv. https://doi.org/10.31234/osf.io/rvzxa.
+
+———. 2025a. HP_prime_MATH: Manual. 1st ed.
+https://doi.org/10.5281/zenodo.15713317.
+
+———. 2025b. “ThetaWin.” Zenodo Software Documentation 2025 (11/23): 1.
+https://doi.org/10.5281/zenodo.17691241.
+
+———. 2025c. “Various Programs.” Zenodo Software Documentation 2025
+(11/28): 1. https://doi.org/10.5281/zenodo.17743756.
+
+———. 2025d. “FunktionWin: Windows Interface for Distribution Functions.”
+Zenodo Software Documentation 2025 (12/10): 1.
+https://doi.org/10.5281/zenodo.17880113.
+
+Schrausser, D. G., Fink, A., & Neubauer, A. C. 2001. “Intelligence and
+Neural Efficiency as Determined by EEG-Coherence.” In 10th Biennial
+Meeting of the International Society for the Study of Individual
+Differences (ISSID). Edinburgh, UK: The University of Edinburgh.
+https://doi.org/10.5281/zenodo.13738772.
+
+Schwarz, H. R. 1997. “Integralberechnung.” In Numerische Mathematik,
+375–411. Wiesbaden: Vieweg+Teubner Verlag.
+https://doi.org/10.1007/978-3-663-01227-6_8.
+
+Selvin, S. 2014. “F Distributions.” In Wiley StatsRef: Statistics
+Reference Online. John Wiley & Sons, Ltd.
+https://doi.org/10.1002/9781118445112.stat05856.
+
+Shores, T. S. 2018. “MATRIX ALGEBRA.” In Applied Linear Algebra and
+Matrix Analysis, 65–180. Cham: Springer International Publishing.
+https://doi.org/10.1007/978-3-319-74748-4_2.
+
+Shuster, J. J. 2014. “Hypergeometric Distribution: Introduction.” In
+Wiley StatsRef: Statistics Reference Online. John Wiley & Sons, Ltd.
+https://doi.org/10.1002/9781118445112.stat04869.
+
+Sidi, A. 1988. “Generalizations of Richardson Extrapolation with
+Applications to Numerical Integration.” In Numerical Integration III:
+Proceedings of the Conference Held at the Mathematisches
+Forschungsinstitut, Oberwolfach, Nov. 8 – 14, 1987, edited by Brass, H.,
+& Hämmerlin, G., 237–50. Basel: Birkhäuser.
+https://doi.org/10.1007/978-3-0348-6398-8_22.
+
+———. 2003. “The Richardson Extrapolation Process and Its
+Generalizations.” In Practical Extrapolation Methods: Theory and
+Applications, 19–20. Cambridge Monographs on Applied and Computational
+Mathematics. Cambridge University Press.
+https://doi.org/10.1017/CBO9780511546815.
+
+Simonton, D. K. 1978. “Independent Discovery in Science and Technology:
+A Closer Look at the Poisson Distribution.” Social Studies of Science 8
+(4): 521–32. http://www.jstor.org/stable/284821.
+
+Siuly, S., Li, Y., & Zhang, Y. 2017. EEG Signal Analysis and
+Classification. 1st ed. Health Information Science. Cham: Springer.
+https://doi.org/10.1007/978-3-319-47653-7.
+
+Soufflet, L., Toussaint, M., Luthringer, R., Gresser, J., Minot, R., &
+Macher, J. P. 1991. “A Statistical Evaluation of the Main Interpolation
+Methods Applied to 3-Dimensional EEG Mapping.” Electroencephalography
+and Clinical Neurophysiology 79 (5): 393–402.
+https://doi.org/10.1016/0013-4694(91)90204-H.
+
+Sprent, P. 2025. “The Fisher Exact Test.” In International Encyclopedia
+of Statistical Science, edited by Lovric, M., 961–62. Berlin,
+Heidelberg: Springer. https://doi.org/10.1007/978-3-662-69359-9_693.
+
+Sreehari M. 1983. “A Characterization of the Geometric Distribution.”
+Journal of Applied Probability 20 (1): 209–12.
+http://www.jstor.org/stable/3213738.
+
+Stahl, S. 2006. “The Evolution of the Normal Distribution.” Mathematics
+Magazine 79 (2): 96–113. http://www.jstor.org/stable/27642916.
+
+Stange, K. 1970. “Die F-Verteilung.” In Angewandte Statistik: Erster
+Teil Eindimensionale Probleme, 357–72. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-642-85602-0_11.
+
+Stedall, J. 2005. “Chapter 2 - John Wallis, Arithmetica Infinitorum
+(1965).” In Landmark Writings in Western Mathematics 1640-1940, edited
+by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., &
+Guicciardini, N., 23–32. Amsterdam: Elsevier Science.
+https://doi.org/10.1016/B978-044450871-3/50083-8.
+
+Sun, M., Lan, L., Zhu C. G., & Lei, F. 2023. “Cubic Spline Interpolation
+with Optimal End Conditions.” Journal of Computational and Applied
+Mathematics 425: 115039. https://doi.org/10.1016/j.cam.2022.115039.
+
+Talay, D., & Tubaro, L. 1990. “Romberg Extrapolations for Numerical
+Schemes Solving Stochastic Differential Equations.” Structural Safety 8
+(1): 143–50. https://doi.org/10.1016/0167-4730(90)90036-O.
+
+Taylor, B. 1715. Methodus incrementorum directa & inversa. Auctore Brook
+Taylor, LL. D. & Regiae Societatis Secretario. Londini: Typis
+Pearsonianis: Prostant apud Gul. Innys ad Insignia Principis in
+Coemeterio Paulino MDCCXV.
+https://books.google.com/books?id=iXN1xgEACAAJ.
+
+Thome, H. 1990. “GRUNDKURS STATISTIK FÜR HISTORIKER TEIL II: INDUKTIVE
+STATISTIK UND REGRESSIONSANALYSE.” Historical Social Research /
+Historische Sozialforschung. Supplement, no. 3: 1–275.
+http://www.jstor.org/stable/40986007.
+
+Thomopoulos, N. T. 2017. “Geometric.” In Statistical Distributions:
+Applications and Parameter Estimates, 127–33. Cham: Springer
+International Publishing. https://doi.org/10.1007/978-3-319-65112-5_15.
+
+Torchinsky, A. 2022. A Modern View of the Riemann Integral. 1st ed.
+Lecture Notes in Mathematics. Cham: Springer.
+https://doi.org/10.1007/978-3-031-11799-2.
+
+Török, C., Hudák, J., Pristaš, V., & Antoni, L. 2025. “Explicit Forms of
+Interpolating Cubic Splines and Data Smoothing.” Applied Mathematics and
+Computation 500: 129411. https://doi.org/10.1016/j.amc.2025.129411.
+
+Tóth, G. 2011. “Destruction of Normal Distribution in Small Samples by
+Centering and Scaling.” Journal of Chemometrics 25 (5): 247–53.
+https://doi.org/10.1002/cem.1382.
+
+Truc, J.-P. 2019. “Riemann Sums for Generalized Integrals.” The College
+Mathematics Journal 50 (2): pp. 123–132.
+https://www.jstor.org/stable/48662056.
+
+Tsao, N.-K. 1977. “Newton Interpolation Is Efficient for Approximation
+of Linear Functionals.” Numerische Mathematik 29 (1).
+https://doi.org/10.1007/BF01389317.
+
+Upton, G. J. G. 1992. “Fisher’s Exact Test.” Journal of the Royal
+Statistical Society. Series A (Statistics in Society) 155 (3): 395–402.
+http://www.jstor.org/stable/2982890.
+
+Vellaisamy, P., & Punnen, A. P. 2001. “On the Nature of the Binomial
+Distribution.” Journal of Applied Probability 38 (1): 36–44.
+http://www.jstor.org/stable/3215739.
+
+von Petersdorff, T. 1993. “A Short Proof for Romberg Integration.” The
+American Mathematical Monthly 100 (8): 783–85.
+http://www.jstor.org/stable/2324787.
+
+von Storch, H., & Zwiers, F. W. 1999. “Normal Density and Cumulative
+Distribution Function.” In Statistical Analysis in Climate Research,
+419–20. Cambridge University Press.
+https://doi.org/10.1017/CBO9780511612336.
+
+Wallis, J. 1656. Arithmetica infinitorum sive nova methodus inquirendi
+in curvilineorum quadraturam aliaque difficiliora matheseos problemata.
+Oxonii, Typis LEON: LICHFIELD Academiæ Typographi, Impensis THO.
+ROBINSON. https://books.google.com/books?id=Z5w_AAAAcAAJ.
+
+Wang, J. 2011. “A Simple Characterization of Student’s Distributions and
+Normal Distributions.” Statistics & Probability Letters 81 (8): 903–6.
+https://doi.org/10.1016/j.spl.2011.03.037.
+
+Wesolowski, B., & Musselwhite Thompson, D. 2018. “Normal Distribution.”
+In The SAGE Encyclopedia of Educational Research, Measurement, and
+Evaluation, edited by Frey, B. B. USA: University of Kansas.
+https://doi.org/10.4135/9781506326139.n476.
+
+Wilcox, R. R. 2001. “The Bootstrap.” In Fundamentals of Modern
+Statistical Methods: Substantially Improving Power and Accuracy, 93–115.
+New York, NY: Springer. https://doi.org/10.1007/978-1-4757-3522-2_6.
+
+———. 2006. “Graphical Methods for Assessing Effect Size: Some
+Alternatives to Cohen’s d.” The Journal of Experimental Education 74
+(4): 353–67. http://www.jstor.org/stable/20157436.
+
+Wilson, E. B., & Hilferty, M. M. 1931. “The Distribution of Chi-Square.”
+Proceedings of the National Academy of Sciences of the United States of
+America 17 (12): 684–88. http://www.jstor.org/stable/86022.
+
+Yang, Z., Duan, Z., Wang, J., Wang, T., Song, Y., & Zhang, J. 2013.
+“Quadratic radical function better than fisher Z transformation.”
+Transactions of Tianjin University 5: 381–84.
+https://doi.org/10.1007/s12209-013-1978-8.
+
+Yang, Z., Fang, K.-T., & Kotz, S. 2007. “On the Student’s t-distribution
+and the t-statistic.” Journal of Multivariate Analysis 98 (6):
+1293–1304. https://doi.org/10.1016/j.jmva.2006.11.003.
+
+Zhang, H., Zhou, Q.-Q., Chen, H., Hu, X.-Q., Li, W.-G., Bai, Y., Han,
+J.-X., Wang, Y., Liang, Z.-H., Chen, D., Cong, F.-Y., Yan, J.-Q., & Li,
+X.-L. 2023. “The Applied Principles of EEG Analysis Methods in
+Neuroscience and Clinical Neurology.” Military Medical Research 10 (1).
+https://doi.org/10.1186/s40779-023-00502-7.
+
+Zhang, Y. 2025. “Poisson Distribution and Its Applications.” Advances in
+Economics, Management and Political Sciences 196.
+https://doi.org/10.54254/2754-1169/2025.BJ24761.
+
+Zheng, Y., & Fan, H. 2025. “Fast Cluster Bootstrap Methods for Spatial
+Error Models.” Mathematics 13 (18).
+https://doi.org/10.3390/math13182913.
+
+Zijlstra, M. 1983. “Characterizations of the Geometric Distribution by
+Distributional Properties.” Journal of Applied Probability 20 (4):
+843–50. https://doi.org/10.2307/3213595.
+
+Zinger, A. 1964. “On Interpolation in Tables of the F-Distribution.”
+Journal of the Royal Statistical Society. Series C (Applied Statistics)
+13 (1): 51–53. http://www.jstor.org/stable/2985223.
+
+Zou, L., Song, L., Wang, X., Weise, T., Chen, Y., & Zhang, C. 2020. “A
+New Approach to Newton-Type Polynomial Interpolation with Parameters.”
+Mathematical Problems in Engineering 2020 (1): 9020541.
+https://doi.org/10.1155/2020/9020541.
+
+Zuev, K. M. 2026. “The Bootstrap Method.” In Fundamentals of Statistical
+Inference: Foundations of Data Analysis, 115–29. Cham: Springer Nature
+Switzerland. https://doi.org/10.1007/978-3-032-03848-7_6.
