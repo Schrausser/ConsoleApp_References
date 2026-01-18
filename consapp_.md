@@ -293,6 +293,42 @@ references:
     graduation. A first class of analytic approximation formulae
   type: article-journal
   volume: 4
+- abstract: The present study aimed at developing a rather easily
+    applicable method of testing physiological reactions to images of
+    threats and misery. To this end, rapid-changing, transient heart
+    rate orienting responses were used for gaining physiologically
+    based, objective responses to the images. Additionally, subjective
+    ratings were obtained. A significant insensitivity to other's
+    welfare and well-being was already demonstrated as a core feature of
+    callous-unemotional personalities. Thus, physiologically based
+    methods may supplement and possibly improve existing assessments
+    and, in particular, may contribute to a multimodal assessment of
+    psychopathic traits. Out of a non-forensic community sample of 122
+    men, we selected two extreme groups of 30 participants with the
+    lowest and highest callous-unemotional traits respectively,
+    ascertained by questionnaires. As expected, participants with higher
+    scores of callous-unemotional traits showed smaller responses to
+    distress cues in both heart rate responses and subjective ratings.
+    Moreover, within the group with high callous-unemotional traits
+    heart rate responses to threatening as well as distress cues did not
+    significantly differ from responses to neutral pictures. The study
+    provides further evidence for the idea that a lack of responsiveness
+    to distress cues may be seen as a central feature of
+    callous-unemotional personalities.
+  author:
+  - literal: Schulter, G., Milek, B., Lackner, H. K., Weber, B., Fink,
+      A., Rominger, C., Perchtold-Stefan, C., & Papousek, I.
+  container-title: Scientific Reports
+  doi: 10.1038/s41598-023-49307-7
+  id: Schulter2023
+  issue: 1
+  issued: 2023
+  page: 22063
+  title: "[Diagnosing callous-unemotional personality traits by heart
+    rate orienting responses to images inducing threat and
+    distress]{.nocase}"
+  type: article-journal
+  volume: 13
 - author:
   - literal: Romberg, W.
   container-title: Forhandlinger / Det Kongelige Norske Videnskabers
@@ -3380,6 +3416,78 @@ references:
   title: Intelligence and neural efficiency as determined by
     EEG-coherence
   type: paper-conference
+- abstract: "Background: Reliable EEG biomarkers of brain-network
+    engagement could personalize action-observation (AO) therapy after
+    stroke. Objective: Identify functional-connectivity (FC) metrics
+    that most robustly decode AO stimuli. Methods: Five right-handed
+    adults (21-29 y) viewed 120 video trials (robot/human limb actions +
+    controls) while 32-channel EEG was recorded. Ten central-region
+    channels were filtered (alpha and beta bands) and FC matrices
+    (10×10) computed using coherence (COH), imaginary coherence (iCOH),
+    phase-locking value, partial directed coherence (PDC) and spectral
+    Granger causality (SpcG). A graph neural network (GNN) was trained
+    with stratified 15-fold cross validation for two tasks: (1)
+    AO-condition decoding: six classes -- human-left, human-right,
+    robot-left, robot-right, baseline, and landscape; (2) Action-type
+    decoding: five upper-limb actions -- air punch, back-and-forth arm
+    swing, lateral arm swing, overhead arm raise, and wave. Results:
+    iCOH achieved the highest performance across both tasks (macro-AUC
+    0.997&amp;1.000; balanced accuracy 0.96 - 1.00). Directed metrics
+    PDC and SpcG also performed strongly (macro-AUC ≥ 0.99). Findings
+    persisted despite class imbalance and small sample size.
+    Conclusions: Volume-conduction-invariant (iCOH) and directed FC
+    measures provide robust signatures of motor-and-cognitive-network
+    engagement during AO. These EEG markers may inform adaptive AO
+    therapy or BCI-guided rehabilitation post-stroke. Larger cohorts
+    will validate clinical utility."
+  author:
+  - literal: Nguyen, T. A., Rentala, Z., & Johnson, M.
+  container-title: Circulation
+  doi: 10.1161/circ.152.suppl\\\_3.4373687
+  id: Nguyen2025
+  issue: Suppl_3
+  issued: 2025
+  page: A4373687-A4373687
+  title: "Abstract 4373687: Robust EEG functional connectivity metrics
+    for decoding action observation conditions and observed actions"
+  title-short: Abstract 4373687
+  type: article-journal
+  url: "https://www.ahajournals.org/doi/abs/10.1161/circ.152.suppl_3.4373687"
+  volume: 152
+- abstract: Analysis of functional connectivity can provide insights
+    into how the brain performs various cognitive and behavioral tasks
+    as well as the neural mechanisms underlying several pathologies. In
+    this work, we describe a novel approach to estimate functional
+    connectivity from electroencephalography (EEG) data using the
+    concept of coherence potentials (CPs), which are defined as clusters
+    of high-amplitude deflections with similar waveform shapes. We
+    define connectivity measures based on features of CPs, including the
+    time intervals between CP peaks and their co-occurrence on different
+    electrodes or channels. We used EEG data from 25 healthy subjects
+    performing three tasks - resting state (eyes closed and eyes open),
+    working memory and pattern completion tasks to investigate the
+    ability of CP based connectivity measures to distinguish between
+    these tasks. When compared with traditional connectivity measures
+    including several spectral-based measures and mutual information,
+    our results showed that CP based connectivity measures more robustly
+    and significantly distinguished between all the tasks both at
+    group-level and subject-level. In conclusion, CP based EEG
+    connectivity measures provide a reliable way to distinguish between
+    different cognitive task conditions and could pave way in the early
+    detection of neurological disorders such as Alzheimer's disease that
+    affect various cognitive tasks.
+  author:
+  - literal: Puthanmadam Subramaniyam, N., & Thiagarajan, T. C.
+  container-title: Scientific Reports
+  doi: 10.1038/s41598-025-94076-0
+  id: PuthanmadamSubramaniyam2025
+  issue: 1
+  issued: 2025
+  page: 10723
+  title: A novel method for estimating functional connectivity from EEG
+    coherence potentials
+  type: article-journal
+  volume: 15
 - author:
   - literal: Meyberg, K., & Vachenauer, P.
   doi: 10.1007/978-3-642-56654-7_4

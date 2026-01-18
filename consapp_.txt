@@ -1,3 +1,5 @@
+
+
 Abduganiev, M., Azimov, R., & Muydinov, L. 2023. “Digital Processing
 Algorithms of Biomedical Signals Using Cubic Base Splines.” In
 Intelligent Human Computer Interaction, edited by Zaynidinov, H., Singh,
@@ -598,6 +600,11 @@ Londini: Jussu Societatis Regiae ac typis Josephi Streater, prostant
 venales apud Sam. Smith.
 https://books.google.at/books?id=XJwx0lnKvOgC&pg=PP2&redir_esc=y#v=onepage&q&f=false.
 
+Nguyen, T. A., Rentala, Z., & Johnson, M. 2025. “Abstract 4373687:
+Robust EEG Functional Connectivity Metrics for Decoding Action
+Observation Conditions and Observed Actions.” Circulation 152 (Suppl_3):
+A4373687–87. https://doi.org/10.1161/circ.152.suppl\_3.4373687.
+
 Panitz, C., Ward, R. T., Pouliot, J., & Keil, A. 2024. “EEG and ERP.” In
 The Cambridge Handbook of Research Methods and Statistics for the Social
 and Behavioral Sciences: Volume 2: Performing Research, edited by
@@ -649,6 +656,11 @@ https://doi.org/10.1109/79.647042.
 ———. 2003. “The Impact of Bootstrap Methods on Time Series Analysis.”
 Statistical Science 18 (2): 219–30.
 https://doi.org/10.1214/ss/1063994977.
+
+Puthanmadam Subramaniyam, N., & Thiagarajan, T. C. 2025. “A Novel Method
+for Estimating Functional Connectivity from EEG Coherence Potentials.”
+Scientific Reports 15 (1): 10723.
+https://doi.org/10.1038/s41598-025-94076-0.
 
 Rabut, C. 1992. “An Introduction to Schoenberg’s Approximation.”
 Computers & Mathematics with Applications 24 (12): 149–75.
@@ -791,6 +803,12 @@ Neural Efficiency as Determined by EEG-Coherence.” In 10th Biennial
 Meeting of the International Society for the Study of Individual
 Differences (ISSID). Edinburgh, UK: The University of Edinburgh.
 https://doi.org/10.5281/zenodo.13738772.
+
+Schulter, G., Milek, B., Lackner, H. K., Weber, B., Fink, A., Rominger,
+C., Perchtold-Stefan, C., & Papousek, I. 2023. “Diagnosing
+callous-unemotional personality traits by heart rate orienting responses
+to images inducing threat and distress.” Scientific Reports 13 (1):
+22063. https://doi.org/10.1038/s41598-023-49307-7.
 
 Schwarz, H. R. 1997. “Integralberechnung.” In Numerische Mathematik,
 375–411. Wiesbaden: Vieweg+Teubner Verlag.
