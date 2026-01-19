@@ -1188,6 +1188,8 @@ references:
     statistics are also described.
   author:
   - literal: Peña, V. H., Lai, T. L., & Shao, Q.-M.
+  container-title: "[Self-Normalized Processes: Limit Theory and
+    Statistical Applications]{.nocase}"
   doi: 10.1007/978-3-540-85636-8_15
   id: delaPeña2009
   isbn: 978-3-540-85636-8
@@ -1195,9 +1197,7 @@ references:
   page: 207-221
   publisher: Springer
   publisher-place: Berlin, Heidelberg
-  title: "[The t-Statistic and Studentized Statistics\\\",
-    bookTitle=\\\"Self-Normalized Processes: Limit Theory and Statistical
-    Applications]{.nocase}"
+  title: "[The t-Statistic and Studentized Statistics]{.nocase}"
   type: chapter
   url: "https://doi.org/10.1007/978-3-540-85636-8_15"
 - author:

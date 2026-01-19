@@ -622,9 +622,9 @@ Applications.” Biometrika 36 (1/2): 202–32.
 http://www.jstor.org/stable/2332542.
 
 Peña, V. H., Lai, T. L., & Shao, Q.-M. 2009. “The t-Statistic and
-Studentized Statistics", bookTitle="Self-Normalized Processes: Limit
-Theory and Statistical Applications.” In, 207–21. Berlin, Heidelberg:
-Springer. https://doi.org/10.1007/978-3-540-85636-8_15.
+Studentized Statistics.” In Self-Normalized Processes: Limit Theory and
+Statistical Applications, 207–21. Berlin, Heidelberg: Springer.
+https://doi.org/10.1007/978-3-540-85636-8_15.
 
 Peng, C.-Y. J., & Chen, L.-T. 2014. “Beyond Cohen’s d: Alternative
 Effect Size Measures for Between-Subject Designs.” The Journal of
