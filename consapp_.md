@@ -346,6 +346,25 @@ references:
   volume: 28
 - author:
   - literal: Schrausser, D. G.
+  doi: 10.5281/zenodo.19422127
+  id: Schrausser19422127
+  issued: 2006
+  publisher: Zenodo
+  title: "Schrausser/ATINA: 1.5"
+  type: book
+  url: "https://doi.org/10.5281/zenodo.19422127"
+  version: v1.5.2
+- author:
+  - literal: Schrausser, D. G.
+  container-title: Code
+  doi: 10.13140/RG.2.2.14377.26727
+  id: SchrausserRG.2.2.14377.26727
+  issued: 2022-06
+  publisher: ResearchGate
+  title: SCHRAUSSER-MAT
+  url: "http://doi.org/10.13140/RG.2.2.14377.26727"
+- author:
+  - literal: Schrausser, D. G.
   container-title: Software
   id: Schrausser81800920
   issued: 2009
@@ -858,12 +877,12 @@ references:
   title: Wallis. Arithmetica infinitorum (1655)
   type: chapter
   url: "https://doi.org/10.1007/978-1-4757-3240-5_11"
-- abstract: "Publisher Summary The Arithmetica infinitorum was a key
-    text in the 17th-century transition from geometry to algebra and in
-    the development of infinite series and the integral calculus. The
-    text contains the infinite fraction for 4/π that is now his chief
-    claim to fame; but for his contemporaries, the most significant
-    feature was the introduction of new methods, new concepts, and new
+- abstract: "Publisher Summar The Arithmetica infinitorum was a key text
+    in the 17th-century transition from geometry to algebra and in the
+    development of infinite series and the integral calculus. The text
+    contains the infinite fraction for 4/π that is now his chief claim
+    to fame; but for his contemporaries, the most significant feature
+    was the introduction of new methods, new concepts, and new
     vocabulary. Wallis came to Oxford with no more than a little
     self-taught mathematics, but within a few years, produced his most
     important work, the Arithmetica infinitorum. The Arithmetica
@@ -3022,6 +3041,95 @@ references:
   title-short: Bootstrap power calculation
   type: article-journal
 - author:
+  - literal: Galvani, A.
+  doi: 10.5479/sil.324681.39088000932442
+  id: galvani1791
+  issued: 1791
+  publisher: Ex Typographia Instituti Scientiarium
+  publisher-place: Bononiae
+  title: De viribus electricitatis in motu musculari commentarius
+  type: book
+- author:
+  - literal: Caton, R.
+  container-title: The Journal of Nervous and Mental Disease
+  id: caton1875
+  issue: 4
+  issued: 1875
+  title: Electrical currents of the brain
+  type: article-journal
+  url: "https://journals.lww.com/jonmd/fulltext/1875/10000/electrical_currents_of_the_brain.13.aspx"
+  volume: 2
+- author:
+  - literal: Beck, A. A.
+  container-title: Zentralblatt für Physiologie
+  id: beck1890
+  issued: 1890
+  page: 572-573
+  title: Die ströme der nervenzentren
+  type: article-journal
+  url: "https://scholar.google.com/scholar_lookup?&title=Die%20Str%C3%B6me%20der%20Nervenzentren&journal=Zbl%20Physiol&volume=4&pages=572-573&publication_year=1890&author=Beck%2CA"
+  volume: 4
+- author:
+  - literal: Berger, H.
+  container-title: Archiv für Psychiatrie und Nervenkrankheiten
+  doi: 10.1007/BF01797193
+  id: Berger1929
+  issue: 1
+  issued: 1929
+  page: 527-570
+  title: Über das elektrenkephalogramm des menschen
+  type: article-journal
+  volume: 87
+- author:
+  - literal: Adrian, E. D.
+  doi: 10.9783/9781512809794
+  id: Adrian2016
+  isbn: 9781512809794
+  issued: 2016
+  publisher: University of Pennsylvania Press
+  publisher-place: Philadelphia
+  title: "The mechanism of nervous action: Electrical studies of the
+    neurone"
+  title-short: The mechanism of nervous action
+  type: book
+- author:
+  - literal: Tassinari C. A.
+  container-title: Clinical Neurophysiology
+  doi: 10.1016/j.clinph.2019.10.010
+  id: TASSINARI20192258
+  issn: 1388-2457
+  issue: 12
+  issued: 2019
+  page: 2258-2263
+  title: An electroencephalographer recalls the history of the
+    federation on the 70th anniversary of its journal, clinical
+    neurophysiology
+  type: article-journal
+  volume: 130
+- abstract: On July 6th of 1924 Hans Berger --a German psychiatrist-
+    first recorded electric signals from the human brainvia scalp
+    electrodes. This date marks the beginning of Electroencephalography.
+    In this review a representative panel of past and present Officers
+    of the International Federation of Clinical Neurophysiology (IFCN)
+    and of its Official Journal briefly summarizes the past, present and
+    future of Electroencephalographic and related neurophysiological
+    techniques' impact and the role of the IFCN in global collaboration,
+    education, standardization, research innovation, and clinical
+    practice.
+  author:
+  - literal: Rossini, P. M., Cole, J., Paulus, W., Ziemann, U., & Chen,
+      R.
+  container-title: Clinical Neurophysiology
+  doi: 10.1016/j.clinph.2024.11.021
+  id: ROSSINI2025132
+  issn: 1388-2457
+  issued: 2025
+  page: 132-135
+  title: "1924--2024: First centennial of EEG"
+  title-short: 1924--2024
+  type: article-journal
+  volume: 170
+- author:
   - literal: Grafakos, L.
   collection-title: Graduate texts in mathematics
   doi: 10.1007/978-3-031-56500-7
@@ -4694,6 +4802,57 @@ references:
     functionals
   type: article-journal
   volume: 29
+- accessed: 2026-04-08
+  author:
+  - literal: Cayley , A.
+  container-title: Philosophical Transactions of the Royal Society of
+    London
+  id: 35c3b3c9-7c44-327c-a4e2-a2ca3c5baca3
+  issn: 02610523
+  issued: 1858
+  page: 17-37
+  publisher: The Royal Society
+  title: A memoir on the theory of matrices
+  type: article-journal
+  url: "http://www.jstor.org/stable/108649"
+  volume: 148
+- abstract: In his pioneering papers of 1845 and 1846, Arthur Cayley
+    (1821--1895) introduced several approaches to invariant theory, the
+    most prominent being the method of hyperdeterminant derivation. This
+    article discusses these papers in the light of Cayley's unpublished
+    correspondence with George Boole, who exercised considerable
+    influence on Cayley at this formative stage of invariant theory. In
+    the 1850s Cayley put forward a new synthesis for invariant theory
+    framed in terms of partial differential equations. In this period he
+    published his memoirs on quantics, the first seven of which appeared
+    in quick succession. This article examines the background of these
+    memoirs and makes use of unpublished correspondence with Cayley's
+    lifelong friend, J. J. Sylvester.
+  author:
+  - literal: Crilly T.
+  container-title: Historia Mathematica
+  doi: 10.1016/0315-0860(86)90091-1
+  id: CRILLY1986241
+  issn: 0315-0860
+  issue: 3
+  issued: 1986
+  keyword: hyperdeterminants, George Boole, partial differential
+    equations, quantics, J. J. Sylvester, multilinear forms
+  page: 241-254
+  title: The rise of cayley's invariant theory (1841--1862)
+  type: article-journal
+  volume: 13
+- author:
+  - literal: Turing, A. M.
+  container-title: The Quarterly Journal of Mechanics and Applied
+    Mathematics
+  id: alan1948
+  issued: 1948
+  page: 287-308
+  title: Rounding-off errors in matrix processes
+  type: article-journal
+  url: "https://turing.academicwebsite.com/publications/20-rounding-off-errors-in-matrix-processes"
+  volume: 1
 - author:
   - literal: Saff, E. B., & Snider, A. D.
   doi: 10.1007/978-3-031-97222-5
