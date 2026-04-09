@@ -10,6 +10,10 @@ Abdulhameed, A. F., & Memon, Q. A. 2021. “An Improved Trapezoidal Rule
 for Numerical Integration.” Journal of Physics: Conference Series 2090
 (1): 012104. https://doi.org/10.1088/1742-6596/2090/1/012104.
 
+Adrian, E. D. 2016. The Mechanism of Nervous Action: Electrical Studies
+of the Neurone. Philadelphia: University of Pennsylvania Press.
+https://doi.org/10.9783/9781512809794.
+
 Agarwal, R. P., & Wong, P. J. Y. 1993. “Spline Interpolation.” In Error
 Inequalities in Polynomial Interpolation and Their Applications,
 281–362. Dordrecht: Springer Netherlands.
@@ -40,6 +44,10 @@ Batir, N. 2008. “On Some Properties of the Gamma Function.” Expositiones
 Mathematicae 26 (2): 187–96.
 https://doi.org/10.1016/j.exmath.2007.10.001.
 
+Beck, A. A. 1890. “Die Ströme Der Nervenzentren.” Zentralblatt Für
+Physiologie 4: 572–73.
+https://scholar.google.com/scholar_lookup?&title=Die%20Str%C3%B6me%20der%20Nervenzentren&journal=Zbl%20Physiol&volume=4&pages=572-573&publication_year=1890&author=Beck%2CA.
+
 Behnke, J., & Behnke, N. 2006. “Verteilungen, Die von Der
 Standardnormalverteilung Abgeleitet Werden können.” In Grundlagen Der
 Statistischen Datenanalyse: Eine Einführung für Politikwissenschaftler,
@@ -53,6 +61,10 @@ Bera, A. K., Galvao, A. F., Wang, L., & Xiao, Z. 2016. “A New
 Characterisazion Of The Normal Distribution And Test For Normality.”
 Econometric Theory 32 (5): 1216–52.
 http://www.jstor.org/stable/43948011.
+
+Berger, H. 1929. “Über Das Elektrenkephalogramm Des Menschen.” Archiv
+Für Psychiatrie Und Nervenkrankheiten 87 (1): 527–70.
+https://doi.org/10.1007/BF01797193.
 
 Berggren, L., Borwein, J., & Borwein, P. 2000. “Wallis. Arithmetica
 Infinitorum (1655).” In Pi: A Source Book, 78–80. New York, NY:
@@ -136,6 +148,14 @@ Cardano, G. 1545. ARTIS MAGNAE, SIVE DE REGVLIS ALGEBRAICIS, LIBER VNVS.
 S. P. D: ANDREAE OSIANDRO viro eruditiff.
 https://web.archive.org/web/20220201093634/http://www.filosofia.unimi.it/cardano/testi/operaomnia/vol_4_s_4.pdf.
 
+Caton, R. 1875. “Electrical Currents of the Brain.” The Journal of
+Nervous and Mental Disease 2 (4).
+https://journals.lww.com/jonmd/fulltext/1875/10000/electrical_currents_of_the_brain.13.aspx.
+
+Cayley , A. 1858. “A Memoir on the Theory of Matrices.” Philosophical
+Transactions of the Royal Society of London 148: 17–37.
+http://www.jstor.org/stable/108649.
+
 Chattamvelli, R., & Shanmugam, R. 2021. “F Distribution.” In Continuous
 Distributions in Engineering and the Applied Sciences – Part II, 227–34.
 Cham: Springer International Publishing.
@@ -172,6 +192,10 @@ MA: Birkhäuser. https://doi.org/10.1007/978-1-4612-0215-8.
 Congedo, M., Özen, C., & Sherlin, L. 2002. “Notes on EEG Resampling by
 Natural Cubic Spline Interpolation.” Journal of Neurotherapy 6 (4):
 73–80. https://doi.org/10.1300/J184v06n04_08.
+
+Crilly T. 1986. “The Rise of Cayley’s Invariant Theory (1841–1862).”
+Historia Mathematica 13 (3): 241–54.
+https://doi.org/10.1016/0315-0860(86)90091-1.
 
 Crow, E. L. 1958. “The Mean Deviation of the Poisson Distribution.”
 Biometrika 45 (3/4): 556–59. http://www.jstor.org/stable/2333201.
@@ -283,6 +307,10 @@ Fritz, C. O., Morris, P. E., & Richler, J. J. 2012. “Effect Size
 Estimates: Current Use, Calculations, and Interpretation.” Journal of
 Experimental Psychology: General 141 (1): 2–18.
 https://doi.org/10.1037/a0024338.
+
+Galvani, A. 1791. De Viribus Electricitatis in Motu Musculari
+Commentarius. Bononiae: Ex Typographia Instituti Scientiarium.
+https://doi.org/10.5479/sil.324681.39088000932442.
 
 García-García, J. I., Fernández Coronado, N. A., Arredondo, E. H., &
 Imilpán Rivera, I. A. 2022. “The Binomial Distribution: Historical
@@ -699,6 +727,10 @@ Romberg, W. 1955. “Vereinfachte Numerische Integration.” Forhandlinger /
 Det Kongelige Norske Videnskabers Selskab 28 (7): 30–36.
 https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://web.eng.fiu.edu/LEVY/images/EGM5346/romberg%2520textbook%2520example.pdf&ved=2ahUKEwiSxr-u846SAxVFQvEDHd83Bj8QFnoECHMQAQ&usg=AOvVaw3vtOkKCF8WeDkOB49i_03i.
 
+Rossini, P. M., Cole, J., Paulus, W., Ziemann, U., & Chen, R. 2025.
+“1924–2024: First Centennial of EEG.” Clinical Neurophysiology 170:
+132–35. https://doi.org/10.1016/j.clinph.2024.11.021.
+
 Roy, V., & Shukla, S. 2017. “Effective EEG Motion Artifacts Elimination
 Based on Comparative Interpolation Analysis.” Wireless Personal
 Communications 97 (4): 6441–51.
@@ -751,8 +783,14 @@ Method. ResearchGate. https://doi.org/10.13140/RG.2.2.28637.90083.
 Focussation-Level of Cortical Activation.” Method. ResearchGate.
 https://doi.org/10.13140/RG.2.2.32114.17601.
 
+———. 2006. Schrausser/ATINA: 1.5 (version v1.5.2). Zenodo.
+https://doi.org/10.5281/zenodo.19422127.
+
 ———. 2009. “ThetaWin Overview.” Software. Academia.
 https://www.academia.edu/81800920.
+
+———. 2022. “SCHRAUSSER-MAT.” Code. ResearchGate.
+https://doi.org/10.13140/RG.2.2.14377.26727.
 
 ———. 2023a. Schrausser/ConsoleApp_DistributionFunctions: Console
 applications for distribution functions. Zenodo.
@@ -882,6 +920,11 @@ Talay, D., & Tubaro, L. 1990. “Romberg Extrapolations for Numerical
 Schemes Solving Stochastic Differential Equations.” Structural Safety 8
 (1): 143–50. https://doi.org/10.1016/0167-4730(90)90036-O.
 
+Tassinari C. A. 2019. “An Electroencephalographer Recalls the History of
+the Federation on the 70th Anniversary of Its Journal, Clinical
+Neurophysiology.” Clinical Neurophysiology 130 (12): 2258–63.
+https://doi.org/10.1016/j.clinph.2019.10.010.
+
 Taylor, B. 1715. Methodus incrementorum directa & inversa. Auctore Brook
 Taylor, LL. D. & Regiae Societatis Secretario. Londini: Typis
 Pearsonianis: Prostant apud Gul. Innys ad Insignia Principis in
@@ -916,6 +959,10 @@ https://www.jstor.org/stable/48662056.
 Tsao, N.-K. 1977. “Newton Interpolation Is Efficient for Approximation
 of Linear Functionals.” Numerische Mathematik 29 (1).
 https://doi.org/10.1007/BF01389317.
+
+Turing, A. M. 1948. “Rounding-Off Errors in Matrix Processes.” The
+Quarterly Journal of Mechanics and Applied Mathematics 1: 287–308.
+https://turing.academicwebsite.com/publications/20-rounding-off-errors-in-matrix-processes.
 
 Upton, G. J. G. 1992. “Fisher’s Exact Test.” Journal of the Royal
 Statistical Society. Series A (Statistics in Society) 155 (3): 395–402.
