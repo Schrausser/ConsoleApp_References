@@ -1795,7 +1795,7 @@ Ziel-Koordinatensystem an. Die Datenanpassung erfolgt über\]*
 $$x_{i}' = min_{x} + \{\lbrack\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{i} \right)\rbrack \cdot \frac{max_{x} - min_{x}}{\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{\max} \right)}\}$$
 
 When inverting a value, $x''_i$ is calculated as *\[bei einer
-Wertinver-tierung errechnet man* $x''_i$ *über\]*
+Wertinvertierung errechnet man* $x''_i$ *über\]*
 
 $$x''_{i} = \left( min_{x} + max_{x} \right) - x'_{i},$$
 
@@ -1969,7 +1969,7 @@ srt in.txt out.txt 1
 Concatenates two sorted data *vectors* using filestream processing
 *\[Verkettet 2 sortierte Datenvektoren mit Filestream Verarbeitung\]*,
 
-$n_{\max} \rightarrow \infty$.
+$$n_{\max} \rightarrow \infty$$.
 
 -   Import of two ascendingly sorted single-column *ASCII* data *vector*
     files.
