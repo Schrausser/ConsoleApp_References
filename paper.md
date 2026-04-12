@@ -1,6 +1,6 @@
 # Console Applications for Mathematical Functions, EEG Signal Analysis, String Manipulation and Utilities. 
 
-**Dietmar G. Schrausser**
+**Dietmar G. Schrausser**  
 [orcid.org/0000-0002-4924-8280](https://orcid.org/0000-0002-4924-8280)
 
 Karl-Franzens University, Graz, Austria
@@ -751,33 +751,34 @@ Verteilungsform_kor [min][max][q][n][s] [[x]] [[g]]
 
 **Table** 1. *ConsoleApp* *distribution* functions and *bootstrap* overview with corresponding functions in *SCHRAUSSER-MAT* and *HP_Prime_MATH* (Schrausser, [2022](https://doi.org/10.17605/OSF.IO/8XE42), [2025a](https://doi.org/10.5281/zenodo.15713317), res.)*.*
 
- ~~~
-  nr.                                               Function                               
-                                                          ConsoleApp          SCHRAUSSER-MAT       HP_Prime_MATH
-  1                                                     Binomial¹             BNP, BNW           
-  2                                                     Binomial_T¹           BN1, BN2           ABT1, BINOM, pzBN,                                                                                                       zBN, E01
-  3                                                     Epsilon¹              EFG, ANI, BNI, IMB,  EPSILON, EFG, EFR,                                                                             EFS, OPP             E01
-  4                                                     F_Function¹           FPW, PFW, PFD      FVTLG, F02, F03Z
-  5                                                     Fisher_Exact¹         FX0, FX1, FX2      FX\_, z4F, pz4F
-  6                                                     Fisher_Z¹             FZR, RFZ           Zcor, rZ, Zr
-  7                                                     GAMMA_Function¹       GAMMA, AGAM        
-  8                                                     GAMMA¹                IGM                F01z, F04
-  9                                                     Geometric¹            GMP, GMW           GMVTLG
-  10                                                    Hypergeometric¹       HGP, HGW           
-  11                                                    Poisson¹              PNP, PNW           
-  12                                                    t_Function¹           TPW, PTW, PTD      tVTLG, F06\_, F02,                                                                                                       F06, F03Z
-  13                                                    x2_Function¹          XPW, PXW, PXD      ch2VTLG, F07\_, F02,                                                                                                       F07, F03Z
-  14                                                    z_Dichte¹             DZW, ZDW           
-  15                                                    z_Function¹           ZPW, PZW, PZD      NVTLG, E01, F02,                                                                                                       F03
-  16                                                    Theta²                                       
-  17                                                    Theta_Q²                                     
-  18                                                    Theta_Qv²                                    
-  19                                                    Theta_rQ²                                    
-  20                                                    Theta_S²                                     
-  21                                                    Verteilungsform                              
-  22                                                    Verteilungsform_2u                           
-  23                                                    Verteilungsform_kor
-~~~                 
+~~~
+nr.		Function		
+		ConsoleApp				SCHRAUSSER-MAT					HP_Prime_MATH
+
+1		Binomial¹				BNP, BNW	
+2		Binomial_T¹				BN1, BN2						ABT1, BINOM, pzBN, zBN, E01
+3		Epsilon¹				EFG, ANI, BNI, IMB, EFS, OPP	EPSILON, EFG, EFR, E01
+4		F_Function¹				FPW, PFW, PFD					FVTLG, F02, F03Z
+5		Fisher_Exact¹			FX0, FX1, FX2					FX_, z4F, pz4F
+6		Fisher_Z¹				FZR, RFZ						Zcor, rZ, Zr
+7		GAMMA_Function¹			GAMMA, AGAM	
+8		GAMMA¹					IGM	F01z, F04
+9		Geometric¹				GMP, GMW						GMVTLG
+10		Hypergeometric¹			HGP, HGW	
+11		Poisson¹				PNP, PNW	
+12		t_Function¹				TPW, PTW, PTD					tVTLG, F06_, F02, F06, F03Z
+13		x2_Function¹			XPW, PXW, PXD					ch2VTLG, F07_, F02, F07, F03Z
+14		z_Dichte¹				DZW, ZDW	
+15		z_Function¹				ZPW, PZW, PZD					NVTLG, E01, F02, F03
+16		Theta²		
+17		Theta_Q²		
+18		Theta_Qv²		
+19		Theta_rQ²		
+20		Theta_S²		
+21		Verteilungsform		
+22		Verteilungsform_2u		
+23		Verteilungsform_kor
+~~~	
 
 ¹) implemented in *FunktionWin* (Schrausser, [2023f](https://doi.org/10.5281/zenodo.7651661),
 [2025c](https://doi.org/10.5281/zenodo.17880113)).  
