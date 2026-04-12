@@ -2767,7 +2767,30 @@ CMNDw [cmd][argc]
 **Table 3**. *ConsoleApp* tools overview.
 
 ~~~
-            
+Category		chpt.	nr.		Function
+
+String/ Number	5		1		2DEC
+				5		2		DEC2
+				5		3		BIN2DEC
+				5		4		DEC2BIN
+				5		5		ABCD
+				5		6		AZUBE
+				5		7		TEZUTE
+				5		8		AB_L
+				5		9		BIIA
+				5		10		AIIB
+				5		11		STGERSETZ
+
+Tools			6		1		AUTO
+				6		2		DLS
+				6		3		FIL
+				6		4		KOPIE
+				6		5		SRC
+				6		6		T
+				6		7		DOSCOM
+				6		8		FINDE
+				6		9		LSN
+				6		10		CMND, CMNDw           
 ~~~
                                                             
 <br>
