@@ -2091,9 +2091,9 @@ V2V [input1][input2][output][tab]
 [input2] ...... Input file 2 
 [output] ...... Output file 
 [tab] ......... Column separator
-(0):Tabulator 
-(1):Blank 
-(*):String
+                (0):Tabulator 
+                (1):Blank 
+                (*):String
 ~~~
 
 Example *\[Bsp.\]*:
@@ -2368,7 +2368,7 @@ AB_L [input][output][a][sw][z][sw]
 Example *\[Bsp.\]*:
 
 ~~~
-AB_L in.txt out.txt move 1 verzeichnis 1\
+AB_L in.txt out.txt move 1 verzeichnis 1
 AB_L in.txt out.txt del 1 0 0
 ~~~
 
