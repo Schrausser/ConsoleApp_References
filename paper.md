@@ -797,7 +797,7 @@ Beck,
 [1890](https://scholar.google.com/scholar_lookup?&title=Die%20Str%C3%B6me%20der%20Nervenzentren&journal=Zbl%20Physiol&volume=4&pages=572-573&publication_year=1890&author=Beck%2CA)
 and Berger, [1929](https://doi.org/10.1007/BF01797193)) parameters
 implemented in `ATINA` (Schrausser,
-[2006(https://doi.org/10.5281/zenodo.19422127)),
+[2006](https://doi.org/10.5281/zenodo.19422127)),
 calculating *coherence* (2.1.; c.f. French & Graham,
 [1984](https://doi.org/10.1016/0167-8760(84)90044-8); Schrausser et al.,
 [2001](https://doi.org/10.5281/zenodo.13738772); Guevara et al.,
