@@ -1808,10 +1808,10 @@ system\
 $x_{\min}$ ....... *Vector* minimum value\
 $x_{\max}$ ...\... *Vector* maximum value
 
-$min_{x}$ ..... *\[Wert des Minimalpunktes im Ziel-Koordinatensystem\]\
-*$max_{x}$ *.... \[Wert des Maximalpunktes im Ziel-Koordinatensystem\]\
-*$x_{\min}$ *...\.... \[Vektor Minimalwert\]\
-*$x_{\max}$ *...\... \[Vektor Maximalwert\]*
+$min_{x}$ ..... *[Wert des Minimalpunktes im Ziel-Koordinatensystem]*  
+$max_{x}$ ....*[Wert des Maximalpunktes im Ziel-Koordinatensystem]*  
+$x_{\min}$ ....... *[Vektor Minimalwert]*  
+$x_{\max}$ ...... *[Vektor Maximalwert]*
 
 -   Import of a single-column, ascendingly ordered *ASCII* data *vector*
     file.
@@ -1870,10 +1870,10 @@ system\
 $x_{\min}$ ....... *Vector* minimum value\
 $x_{\max}$ ...... *Vector* maximum value
 
-$min_{x}$ *..... \[Wert des Minimalpunktes im Ziel-Koordinatensystem\]\
-*$max_{x}$ *.... \[Wert des Maximalpunktes im Ziel-Koordinatensystem\]\
-*$x_{\min}$ *....... \[Vektor Minimalwert\]\
-*$x_{\max}$ *...\... \[Vektor Maximalwert\]*
+$min_{x}$ ..... *[Wert des Minimalpunktes im Ziel-Koordinatensystem]*  
+$max_{x}$ .... *[Wert des Maximalpunktes im Ziel-Koordinatensystem\]*  
+$x_{\min}$ ....... *[Vektor Minimalwert]*  
+$x_{\max}$ ...... *[Vektor Maximalwert]*
 
 -   Output of a single-column, ascending linear *ASCII* data *vector*
     file.
@@ -2392,8 +2392,7 @@ Usage *\[Handhabung\]*:
 BIIA [input][output][mode][form]
 [input] ...... Input file
 [output] ..... Output file in ASCII format (*.bii)
-[mode] ....... (1):cd01 SCHRAUSSER CODE, uppercase letter combination
-                  (2 characters, e.g. AA, FD, ..., good readability – unambiguous, for archiving)
+[mode] ....... (1):cd01 SCHRAUSSER CODE, uppercase letter combination (2 characters, e.g. AA, FD, ..., good readability – unambiguous, for archiving)
                (2):cd02 SCHRAUSSER CODE, keyboard character comb. (1 or 2 characters, e.g. a, 1A, ..., small file) 
                (3):cd03 SCHRAUSSER CODE, number combination (3 characters, e.g. 001, 123, ..., optimal readability)
                (4):cd04 SCHRAUSSER CODE, ASCII-combination (1 or 2 characters, e.g. -, #+, ..., minimum file size) 
