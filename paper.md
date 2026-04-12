@@ -780,9 +780,9 @@ nr.		Function
 23		Verteilungsform_kor
 ~~~	
 
-¹) implemented in *FunktionWin* (Schrausser, [2023f](https://doi.org/10.5281/zenodo.7651661),
+¹) implemented in `FunktionWin` (Schrausser, [2023f](https://doi.org/10.5281/zenodo.7651661),
 [2025c](https://doi.org/10.5281/zenodo.17880113)).  
-²) implemented in *ThetaWin* (Schrausser,
+²) implemented in `ThetaWin` (Schrausser,
 [2023g](https://doi.org/10.5281/zenodo.7659264), [2025a](https://doi.org/10.5281/zenodo.17880113)).
 
 <br>
@@ -1794,8 +1794,8 @@ Ziel-Koordinatensystem an. Die Datenanpassung erfolgt über\]*
 
 $$x_{i}' = min_{x} + \{\lbrack\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{i} \right)\rbrack \cdot \frac{max_{x} - min_{x}}{\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{\max} \right)}\}$$
 
-When inverting a value, $x''_{i}$ is calculated as *\[bei einer
-Wertinver-tierung errechnet man* $x''_{i}$ *über\]*
+When inverting a value, $x''_i$ is calculated as *\[bei einer
+Wertinver-tierung errechnet man* $x''_i$ *über\]*
 
 $$x''_{i} = \left( min_{x} + max_{x} \right) - x'_{i},$$
 
@@ -2073,7 +2073,7 @@ srt3 in.txt out.txt 1
 
 ---
 
-Concatenates two single-column *ASCII* files ($n_{1} = n_{2}\ $required)
+Concatenates two single-column *ASCII* files ($n_{1} = n_{2}$ required)
 *\[Fügt 2 einspaltige ASCII Dateien aneinander (*$n_{1} = n_{2}$ *wird
 vorausgesetzt)\]*.
 
@@ -2103,7 +2103,7 @@ V2V in1.txt in2.txt out.txt 1
 V2V in1.txt in2.txt out.txt <---->
 ~~~
 
-###4.21. Z2Z
+### 4.21. Z2Z
 
 ---
 
@@ -2176,7 +2176,7 @@ Matrix/ Data manipulation	4		1		AMA				MXA, MXS
 							4		21		Z2Z	     
 ~~~
                                                                                                         
-¹) implemented in *ATINA* (Schrausser, [2006](https://doi.org/10.5281/zenodo.19422127)).
+¹) implemented in `ATINA` (Schrausser, [2006](https://doi.org/10.5281/zenodo.19422127)).
 
 <br>
 
