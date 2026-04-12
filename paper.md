@@ -1143,7 +1143,7 @@ ROME -14 1
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$ and
 $\mathbf{s}\left( \mathbf{x} \right)$ for an (empirical) function
 *matrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$, where *\[Kubische
-Spline Interpolation: Berechnung der <ins>Koeffizienten</ins>matrix*
+Spline Interpolation: Berechnung der <ins>Koeffizientenmatrix</ins>*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$
 *sowie* $\mathbf{s}\left( \mathbf{x} \right)$ *zu einer (empirischen)
 Funktionsmatrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$, *wobei\]*
