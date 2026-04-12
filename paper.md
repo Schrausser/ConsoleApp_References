@@ -1186,7 +1186,7 @@ $\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)$
 corresponding to coefficient *matrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$,
 where *\[Kubische Spline Funktion: Berechnung einer
-<ins>Funktions</ins>matrix*
+<ins>Funktionsmatrix<\ins>*
 $\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)$ *zu
 Koeffizientenmatrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$,
