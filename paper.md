@@ -1224,6 +1224,8 @@ KUSF in.txt 1 10 0.1
 
 ### 3.5. NWTI
 
+---
+
 *Newton* interpolation: Calculation of the <ins>coefficient</ins>
 *vector* $\mathbf{a}$ as well as $\mathbf{p}\left( \mathbf{x} \right)$
 for an (empirical) function *matrix*
@@ -1262,6 +1264,8 @@ NWTI in.txt 3
 ~~~
 
 ### 3.6. NWTP
+
+---
 
 *Newton* Interpolation Polynomial: Calculation of a
 <ins>function</ins> *matrix*
@@ -2036,6 +2040,8 @@ srt2 in.txt out.txt 1
 ~~~
 
 ### 4.19. SRT3
+
+---
 
 Sorts a data *vector* *\[Sortiert einen Datenvektor\]*,
 
