@@ -2547,9 +2547,9 @@ Creates a *C*-source file and directory structure.
 Directory structure:
 
 ~~~
-\_NAME\_\\NAME.c\
-\_NAME\_\\debug\\NOTE_NAME.txt\
- DOSCOM.exe
+_NAME_\NAME.c
+_NAME_\debug\NOTE_NAME.txt
+             DOSCOM.exe
 ~~~
 
 Usage:
