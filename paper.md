@@ -1969,7 +1969,7 @@ srt in.txt out.txt 1
 Concatenates two sorted data *vectors* using filestream processing
 *\[Verkettet 2 sortierte Datenvektoren mit Filestream Verarbeitung\]*,
 
-$$n_{\max} \rightarrow \infty$$.
+$$n_{\max} \rightarrow \infty.$$
 
 -   Import of two ascendingly sorted single-column *ASCII* data *vector*
     files.
