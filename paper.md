@@ -1673,8 +1673,8 @@ ZMA in.txt out.txt 3
 ---
 
 Performs a symmetrical interlaced split of a data *vector* file
-$\mathbf{x}_{0}$ *\[Führt eine symmetrische entwobene Aufteilung einer
-Datenvektordatei* $\mathbf{x}_{0}$ *durch\]*:
+$\mathbf{x_0}$ *\[Führt eine symmetrische entwobene Aufteilung einer
+Datenvektordatei* $\mathbf{x_0}$ *durch\]*:
 
 ~~~
 x0
@@ -2051,7 +2051,7 @@ Qsort Funktion\]*.
 -   Output of a sorted single-column *ASCII* data *vector* file.
 
 -   *\[Übernahme einer einspaltigen ASCII Datenvektordatei.\]*
--   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvek-tordatei.\]*
+-   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvektordatei.\]*
 
 Usage *\[Handhabung\]*:
 
