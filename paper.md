@@ -66,7 +66,7 @@ Antzoulakos ([2025](https://doi.org/10.1007/978-3-662-69359-9_71)),
 further e.g. Mulholland and Jones
 ([1968a](https://doi.org/10.1007/978-1-4899-6507-3_3)), Altham
 ([1978](http://www.jstor.org/stable/2346943)), Goel and Rodriguez
-([1987](http://www.jstor.org/stable/2689344)), Vel-laisamy and Punnen
+([1987](http://www.jstor.org/stable/2689344)), Vellaisamy and Punnen
 ([2001](http://www.jstor.org/stable/3215739)), García-García et al.
 ([2022](https://doi.org/10.3390/math10152680)).
 
@@ -105,12 +105,12 @@ Moran ([1978](https://doi.org/10.2307/3213414)), Herrmann
 
 (1.5.) *Fisher's exact test* (Fisher,
 [1922](https://doi.org/10.2307/2340521); s. Altham,
-[1969](http://www.jstor.org/stable/2984209)), *[exact]{.underline}*
+[1969](http://www.jstor.org/stable/2984209)), <ins>*exact*</ins>
 *hypergeometric* 4-field test, a nonparametric statistical procedure
 for significance testing of frequency distributions in 2×2 designs, see
 in this context e.g. Upton
 ([1992](http://www.jstor.org/stable/2982890)), Camilli
-([1995](https://doi.org/10.1007/BF02301418)), Hersh-berger
+([1995](https://doi.org/10.1007/BF02301418)), Hershberger
 ([2014](https://doi.org/10.1002/9781118445112.stat06165)), Sprent
 ([2025](https://doi.org/10.1007/978-3-662-69359-9_693)).
 
@@ -141,7 +141,7 @@ Moran ([1978](https://doi.org/10.2307/3213414)), Batir
 
 (1.9.) *Hypergeometric* distribution (Wallis,
 [1656](https://books.google.com/books?id=Z5w_AAAAcAAJ)) for the
-calcula-tion of significance levels for frequencies in 2×2 designs, see
+calculation of significance levels for frequencies in 2×2 designs, see
 *Fisher's* *exact* *test* above, c.f. Berggren et al.
 ([2000](https://doi.org/10.1007/978-1-4757-3240-5_11)) or Stedall
 ([2005](https://doi.org/10.1016/B978-044450871-3/50083-8)), s. further
@@ -807,7 +807,7 @@ Subramaniyam & Thiagarajan,
 *correlation* (2.2.) and *focus* parameters (2.3.-2.6.; s. Schrausser,
 [2000a](https://doi.org/10.13140/RG.2.2.32114.17601),
 [b](http://doi.org/10.13140/RG.2.2.28637.90083)) from
-*[Fourieranalyzed]{.underline}* data (c.f. Fourier,
+<ins>*Fourier-analyzed*</ins> data (c.f. Fourier,
 [1822](https://archive.org/details/bub_gb_TDQJAAAAIAAJ/mode/1up)). More
 profound insight into the methods is provided by e.g. Gerthsen
 ([1966](https://doi.org/10.1007/978-3-662-30201-9)), Kumar and
@@ -967,8 +967,8 @@ out [input][n][k][start][end]
 ## 3. ConsoleApp_Integral
 
 Console applications for *integral* and *interpolation* (see
-Schraus-ser, [2023b](https://doi.org/10.5281/zenodo.7655056)). For the
-basic concept of *[Riemann sums]{.underline}* (Riemann,
+Schrausser, [2023b](https://doi.org/10.5281/zenodo.7655056)). For the
+basic concept of <ins>*Riemann sums*</ins> (Riemann,
 [1868](http://eudml.org/doc/135759)), see Lewis et al.
 ([1978](https://doi.org/10.1007/978-3-0348-5563-1_25.)), Hassler
 ([2007](https://doi.org/10.1007/978-3-540-73568-7_7)), Truc
@@ -995,7 +995,7 @@ integrals, based on the *Richardson extrapolation* (Richardson,
 [1987](https://doi.org/10.1007/978-3-322-85997-6_9); Bickel & Yahav,
 [1988](http://www.jstor.org/stable/2288854); Sidi,
 [1988](https://doi.org/10.1007/978-3-0348-6398-8_22),
-[2003](https://doi.org/10.1017/CBO9780511546815); Du-beau,
+[2003](https://doi.org/10.1017/CBO9780511546815); Dubeau,
 [2019](https://doi.org/10.1016/j.jcpx.2019.100017); Bach,
 [2021](https://doi.org/10.1137/21M1397349)) or the *trapezoidal rule*
 (c.f. Luke et al.,
@@ -1004,7 +1004,7 @@ Memon, [2021](https://doi.org/10.1088/1742-6596/2090/1/012104); Izzo et
 al., [2022](https://doi.org/10.1016/j.jcp.2022.111193); Bujang,
 [2025](https://doi.org/10.1063/5.0294833)), respectively. The
 *Richardson extrapolation* is further used, for example, in machine
-learning and other fields to *ac-celerate* convergences. In this context
+learning and other fields to *accelerate* convergences. In this context
 c.f. Herrmann ([1983](https://doi.org/10.1007/978-3-322-96321-5_27)),
 Jetter ([1984](https://doi.org/10.1007/BF01389471)), Talay and Tubaro
 ([1990](https://doi.org/10.1016/0167-4730(90)90036-O)), von Petersdorff
@@ -1104,7 +1104,7 @@ ROMI -9 0 0.5 0 1
 ---
 
 Approximates $\int_{a}^{b}f(x)dx$ using *Romberg extrapolation*
-*\[Appro-ximiert* $\int_{a}^{b}f(x)dx$ *mittels Romberg-Extrapolation\]*
+*\[Approximiert* $\int_{a}^{b}f(x)dx$ *mittels Romberg-Extrapolation\]*
 (see. Meyberg & Vachenauer,
 [2001b](https://doi.org/10.1007/978-3-642-56654-7_4), p. 209).
 
@@ -1139,13 +1139,13 @@ ROME -14 1
 ---
 
 *Cubic spline* interpolation: Calculation of the
-*[coefficient]{.underline}* *matrix*
+<ins>*coefficient*</ins> *matrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)\ $and
 $\mathbf{s}\left( \mathbf{x} \right)$ for an (empirical) function
 *matrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$, where *\[Kubische
-Spline Interpolation: Berechnung der [Koeffizienten]{.underline}-matrix*
+Spline Interpolation: Berechnung der <ins>Koeffizienten</ins>matrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$
-*sowie* $\mathbf{s}\left( \mathbf{x} \right)$ *zu einer (empiri-schen)
+*sowie* $\mathbf{s}\left( \mathbf{x} \right)$ *zu einer (empirischen)
 Funktionsmatrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$*, wobei\]*
 
 $$s_{i}(x) = y_{i} + b_{i} \cdot \left( x - x_{i} \right) + c_{i} \cdot \left( x - x_{i} \right)^{2} + d_{i} \cdot \left( x - x_{i} \right)^{3};i = 0,1,...,n - 1.$$
@@ -1180,13 +1180,13 @@ KUSI in.txt 0.5
 
 ---
 
-*Cubic spline* function: Calculation of a [function]{.underline}
+*Cubic spline* function: Calculation of a <ins>function</ins>
 *matrix*
 $\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)$
 corresponding to coefficient *matrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$,
 where *\[Kubische Spline Funktion: Berechnung einer
-[Funktions]{.underline}-matrix*
+<ins>Funktions</ins>matrix*
 $\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)$ *zu
 Koeffizientenmatrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$*,
@@ -1224,11 +1224,11 @@ KUSF in.txt 1 10 0.1
 
 ### 3.5. NWTI
 
-*Newton* interpolation: Calculation of the [coefficient]{.underline}
+*Newton* interpolation: Calculation of the <ins>coefficient</ins>
 *vector* $\mathbf{a}$ as well as $\mathbf{p}\left( \mathbf{x} \right)$
 for an (empirical) function *matrix*
 $\mathbf{F =}\left( \mathbf{x|y} \right)$, where *\[Newton
-Interpolation: Berechnung des [Koeffizientenvektors]{.underline}*
+Interpolation: Berechnung des <ins>Koeffizientenvektors</ins>
 $\mathbf{a}$ *sowie* $\mathbf{p}\left( \mathbf{x} \right)$ *zu einer
 (empirischen) Funktionsmatrix*
 $\mathbf{F =}\left( \mathbf{x|y} \right)$*, wobei\]*
@@ -1264,11 +1264,11 @@ NWTI in.txt 3
 ### 3.6. NWTP
 
 *Newton* Interpolation Polynomial: Calculation of a
-[function]{.underline} *ma-trix*
+<ins>function</ins> *matrix*
 $\mathbf{F =}\left( \mathbf{x|p}\left( \mathbf{x} \right) \right)$
 corresponding to coefficient *vector* $\mathbf{a}$, where *\[Newton
 Interpolations Polynom: Berechnung einer
-[Funktionsmatrix]{.underline}*
+<ins>Funktionsmatrix</ins>*
 $\mathbf{F =}\left( \mathbf{x|p}\left( \mathbf{x} \right) \right)$ *zu
 Koeffizientenvektor* $\mathbf{a}$*, wobei\]*
 
@@ -2108,7 +2108,7 @@ V2V in1.txt in2.txt out.txt <---->
 ---
 
 Concatenates two *ASCII* files *\[Fügt zwei ASCII Dateien
-aneinan-der\]*.
+aneinander\]*.
 
 -   Import of two *ASCII* files.
 -   Output of an *ASCII* file.
@@ -2376,8 +2376,8 @@ AB_L in.txt out.txt del 1 0 0
 
 ---
 
-Encodes a file into an *[ASCII]{.underline}* file (recoding via
-***AIIB.EXE***) *\[Encodiert eine Datei in eine [ASCII]{.underline}
+Encodes a file into an *<ins>ASCII</ins>* file (recoding via
+***AIIB.EXE***) *\[Encodiert eine Datei in eine <ins>ASCII</ins>
 Datei (Recodierung via AIIB.EXE)\]*.
 
 -   Import of a file.
