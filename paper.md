@@ -1140,13 +1140,13 @@ ROME -14 1
 
 *Cubic spline* interpolation: Calculation of the
 <ins>*coefficient*</ins> *matrix*
-$\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)\ $and
+$\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$ and
 $\mathbf{s}\left( \mathbf{x} \right)$ for an (empirical) function
 *matrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$, where *\[Kubische
 Spline Interpolation: Berechnung der <ins>Koeffizienten</ins>matrix*
 $\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$
 *sowie* $\mathbf{s}\left( \mathbf{x} \right)$ *zu einer (empirischen)
-Funktionsmatrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$*, wobei\]*
+Funktionsmatrix* $\mathbf{F =}\left( \mathbf{x|y} \right)$, *wobei\]*
 
 $$s_{i}(x) = y_{i} + b_{i} \cdot \left( x - x_{i} \right) + c_{i} \cdot \left( x - x_{i} \right)^{2} + d_{i} \cdot \left( x - x_{i} \right)^{3};i = 0,1,...,n - 1.$$
 
@@ -1189,8 +1189,8 @@ where *\[Kubische Spline Funktion: Berechnung einer
 <ins>Funktions</ins>matrix*
 $\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)$ *zu
 Koeffizientenmatrix*
-$\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$*,
-wobei\]*
+$\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)$,
+*wobei\]*
 
 $$s_{i}(x) = y_{i} + b_{i} \cdot \left( x - x_{i} \right) + c_{i} \cdot \left( x - x_{i} \right)^{2} + d_{i} \cdot \left( x - x_{i} \right)^{3};i = 0,1,...,n - 1.$$
 
@@ -1228,10 +1228,10 @@ KUSF in.txt 1 10 0.1
 *vector* $\mathbf{a}$ as well as $\mathbf{p}\left( \mathbf{x} \right)$
 for an (empirical) function *matrix*
 $\mathbf{F =}\left( \mathbf{x|y} \right)$, where *\[Newton
-Interpolation: Berechnung des <ins>Koeffizientenvektors</ins>
-$\mathbf{a}$ *sowie* $\mathbf{p}\left( \mathbf{x} \right)$ *zu einer
+Interpolation: Berechnung des <ins>Koeffizientenvektors</ins>*
+$\mathbf{a}$ sowie $\mathbf{p}\left( \mathbf{x} \right)$ *zu einer
 (empirischen) Funktionsmatrix*
-$\mathbf{F =}\left( \mathbf{x|y} \right)$*, wobei\]*
+$\mathbf{F =}\left( \mathbf{x|y} \right)$, *wobei\]*
 
 $$p(x) = a_{0} + a_{1} \cdot (x - 1) + a_{2} \cdot (x - 1) \cdot (x - 2)...a_{n} \cdot (x - 1) \cdot (x - 2) \cdot ... \cdot (x - n).$$
 
