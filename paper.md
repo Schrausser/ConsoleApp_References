@@ -286,7 +286,7 @@ Binomial [p][k][n] [[1]]
 [1] ............. (1):full output
 ~~~
 
-## 1.2. Binomial_T
+### 1.2. Binomial_T
 
 ---
 
@@ -337,7 +337,7 @@ F_Function [mode][x][n1][n2]
 [n2] ............ n2
 ~~~
 
-## 1.5. Fisher_Exact
+### 1.5. Fisher_Exact
 
 ---
 
@@ -353,7 +353,7 @@ Fisher_Exact [a][b][c][d] [[1]]
 [1] ............. (1):full output
 ~~~
 
-## 1.6. Fisher_Z
+### 1.6. Fisher_Z
 
 ---
 
@@ -368,7 +368,7 @@ Fisher_Z [mode][x]
 [x] ............ r-value/Z-value
 ~~~
 
-## 1.7. GAMMA_Function
+### 1.7. GAMMA_Function
 
 ---
 
@@ -383,7 +383,7 @@ GAMMA_Function [mode][value]
 ~~~
 
 
-## 1.8. GAMMA
+### 1.8. GAMMA
 
 ---
 
@@ -397,7 +397,7 @@ GAMMA [n][input][output]
 ~~~
 
 
-## 1.9. Geometric
+### 1.9. Geometric
 
 ---
 
@@ -412,7 +412,7 @@ Geometric [p][r+1] [[1]]
 [1] ............ (1):full output
 ~~~
 
-## 1.10. Hypergeometric
+### 1.10. Hypergeometric
 
 ---
 
@@ -429,7 +429,7 @@ Hypergeometric [k][n][N][K] [[1]]
 [1] ............ (1):full output
 ~~~
 
-## 1.11. Poisson
+### 1.11. Poisson
 
 ---
 
@@ -445,7 +445,7 @@ Poisson [p][k][n] [[1]]
 [1] ............ (1):full output
 ~~~
 
-## 1.12. t_Function
+### 1.12. t_Function
 
 ---
 
@@ -460,7 +460,7 @@ t_Function [mode][x][n]
 [n] ............ n of cases
 ~~~
 
-## 1.13. x2_Function
+### 1.13. x2_Function
 
 ---
 
@@ -475,7 +475,7 @@ x2_Function [mode][x][n]
 [n] ............ n of cases
 ~~~
 
-## 1.14. z_Dichte
+### 1.14. z_Dichte
 
 ---
 
@@ -493,7 +493,7 @@ z_Dichte [mode][value] [[f]]
 [f] ............ (1):z-density function graph
 ~~~
 
-## 1.15. z_Function
+### 1.15. z_Function
 
 ---
 
@@ -505,7 +505,7 @@ z_Function [mode][x]
 [x] ............ p-value/z-value
 ~~~
 
-## 1.16. Theta
+### 1.16. Theta
 
 ---
 
@@ -533,7 +533,7 @@ Theta [sd][min][max][qq][q][v][s] [[x]] [[g]]
 [g]  ..........  |1| Value range integer
 ~~~
 
-## 1.17. Theta_Q
+### 1.17. Theta_Q
 
 ---
 
@@ -569,7 +569,7 @@ Theta_Q [sd][min][max][qq][qp][qs1][qs2][qQ][v][m][n][s] [[x]] [[g]]
 [g]  .........................  |1| Value range integer
 ~~~
 
-## 1.18. Theta_Qv
+### 1.18. Theta_Qv
 
 ---
 
@@ -609,7 +609,7 @@ Theta_Qv [sd][min][max][qq][qp][qs1][qs2][qQ][QQ][v][n][s] [[x]] [[g]]
 [g]  .......................... |1| Value range integer
 ~~~
 
-## 1.19. Theta_rQ
+### 1.19. Theta_rQ
 
 ---
 
@@ -652,7 +652,7 @@ Theta_rQ [sd][min][max][qq][qp][q11][q12][q21][q22][qr1][qr2][qQ][v]
 [g]  .......................... |1| Value range integer
 ~~~
 
-## 1.20. Theta_S
+### 1.20. Theta_S
 
 ---
 
@@ -682,7 +682,7 @@ Theta_S [sd][min][max][qq][qp][qs][v][m][s] [[x]] [[g]]
  [g]  ......................... |1| Value range integer
 ~~~
 
-## 1.21. Verteilungsform
+### 1.21. Verteilungsform
 
 ---
 
@@ -696,7 +696,7 @@ Verteilungsform [min][max][n][s]
 [s] ........................ n Subpopulations
 ~~~
 
-## 1.22. Verteilungsform_2u
+### 1.22. Verteilungsform_2u
 
 ---
 
@@ -723,7 +723,7 @@ Verteilungsform_2u [min][max][q][n1][n2][s] [[xd]] [[g]]
 [g] ........................... |1| Value range integer
 ~~~
 
-## 1.23. Verteilungsform_kor
+### 1.23. Verteilungsform_kor
 
 ---
 
@@ -2621,7 +2621,11 @@ Example *\[Bsp.\]*:
 FIL dir.txt *.*
 ~~~
 
-**6.4. KOPIE** Copies a file *\[Kopiert eine Datei\]*.
+### 6.4. KOPIE
+
+---
+
+Copies a file *\[Kopiert eine Datei\]*.
 
 -   Import of a file.
 -   Output of a copy of a file (if applicable modified).
