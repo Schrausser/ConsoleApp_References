@@ -2527,9 +2527,7 @@ ABCDEFG
 
 <br>
 
-### 6. ConsoleApp_Tools
-
----
+## 6. ConsoleApp_Tools
 
 Console *tool* applications, see Schrausser
 ([2023e](https://doi.org/10.5281/zenodo.7655239)).
@@ -2691,7 +2689,7 @@ Example *\[Bsp.\]*:
 
 ~~~
 T This is a very simple program
-T for fast text input into a file
+T for fast text input into a file.
 T Das ist ein sehr einfaches Programm
 T zur schnellen Texteingabe in eine Datei.
 ~~~
