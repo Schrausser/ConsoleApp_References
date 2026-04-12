@@ -129,7 +129,7 @@ on the topic are given by Hjelm and Norris
 [1729](https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg))
 to extend the factorial to noninteger arguments (c.f. Borwein &
 Corless, [2018](https://www.jstor.org/stable/48663320)). The *gamma*
-integral, or *gamma* value, is also a *[central]{.underline}* parame-ter
+integral, or *gamma* value, is also a <ins>*central*</ins> parameter
 of the $F$, $t$, and $\chi ²$ distributions implemented here, s. e.g.
 Gronwall ([1918](http://www.jstor.org/stable/1967180)), Rasch
 ([1931](http://www.jstor.org/stable/1968254)), Davis
@@ -195,7 +195,7 @@ Cacoullos ([1965](http://www.jstor.org/stable/2282687)), Yang et al.
 derived from the *normal* distribution (c.f. Behnke & Behnke,
 [2006](https://doi.org/10.1007/978-3-531-90003-2_26)) and provides
 significance level determinations for frequency parameters, thus serving
-as an *[approximation]{.underline}* *for exact* level determination
+as an <ins>*approximation*</ins> *for exact* level determination
 through probability distributions such as *binomial*, *multinomial* or
 *hypergeometric* (c.f. Camilli,
 [1995](https://doi.org/10.1007/BF02301418)), s. in this context Wilson
@@ -213,7 +213,7 @@ and Hilferty ([1931](http://www.jstor.org/stable/86022)), Patnaik
 distribution is fundamental to the *central limit theorem*, which states
 that the means of many independent, identically distributed random
 variables tend to follow this *normal* distribution, the
-*[basis]{.underline}* of *inferential statistics*. The
+<ins>*basis*</ins> of *inferential statistics*. The
 $z$-transformation with a mean of $\overline{x\ } = \ 0$ and a standard
 deviation of $s = 1$ yields the *standard* *normal* distribution, c.f.
 Behnke and Behnke
