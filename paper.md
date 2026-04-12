@@ -35,12 +35,12 @@ were compiled for *MS-DOS* (c.f. Kaier,
 [2001](https://doi.org/10.1007/978-3-322-94365-1_16)).
 
 Certain applications are implemented in the Windows Tools (i)
-*FunktionWin* (see Schrausser,
+`FunktionWin` (see Schrausser,
 [2023f](https://doi.org/10.5281/zenodo.7651661),
 [2025c](https://doi.org/10.5281/zenodo.17880113)), (ii) `ThetaWin` (see
 Schrausser, [2009](https://www.academia.edu/81800920),
 [2023g](https://doi.org/10.5281/zenodo.7659264),
-[2025a](https://doi.org/10.5281/zenodo.17880113)) and (iii) *ATINA* (s.
+[2025a](https://doi.org/10.5281/zenodo.17880113)) and (iii) `ATINA` (s.
 Schrausser, [2006](https://doi.org/10.5281/zenodo.19422127)). For better
 comparability, the *original* German-language terms are presented
 comparatively in *italic* text.
@@ -749,7 +749,7 @@ Verteilungsform_kor [min][max][q][n][s] [[x]] [[g]]
 ~~~
 
 
-**Table** 1. *ConsoleApp* *distribution* functions and *bootstrap* overview with corresponding functions in *SCHRAUSSER-MAT* and *HP_Prime_MATH* (Schrausser, [2022](https://doi.org/10.17605/OSF.IO/8XE42), [2025a](https://doi.org/10.5281/zenodo.15713317), res.)*.*
+**Table** 1. *ConsoleApp* *distribution* functions and *bootstrap* overview with corresponding functions in `SCHRAUSSER-MAT` and `HP_Prime_MATH` (Schrausser, [2022](https://doi.org/10.17605/OSF.IO/8XE42), [2025a](https://doi.org/10.5281/zenodo.15713317), res.)*.*
 
 ~~~
 nr.		Function		
@@ -796,7 +796,7 @@ Console applications (c.f. Schrausser,
 Beck,
 [1890](https://scholar.google.com/scholar_lookup?&title=Die%20Str%C3%B6me%20der%20Nervenzentren&journal=Zbl%20Physiol&volume=4&pages=572-573&publication_year=1890&author=Beck%2CA)
 and Berger, [1929](https://doi.org/10.1007/BF01797193)) parameters
-implemented in *ATINA* (Schrausser,
+implemented in `ATINA` (Schrausser,
 [[2006](https://github.com/Schrausser/ATINA)](https://doi.org/10.5281/zenodo.19422127)),
 calculating *coherence* (2.1.; c.f. French & Graham,
 [1984](https://doi.org/10.1016/0167-8760(84)90044-8); Schrausser et al.,
@@ -2132,7 +2132,7 @@ Z2Z in1.txt in2.txt out.txt
 ~~~
 
 **Table 2**. *ConsoleApp* functions overview with corresponding
-functions in *SCHRAUSSER-MAT* (Schrausser,
+functions in `SCHRAUSSER-MAT` (Schrausser,
 [2022](https://doi.org/10.17605/OSF.IO/8XE42)).
 
 ~~~
