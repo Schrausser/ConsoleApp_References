@@ -1,0 +1,3189 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{Dietmar Gerald SCHRAUSSER}
+\date{12.04.2026}
+
+\begin{document}
+
+\hypertarget{console-applications-for-mathematical-functions-eeg-signal-analysis-string-manipulation-and-utilities.}{%
+\section{Console Applications for Mathematical Functions, EEG Signal
+Analysis, String Manipulation and
+Utilities.}\label{console-applications-for-mathematical-functions-eeg-signal-analysis-string-manipulation-and-utilities.}}
+
+\textbf{Dietmar G. Schrausser}\\
+\href{https://orcid.org/0000-0002-4924-8280}{orcid.org/0000-0002-4924-8280}
+
+Karl-Franzens University, Graz, Austria
+
+\hypertarget{overview}{%
+\subsection{Overview}\label{overview}}
+
+Applications for calculating (1) \emph{distribution} functions and
+\emph{bootstrap} estimators (s. Tab. 1; c.f. Schrausser,
+\href{https://doi.org/10.5281/zenodo.7664141}{2023a},
+\href{https://doi.org/10.31234/osf.io/rvzxa}{2024a}), (2) various
+parameters within the framework of psychophysiological \emph{EEG}
+measurements (c.f. Schrausser,
+\href{https://doi.org/10.5281/zenodo.10701349}{2024b}), (3)
+\emph{integral} and \emph{interpolation} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.7655056}{2023b}) and (4)
+\emph{matrix} parameters (Schrausser,
+\href{https://doi.org/10.5281/zenodo.7655046}{2023c}), s. Tab. 2.
+Further applications are (5) \emph{string-} and \emph{number-}
+\emph{transformation tools} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.7653790}{2023d}) and finally (6)
+various \emph{console tools} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.7655239}{2023e}), see Tab. 3. For a
+full \emph{BibTeX} source of the reference list, see Schrausser
+(\href{https://doi.org/10.5281/zenodo.19513238}{2026}).
+
+The applications are written in \emph{ANSI-C} (c.f. Gerlach,
+\href{https://doi.org/10.1007/978-3-662-59246-5_4}{2019}; Joyce,
+\href{https://doi.org/10.1007/978-1-4842-5064-8}{2019}; Gonzalez-Morris
+\& Horton, \href{https://doi.org/10.1007/979-8-8688-0149-5}{2024}),
+executables were compiled for \emph{MS-DOS} (c.f. Kaier,
+\href{https://doi.org/10.1007/978-3-322-89035-1_1}{1990}; Herrmann,
+\href{https://doi.org/10.1007/978-3-322-94365-1_16}{2001}).
+
+Certain applications are implemented in the Windows Tools (i)
+\texttt{FunktionWin} (see Schrausser,
+\href{https://doi.org/10.5281/zenodo.7651661}{2023f},
+\href{https://doi.org/10.5281/zenodo.17880113}{2025c}), (ii)
+\texttt{ThetaWin} (see Schrausser,
+\href{https://www.academia.edu/81800920}{2009},
+\href{https://doi.org/10.5281/zenodo.7659264}{2023g},
+\href{https://doi.org/10.5281/zenodo.17880113}{2025a}) and (iii)
+\texttt{ATINA} (s. Schrausser,
+\href{https://doi.org/10.5281/zenodo.19422127}{2006}). For better
+comparability, the \emph{original} German-language terms are presented
+comparatively in \emph{italic} text.
+
+\hypertarget{consoleapp_distributionfunctions}{%
+\subsection{1.
+ConsoleApp\_DistributionFunctions}\label{consoleapp_distributionfunctions}}
+
+Console applications for \emph{distribution} functions (c.f. Schrausser,
+\href{https://doi.org/10.5281/zenodo.7664141}{2023a},
+\href{https://doi.org/10.31234/osf.io/rvzxa}{2024a}) implemented in
+\texttt{FunktionWin} (see Schrausser,
+\href{https://doi.org/10.5281/zenodo.7651661}{2023f},
+\href{https://doi.org/10.5281/zenodo.17880113}{2025c}).
+
+The following functions are available:
+
+(1.1.-1.2.) \emph{Binomial} distribution (de Moivre,
+\href{https://doi.org/10.1098/rstl.1710.0018}{1711}; Bernoulli,
+\href{https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001}{1713}) as a
+discrete distribution of probability values from frequency ratios of two
+groups, c.f. Collani and Dräger
+(\href{https://doi.org/10.1007/978-1-4612-0215-8}{2001}), Philippou and
+Antzoulakos (\href{https://doi.org/10.1007/978-3-662-69359-9_71}{2025}),
+further e.g.~Mulholland and Jones
+(\href{https://doi.org/10.1007/978-1-4899-6507-3_3}{1968a}), Altham
+(\href{http://www.jstor.org/stable/2346943}{1978}), Goel and Rodriguez
+(\href{http://www.jstor.org/stable/2689344}{1987}), Vellaisamy and
+Punnen (\href{http://www.jstor.org/stable/3215739}{2001}), García-García
+et al. (\href{https://doi.org/10.3390/math10152680}{2022}).
+
+(1.3.) Effect size, \emph{Cohen's} \(d\) (Cohen,
+\href{https://doi.org/10.1016/C2013-0-10517-X}{1977},
+\href{https://doi.org/10.4324/9780203771587}{1988}, p.20, p.49,
+\href{https://doi.org/10.1037/0033-2909.112.1.155}{1992}), an effect
+size measure that represents the magnitude of the difference between two
+group means in standard deviation units. Further works on this topic are
+given by e.g.~Wilcox
+(\href{http://www.jstor.org/stable/20157436}{2006}), Miller et
+al.~(\href{https://doi.org/10.1016/j.jval.2010.10.013}{2011}), Fritz et
+al.~(\href{https://doi.org/10.1037/a0024338}{2012}), Janczyk and Pfister
+(\href{https://doi.org/10.1007/978-3-642-34825-9_7}{2013}), Peng and
+Chen (\href{https://www.jstor.org/stable/26594399}{2014}), Li
+(\href{https://doi.org/10.3758/s13428-015-0667-z}{2016}), Schäfer and
+Schwarz (\href{https://doi.org/10.3389/fpsyg.2019.00813}{2019}), Bowring
+et al. (\href{https://doi.org/10.1016/j.neuroimage.2020.117477}{2021}),
+Groß and Möller
+(\href{https://doi.org/10.1007/s42519-023-00323-w}{2023},
+\href{https://doi.org/10.1007/s00362-023-01527-9}{2024}) and Brandmaier
+(\href{https://doi.org/10.31234/osf.io/n9ta7_v1}{2025}).
+
+(1.4.) Fisher-Snedecor \(F\)-distribution (Fisher,
+\href{https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics}{1924}),
+a continuous probability distribution for determining significance
+levels in multigroup and factorial designs, c.f. also David
+(\href{http://www.jstor.org/stable/2332676}{1949}), Patnaik
+(\href{http://www.jstor.org/stable/2332542}{1949}), Zinger
+(\href{http://www.jstor.org/stable/2985223}{1964}), Cacoullos
+(\href{http://www.jstor.org/stable/2282687}{1965}), Stange
+(\href{https://doi.org/10.1007/978-3-642-85602-0_11}{1970}), Saunders
+and Moran (\href{https://doi.org/10.2307/3213414}{1978}), Herrmann
+(\href{https://doi.org/10.1007/978-3-322-96320-8_21}{1984}), Selvin
+(\href{https://doi.org/10.1002/9781118445112.stat05856}{2014}), Brereton
+(\href{https://doi.org/10.1002/cem.2734}{2015}) or Chattamvelli and
+Shanmugam (\href{https://doi.org/10.1007/978-3-031-02435-1_7}{2021}).
+
+(1.5.) \emph{Fisher's exact test} (Fisher,
+\href{https://doi.org/10.2307/2340521}{1922}; s. Altham,
+\href{http://www.jstor.org/stable/2984209}{1969}), \emph{exact}
+\emph{hypergeometric} 4-field test, a nonparametric statistical
+procedure for significance testing of frequency distributions in 2×2
+designs, see in this context e.g.~Upton
+(\href{http://www.jstor.org/stable/2982890}{1992}), Camilli
+(\href{https://doi.org/10.1007/BF02301418}{1995}), Hershberger
+(\href{https://doi.org/10.1002/9781118445112.stat06165}{2014}), Sprent
+(\href{https://doi.org/10.1007/978-3-662-69359-9_693}{2025}).
+
+(1.6.) \emph{Fisher} \(Z\)-transformation (Fisher,
+\href{https://doi.org/10.2307/2331838}{1915}), to adjust the
+distribution of \emph{product moment} correlation coefficients \(r\) to
+a \emph{normal} distribution in order to perform valid significance
+tests, interesting discussions on the topic are given by Hjelm and
+Norris (\href{http://www.jstor.org/stable/20156574}{1962}), Mendoza
+(\href{https://doi.org/10.1007/BF02294830}{1993}), Bond and Richardson
+(\href{https://doi.org/10.1007/BF02295945}{2004}), Carbonell et al.
+(\href{https://doi.org/10.1016/j.spl.2008.11.007}{2009}) or Yang et al.
+(\href{https://doi.org/10.1007/s12209-013-1978-8}{2013}).
+
+(1.7.-1.8.) \emph{Gamma} function \(\Gamma\) (Bernoulli,
+\href{https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg}{1729})
+to extend the factorial to noninteger arguments (c.f. Borwein \&
+Corless, \href{https://www.jstor.org/stable/48663320}{2018}). The
+\emph{gamma} integral, or \emph{gamma} value, is also a \emph{central}
+parameter of the \(F\), \(t\), and \(\chi ²\) distributions implemented
+here, s. e.g. Gronwall
+(\href{http://www.jstor.org/stable/1967180}{1918}), Rasch
+(\href{http://www.jstor.org/stable/1968254}{1931}), Davis
+(\href{http://www.jstor.org/stable/2309786}{1959}), Magnus et al.
+(\href{https://doi.org/10.1007/978-3-662-11761-3_1}{1966a}), Saunders
+and Moran (\href{https://doi.org/10.2307/3213414}{1978}), Batir
+(\href{https://doi.org/10.1016/j.exmath.2007.10.001}{2008}), Koepf
+(\href{https://doi.org/10.1007/978-1-4471-6464-7_1}{2014}).
+
+(1.9.) \emph{Hypergeometric} distribution (Wallis,
+\href{https://books.google.com/books?id=Z5w_AAAAcAAJ}{1656}) for the
+calculation of significance levels for frequencies in 2×2 designs, see
+\emph{Fisher's} \emph{exact} \emph{test} above, c.f. Berggren et al.
+(\href{https://doi.org/10.1007/978-1-4757-3240-5_11}{2000}) or Stedall
+(\href{https://doi.org/10.1016/B978-044450871-3/50083-8}{2005}), s.
+further e.g.~Magnus et al.
+(\href{https://doi.org/10.1007/978-3-662-11761-3_2}{1966b}), Dutka
+(\href{http://www.jstor.org/stable/41133728}{1984}) or Shuster
+(\href{https://doi.org/10.1002/9781118445112.stat04869}{2014})
+
+(1.10.) \emph{Geometric} distribution (de Montmort,
+\href{https://books.google.com/books?id=PII_AAAAcAAJ}{1713}) calculates
+the probability that event \(A\) with probability \(p_{A}\) occurs at
+least once in \(r + 1\) attempts, c.f. Sreehari
+(\href{http://www.jstor.org/stable/3213738}{1983}), Zijlstra
+(\href{https://doi.org/10.2307/3213595}{1983}) or Thomopoulos
+(\href{https://doi.org/10.1007/978-3-319-65112-5_15}{2017}).
+
+(1.11.) \emph{Poisson} distribution (Poisson,
+\href{https://gallica.bnf.fr/ark:/12148/bpt6k110193z/f218.image}{1837})
+is generally right-skewed, but approaches with (i) increasing expected
+number of events \(\lambda\) the \emph{normal} distribution (c.f. Chung,
+\href{https://doi.org/10.1007/978-1-4757-3973-2_7}{1974}), with (ii)
+large \(n\) and small \(p\) the \emph{binomial} distribution, a more
+detailed insight into this method provide e.g.~Rao and Chakravarti
+(\href{http://www.jstor.org/stable/3001466}{1956}), Crow
+(\href{http://www.jstor.org/stable/2333201}{1958}), Haight
+(\href{https://books.google.com/books?id=l8Y-AAAAIAAJ}{1967}), Simonton
+(\href{http://www.jstor.org/stable/284821}{1978}), Jolicoeur
+(\href{https://doi.org/10.1007/978-1-4615-4777-8_19}{1999}),
+Finkelshtein et
+al.~(\href{https://doi.org/10.1007/s11009-025-10171-9}{2025}) or Zhang
+(\href{https://doi.org/10.54254/2754-1169/2025.BJ24761}{2025}).
+
+(1.12.) Student's \(t\)-distribution (Lüroth,
+\href{https://doi.org/10.1002/asna.18760871402}{1876}; Gosset,
+\href{https://doi.org/10.2307/2331554}{1908}) to approximate
+significance levels if sample sizes \(n\) are small, it converges to the
+\emph{normal} distribution as \(n\) increases (s. Wang,
+\href{https://doi.org/10.1016/j.spl.2011.03.037}{2011}), c.f. further
+Cacoullos (\href{http://www.jstor.org/stable/2282687}{1965}), Yang et
+al. (\href{https://doi.org/10.1016/j.jmva.2006.11.003}{2007}), Fonseca
+et al. (\href{http://www.jstor.org/stable/20441467}{2008}), Peña et al.
+(\href{https://doi.org/10.1007/978-3-540-85636-8_15}{2009}), Grigelionis
+(\href{https://doi.org/10.1007/978-3-642-31146-8}{2012}), Brereton
+(\href{https://doi.org/10.1002/cem.2734}{2015}), Li and Nadarajah
+(\href{https://doi.org/10.1007/s00181-018-1570-0}{2020}), Reyes et al.
+(\href{https://doi.org/10.3390/sym13122444}{2021}), Kirkby et al.
+(\href{https://doi.org/10.48550/arXiv.1912.01607}{2024}) and Edelman
+(\href{https://doi.org/10.48550/arXiv.2508.13226}{2025}).
+
+(1.13.) \(\chi ²\)-distribution (Helmert,
+\href{https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021}{1876}) can
+be derived from the \emph{normal} distribution (c.f. Behnke \& Behnke,
+\href{https://doi.org/10.1007/978-3-531-90003-2_26}{2006}) and provides
+significance level determinations for frequency parameters, thus serving
+as an \emph{approximation} \emph{for exact} level determination through
+probability distributions such as \emph{binomial}, \emph{multinomial} or
+\emph{hypergeometric} (c.f. Camilli,
+\href{https://doi.org/10.1007/BF02301418}{1995}), s. in this context
+Wilson and Hilferty (\href{http://www.jstor.org/stable/86022}{1931}),
+Patnaik (\href{http://www.jstor.org/stable/2332542}{1949}), Molinari
+(\href{http://www.jstor.org/stable/2335780}{1977}), Hafner
+(\href{https://doi.org/10.1007/978-3-7091-3420-7_14}{1992}), Jolicoeur
+(\href{https://doi.org/10.1007/978-1-4615-4777-8_8}{1999}), Canal
+(\href{https://doi.org/10.1016/j.csda.2004.04.001}{2005}), Brereton
+(\href{https://doi.org/10.1002/cem.2734}{2015}) and Das
+(\href{https://arxiv.org/abs/2404.05062}{2025}).
+
+(1.14.-1.15.) \emph{Normal} distribution (de Moivre,
+\href{https://books.google.com/books?id=PII_AAAAcAAJ}{1738}) or
+\emph{Gaussian} distribution is fundamental to the \emph{central limit
+theorem}, which states that the means of many independent, identically
+distributed random variables tend to follow this \emph{normal}
+distribution, the \emph{basis} of \emph{inferential statistics}. The
+\(z\)-transformation with a mean of \(\overline{x\ } = \ 0\) and a
+standard deviation of \(s = 1\) yields the \emph{standard} \emph{normal}
+distribution, c.f. Behnke and Behnke
+(\href{https://doi.org/10.1007/978-3-531-90003-2_26}{2006}). See
+moreover David (\href{http://www.jstor.org/stable/2332676}{1949}),
+Breitenberger (\href{http://www.jstor.org/stable/2333749}{1963}),
+Mulholland and Jones
+(\href{https://doi.org/10.1007/978-1-4899-6507-3_8}{1968b}), Chung
+(\href{https://doi.org/10.1007/978-1-4757-3973-2_7}{1974}), Leaver and
+Thomas (\href{https://doi.org/10.1007/978-1-349-01942-7_4}{1974}), Thome
+(\href{http://www.jstor.org/stable/40986007}{1990}), Sachs
+(\href{https://doi.org/10.1007/978-3-642-77717-2_4}{1993}), Massart et
+al. (\href{https://doi.org/10.1016/S0922-3487(97)80033-0}{1998}), von
+Storch and Zwiers
+(\href{https://doi.org/10.1017/CBO9780511612336}{1999}), Stahl
+(\href{http://www.jstor.org/stable/27642916}{2006}), Tóth
+(\href{https://doi.org/10.1002/cem.1382}{2011}), Wang
+(\href{https://doi.org/10.1016/j.spl.2011.03.037}{2011}), Brereton
+(\href{https://doi.org/10.1002/cem.2655}{2014}), Lyon
+(\href{https://doi.org/10.1093/bjps/axs046}{2014}), Bera et al.
+(\href{http://www.jstor.org/stable/43948011}{2016}), Wesolowski and
+Musselwhite Thompson
+(\href{https://doi.org/10.4135/9781506326139.n476}{2018}), Benzon
+(\href{https://doi.org/10.48188/so.2.6}{2021}) or Saneii and Doosti
+(\href{https://doi.org/10.1007/978-981-97-3083-4_6}{2024}).
+
+\emph{Theta} applications (1.16.-1.23.) generating distributions and
+\emph{estimators} for several parameters \(\theta\) (\emph{theta})
+within different designs via \emph{bootstrap} method (Efron,
+\href{https://doi.org/10.1214/aos/1176344552}{1979},
+\href{https://doi.org/10.1093/biomet/68.3.589}{1981},
+\href{https://doi.org/10.1137/1.9781611970319}{1982}, res.), with given
+number of resamples \(B\), where \emph{bootstrap} estimator
+
+\[{\widehat{\theta}}_{B} = B^{- 1} \cdot \sum_{i = 1}^{B}\theta_{i}^{*}.\]
+
+Implemented in \texttt{ThetaWin} (see Schrausser,
+\href{https://www.academia.edu/81800920}{2009},
+\href{https://doi.org/10.5281/zenodo.7659264}{2023g},
+\href{https://doi.org/10.5281/zenodo.17880113}{2025a}); for a deeper and
+current insight into the \emph{bootstrap} method see e.g.~Politis
+(\href{https://doi.org/10.1109/79.647042}{1998}), Bickel and Ren
+(\href{http://www.jstor.org/stable/4356107}{2001}), Horowitz
+(\href{https://doi.org/10.1016/S1573-4412(01)05005-X}{2001}), Wilcox
+(\href{https://doi.org/10.1007/978-1-4757-3522-2_6}{2001}), Machado and
+Parente (\href{http://www.jstor.org/stable/23114968}{2005}), Kleiner et
+al. (\href{http://www.jstor.org/stable/24774569}{2014}), Kenett et al.
+(\href{https://doi.org/10.1007/978-3-031-07566-7_3}{2022}) or Zuev
+(\href{https://doi.org/10.1007/978-3-032-03848-7_6}{2026}); furthermore
+Hall (\href{http://www.jstor.org/stable/3182845}{2003}), Politis
+(\href{https://doi.org/10.1214/ss/1063994977}{2003}), Pewsey
+(\href{https://doi.org/10.2307/2348962}{2018}), Khosravi et al.
+(\href{https://doi.org/10.1016/j.seps.2020.100781}{2021}), Baíllo and
+Cárcamo (\href{https://doi.org/10.1007/s11222-025-10762-z}{2025}),
+Eidous (\href{https://doi.org/10.13140/RG.2.2.12238.11846}{2025}), Liu
+(\href{https://doi.org/10.1007/s41237-025-00283-4}{2025}) or Zheng and
+Fan (\href{https://doi.org/10.3390/math13182913}{2025}).
+
+\hypertarget{binomial}{%
+\subsubsection{1.1. Binomial}\label{binomial}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f\left( X \leq k|n \right) = \sum_{i = 0}^{k}\frac{n!}{i! \cdot (n - i)!} \cdot p^{i} \cdot q^{(n - i)}.\]
+
+Usage:
+
+\begin{verbatim}
+Binomial [p][k][n] [[1]]
+[p] ............. Probability of event A
+[k] ............. n of events A
+[n] ............. n of trials
+[1] ............. (1):full output
+\end{verbatim}
+
+\hypertarget{binomial_t}{%
+\subsubsection{1.2. Binomial\_T}\label{binomial_t}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f\left( X \leq b|b,c \right) = p = \sum_{i = 0}^{b}\frac{(b + c)!}{i! \cdot (b + c - i)!} \cdot 2^{- i} \cdot 2^{- (b + c - i)}.\]
+
+Usage:
+
+\begin{verbatim}
+Binomial_T [b][c] [[1]]
+[b] ............. Cell count b
+[c] ............. Cell count c
+[1] ............. (1):full output
+\end{verbatim}
+
+\hypertarget{epsilon}{%
+\subsubsection{1.3. Epsilon}\label{epsilon}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[\varepsilon = \frac{\mu_{1} - \mu_{0}}{\widehat{\sigma}}.\]
+
+Usage:
+
+\begin{verbatim}
+epsilon [mode][Q0][s][n][e|Q1][p][df] [[x]]
+[mode] .......... (1):Effect-size (2):Theta.1
+[Q0] ............ Theta.0
+[s] ............. Standard deviation
+[n] ............. n of cases
+[e|Q1] .......... Epsilon | Theta.1
+[p] ............. Percent-level (0.00)
+[df] ............ Degrees of freedom n - (.)
+[x] ............. Test value
+\end{verbatim}
+
+\hypertarget{f_function}{%
+\subsubsection{1.4. F\_Function}\label{f_function}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[F\left( F,df_{1},df_{2} \right) = 1 - p^{\alpha 2} = \int_{0}^{F}\frac{\Gamma_{\left( \frac{df_{1} + df_{2}}{2} \right)}}{\Gamma_{\left( \frac{df_{1}}{2} \right)} \cdot \Gamma_{\left( \frac{df_{2}}{2} \right)}} \cdot \left( \frac{df_{1}}{df_{2}} \right)^{\frac{df_{1}}{2}} \cdot F^{\frac{df_{1}}{2} - 1} \cdot \left( 1 + \frac{df_{1}}{df_{2}} \cdot F \right)^{- \frac{df_{1} + df_{2}}{2}}\ dF.\]
+
+Usage:
+
+\begin{verbatim}
+F_Function [mode][x][n1][n2]
+[mode] .......... (1):Fx=p->F (2):Fy=F->p
+[x] ............. p-value/F-value
+[n1] ............ n1
+[n2] ............ n2
+\end{verbatim}
+
+\hypertarget{fisher_exact}{%
+\subsubsection{1.5. Fisher\_Exact}\label{fisher_exact}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f\left( X = a|a,b,c,d \right) = P0 = \frac{(a + b)! \cdot (c + d)! \cdot (a + c)! \cdot (b + d)!}{(a + b + c + d)! \cdot a! \cdot b! \cdot c! \cdot d!},\]
+
+\[f\left( X \leq n|a,b,c,d \right) = p^{exact2} = \sum_{i = 0}^{n}Pi;\ Pi \leq P0.\]
+
+Usage:
+
+\begin{verbatim}
+Fisher_Exact [a][b][c][d] [[1]]
+[a][b][c][d] .... Cell counts a,b,c,d
+[1] ............. (1):full output
+\end{verbatim}
+
+\hypertarget{fisher_z}{%
+\subsubsection{1.6. Fisher\_Z}\label{fisher_z}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[Z = \frac{1}{2} \cdot log_{e}\left( \frac{1 + r}{1 - r} \right),\]
+\[r = \frac{e^{2 \cdot Z} - 1}{e^{2 \cdot Z} + 1}.\]
+
+Usage:
+
+\begin{verbatim}
+Fisher_Z [mode][x]
+[mode] ......... (1):r->Z (2):Z->r
+[x] ............ r-value/Z-value
+\end{verbatim}
+
+\hypertarget{gamma_function}{%
+\subsubsection{1.7. GAMMA\_Function}\label{gamma_function}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f(x,t) = \Gamma = \int_{0}^{\infty}t^{x - 1} \cdot e^{- t}\ dt + c.\]
+
+Usage:
+
+\begin{verbatim}
+GAMMA_Function [mode][value]
+[mode] ......... (1):F(x)->⌈ (2):F'(⌈)->x
+[value] ........ x / ⌈
+\end{verbatim}
+
+\hypertarget{gamma}{%
+\subsubsection{1.8. GAMMA}\label{gamma}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+GAMMA [n][input][output]
+[n] ............ n of cases
+[input] ........ Input file
+[output] ....... Output file
+\end{verbatim}
+
+\hypertarget{geometric}{%
+\subsubsection{1.9. Geometric}\label{geometric}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f\left( X \leq r|p \right) = \sum_{i = 0}^{r}{p \cdot q^{i}}.\]
+
+Usage:
+
+\begin{verbatim}
+Geometric [p][r+1] [[1]]
+[p] ............ Probability of event A
+[r+1] .......... n of trials
+[1] ............ (1):full output
+\end{verbatim}
+
+\hypertarget{hypergeometric}{%
+\subsubsection{1.10. Hypergeometric}\label{hypergeometric}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f\left( X \leq k|n,K,N \right) = \sum_{i = 0}^{k}\frac{\binom{K}{i} \cdot \binom{N - K}{n - i}}{\binom{N}{n}}.\]
+
+Usage:
+
+\begin{verbatim}
+Hypergeometric [k][n][N][K] [[1]]
+[k] ............ n of events A in Sub-Population
+[n] ............ Size of Sub-Population
+[N] ............ Size of Population
+[K] ............ n of events A in Population
+[1] ............ (1):full output
+\end{verbatim}
+
+\hypertarget{poisson}{%
+\subsubsection{1.11. Poisson}\label{poisson}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f\left( X \leq k|n,p \right) = \sum_{i = 0}^{k}\frac{(n \cdot p)^{i}}{e^{n \cdot p} \cdot i!}.\]
+
+Usage:
+
+\begin{verbatim}
+Poisson [p][k][n] [[1]]
+[p] ............ Probability of event A
+[k] ............ n of events A
+[n] ............ n of trials
+[1] ............ (1):full output
+\end{verbatim}
+
+\hypertarget{t_function}{%
+\subsubsection{1.12. t\_Function}\label{t_function}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[F(t,df) = p = \int_{- \infty}^{t}\frac{\Gamma_{\left( \frac{df - 1}{2} \right)}}{\Gamma_{\left( \frac{df}{2} \right)}} \cdot (df \cdot \pi)^{- \frac{1}{2}} \cdot \left( 1 + \frac{t^{2}}{df} \right)^{- \frac{df - 1}{2}}\ dt.\]
+
+Usage:
+
+\begin{verbatim}
+t_Function [mode][x][n]
+[mode] ......... (1):Fx=p->t (2):Fy=t->p
+[x] ............ p-value/t-value
+[n] ............ n of cases
+\end{verbatim}
+
+\hypertarget{x2_function}{%
+\subsubsection{1.13. x2\_Function}\label{x2_function}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[F\left( \chi^{2},df \right) = 1 - p^{\alpha 2} = \int_{0}^{\chi^{2}}\frac{1}{2^{\frac{df}{2}} \cdot \Gamma_{\left( \frac{df}{2} \right)}} \cdot \left( \chi^{2} \right)^{\frac{df}{2} - 1} \cdot e^{- \frac{\chi^{2}}{2}}\ d\chi^{2}.\]
+
+Usage:
+
+\begin{verbatim}
+x2_Function [mode][x][n]
+[mode] ......... (1):Fx=p->x² (2):Fy=x²->p
+[x] ............ p-value/x²-value
+[n] ............ n of cases
+\end{verbatim}
+
+\hypertarget{z_dichte}{%
+\subsubsection{1.14. z\_Dichte}\label{z_dichte}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\[f(z) = \vartheta = \frac{1}{\sqrt{2 \cdot \pi}} \cdot e^{- \frac{z^{2}}{2}},\]
+\[f^{- 1}(z) = f(\vartheta) = z = \sqrt{ln(\frac{\vartheta}{\sqrt{(2 \cdot \pi)^{- 1}}})^{- 2}},\]
+\[F(z) = p = \int_{- \infty}^{z}\vartheta\ dz.\]
+
+Usage:
+
+\begin{verbatim}
+z_Dichte [mode][value] [[f]]
+[mode] ......... (1):fx=z->d (2):fy=d->z (3):∫x=z->p
+                 (4):∫'p->z (5):∫'p->d (6):∫y=d->p
+[value] ........ z-value/z-density/percent-rank p
+[f] ............ (1):z-density function graph
+\end{verbatim}
+
+\hypertarget{z_function}{%
+\subsubsection{1.15. z\_Function}\label{z_function}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+z_Function [mode][x]
+[mode] ......... (1):Fx=p->z (2):Fy=z->p
+[x] ............ p-value/z-value
+\end{verbatim}
+
+\hypertarget{theta}{%
+\subsubsection{1.16. Theta}\label{theta}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Theta [sd][min][max][qq][q][v][s] [[x]] [[g]]
+[sd]  .......... Seed: |0| Timevalue
+[min] .......... R Minimum value
+[max] .......... R Maximum value
+[qq]  .......... Theta-Theta/
+[q]   .......... Theta:
+                 |0| Harmonic mean (HM)
+                 |1| Arithmetic mean (AM)
+                 |2| Sum (SUM)
+                 |3| Standard deviation (SD)
+                 |4| Population variance estimation (VAR)
+                 |5| Product sum (PSM)
+                 |6| Geometric mean (GM)
+                 |7| Schrausser's d (D)
+                 |8| DvarO (DV)
+[v]  ..........  n of Theta (v)
+[s]  ..........  n Subpopulations (s)
+[x]  ..........  Test value x
+[g]  ..........  |1| Value range integer
+\end{verbatim}
+
+\hypertarget{theta_q}{%
+\subsubsection{1.17. Theta\_Q}\label{theta_q}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Theta_Q [sd][min][max][qq][qp][qs1][qs2][qQ][v][m][n][s] [[x]] [[g]]
+[sd]  ......................... Seed: |0| Timevalue
+[min] ......................... R Minimum value
+[max] ......................... R Maximum value
+[qq]  ......................... Theta-Theta/
+[qp]  ......................... Theta P/
+[qs1] [qs2] ................... Theta S1, S2:
+                                |0| Harmonic mean (HM)
+                                |1| Arithmetic mean (AM)
+                                |2| Sum (SUM)
+                                |3| Standard deviation (SD)
+                                |4| Population variance estm. (VAR)
+                                |5| Product sum (PSM)
+                                |6| Geometric mean (GM)
+                                |7| Schrausser's d (D)
+                                |8| DvarO (DV)
+[qQ]  ......................... Theta Q:
+                                |1| Difference
+                                |2| Quotient
+                                |3| Sum
+                                |4| Product
+[v]  .........................  n of Theta P (v)
+[m]  .........................  n of Theta S1 (m)
+[n]  .........................  n of Theta S2 (n)
+[s]  .........................  n Subpopulations (s)
+[x]  .........................  Test value x
+[g]  .........................  |1| Value range integer
+\end{verbatim}
+
+\hypertarget{theta_qv}{%
+\subsubsection{1.18. Theta\_Qv}\label{theta_qv}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Theta_Qv [sd][min][max][qq][qp][qs1][qs2][qQ][QQ][v][n][s] [[x]] [[g]]
+[sd]  ......................... Seed: |0| Timevalue
+[min] ......................... R Minimum value
+[max] ......................... R Maximum value
+[qq]  ......................... Theta-Theta/
+[qp]  ......................... Theta P/
+[qs1][qs2]..................... Theta S1, S2/
+[qQ]  ......................... Theta Q:
+                                |0| Harmonic mean (HM)
+                                |1| Arithmetic mean (AM)
+                                |2| Sum (SUM)
+                                |3| Standard deviation (SD)
+                                |4| Population variance estm. (VAR)
+                                |5| Product sum (PSM)
+                                |6| Geometric mean (GM)
+                                |7| Schrausser's d (D)
+                                |8| DvarO (DV)
+[QQ]  ......................... Theta Theta Q:
+                                |1| Difference
+                                |2| Quotient
+                                |3| Sum
+                                |4| Product
+                                |5| Correlation
+                                |6| Covariance
+                                |7| Coefficient of determination
+                                |8| Redundancy
+[v]  .......................... n of Theta P (v)
+[n]  .......................... n of Theta S1,S2 (n)
+[s]  .......................... n Subpopulations (s)
+[x]  .......................... Test value x
+[g]  .......................... |1| Value range integer
+\end{verbatim}
+
+\hypertarget{theta_rq}{%
+\subsubsection{1.19. Theta\_rQ}\label{theta_rq}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Theta_rQ [sd][min][max][qq][qp][q11][q12][q21][q22][qr1][qr2][qQ][v]
+[m][n][s] [[x]] [[g]]
+[sd]  ......................... Seed: |0| Timevalue
+[min] ......................... R Minimum value
+[max] ......................... R Maximum value
+[qq]  ......................... Theta-Theta/
+[qp]  ......................... Theta P/
+[q11][q12] .................... Theta S11, S12/
+[q21][q22] .................... Theta S21, S22:
+                                |0| Harmonic mean (HM)
+                                |1| Arithmetic mean (AM)
+                                |2| Sum (SUM)
+                                |3| Standard deviation (SD)
+                                |4| Population variance estm. (VAR)
+                                |5| Product sum (PSM)
+                                |6| Geometric mean (GM)
+                                |7| Schrausser's d (D)
+                                |8| DvarO (DV)
+[qr1][qr2] .................... Theta Regressions 1,2/
+                                |1| Correlation (kor)
+                                |2| Covariance (cov)
+                                |3| Coeff. of determination (det)
+                                |4| Redundancy (red)
+[qQ]  ......................... Theta Q:
+                                |1| Difference (Diff)
+                                |2| Quotient (Quot)
+                                |3| Sum (Summ)
+                                |4| Product (Prod)
+[v]  .......................... n of Theta P (v)
+[m]  .......................... n of Theta S11,S12 (m)
+[n]  .......................... n of Theta S21,S22 (n)
+[s]  .......................... n Subpopulations (s)
+[x]  .......................... Test value x
+[g]  .......................... |1| Value range integer
+\end{verbatim}
+
+\hypertarget{theta_s}{%
+\subsubsection{1.20. Theta\_S}\label{theta_s}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Theta_S [sd][min][max][qq][qp][qs][v][m][s] [[x]] [[g]]
+[sd]  ......................... Seed: |0| Timevalue
+[min] ......................... R Minimum value
+[max] ......................... R Maximum value
+[qq]  ......................... Theta-Theta:
+[qp]  ......................... Theta P/
+[qs]  ......................... Theta S/
+                                |0| Harmonic mean (HM)
+                                |1| Arithmetic mean (AM)
+                                |2| Sum (SUM)
+                                |3| Standard deviation (SD)
+                                |4| Population variance estm. (VAR)
+                                |5| Product sum (PSM)
+                                |6| Geometric mean (GM)
+                                |7| Schrausser's d (D)
+                                |8| DvarO (DV)
+ [v]  ......................... n of Theta P (v)
+ [m]  ......................... n of Theta S (m)
+ [s]  ......................... n Subpopulations (s)
+ [x]  ......................... Test value x
+ [g]  ......................... |1| Value range integer
+\end{verbatim}
+
+\hypertarget{verteilungsform}{%
+\subsubsection{1.21. Verteilungsform}\label{verteilungsform}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Verteilungsform [min][max][n][s]
+[min] ......................... Minimum value
+[max] ......................... Maximum value
+[n] ............. n of parameter Theta=sum(x)
+[s] ........................ n Subpopulations
+\end{verbatim}
+
+\hypertarget{verteilungsform_2u}{%
+\subsubsection{1.22. Verteilungsform\_2u}\label{verteilungsform_2u}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Verteilungsform_2u [min][max][q][n1][n2][s] [[xd]] [[g]]
+[min] ......................... Minimum value
+[max] ......................... Maximum value
+[q] ........................... Theta:
+                                |0| Harmonic mean
+                                |1| Arithmetic mean
+                                |2| Sum
+                                |3| Standard deviation 
+                                |4| Population variance estm.
+                                |5| Product sum 
+                                |6| Geometric mean
+                                |7| Schrausser's d
+                                |8| DvarO
+[n1] .......................... n1 of Theta
+[n2] .......................... n2 of Theta
+[s] ........................... n Subpopulations
+[xd] .......................... Difference test value
+[g] ........................... |1| Value range integer
+\end{verbatim}
+
+\hypertarget{verteilungsform_kor}{%
+\subsubsection{1.23. Verteilungsform\_kor}\label{verteilungsform_kor}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Usage:
+
+\begin{verbatim}
+Verteilungsform_kor [min][max][q][n][s] [[x]] [[g]]
+[min] ......................... Minimum value
+[max] ......................... Maximum value
+[q] ........................... Theta:
+                                |1| Pearson Correlation
+                                |2| Covariance
+                                |3| Coeff. of determination
+                                |4| Redundancy
+                                |5| Regression coefficient ayx
+                                |6| Regression coefficient byx
+                                |7| Regression coefficient axy
+                                |8| Regression coefficient bxy
+[n] ........................... n of Theta
+[s] ........................... n Subpopulations
+[x] ........................... Test value x
+[g] ........................... |1| Value range integer
+\end{verbatim}
+
+\textbf{Table} 1. \emph{ConsoleApp} \emph{distribution} functions and
+\emph{bootstrap} overview with corresponding functions in
+\texttt{SCHRAUSSER-MAT} and \texttt{HP\_Prime\_MATH} (Schrausser,
+\href{https://doi.org/10.17605/OSF.IO/8XE42}{2022},
+\href{https://doi.org/10.5281/zenodo.15713317}{2025a}, res.)\emph{.}
+
+\begin{verbatim}
+nr.     Function        
+        ConsoleApp              SCHRAUSSER-MAT                  HP_Prime_MATH
+
+1       Binomial¹               BNP, BNW    
+2       Binomial_T¹             BN1, BN2                        ABT1, BINOM, pzBN, zBN, E01
+3       Epsilon¹                EFG, ANI, BNI, IMB, EFS, OPP    EPSILON, EFG, EFR, E01
+4       F_Function¹             FPW, PFW, PFD                   FVTLG, F02, F03Z
+5       Fisher_Exact¹           FX0, FX1, FX2                   FX_, z4F, pz4F
+6       Fisher_Z¹               FZR, RFZ                        Zcor, rZ, Zr
+7       GAMMA_Function¹         GAMMA, AGAM 
+8       GAMMA¹                  IGM F01z, F04
+9       Geometric¹              GMP, GMW                        GMVTLG
+10      Hypergeometric¹         HGP, HGW    
+11      Poisson¹                PNP, PNW    
+12      t_Function¹             TPW, PTW, PTD                   tVTLG, F06_, F02, F06, F03Z
+13      x2_Function¹            XPW, PXW, PXD                   ch2VTLG, F07_, F02, F07, F03Z
+14      z_Dichte¹               DZW, ZDW    
+15      z_Function¹             ZPW, PZW, PZD                   NVTLG, E01, F02, F03
+16      Theta²      
+17      Theta_Q²        
+18      Theta_Qv²       
+19      Theta_rQ²       
+20      Theta_S²        
+21      Verteilungsform     
+22      Verteilungsform_2u      
+23      Verteilungsform_kor
+\end{verbatim}
+
+¹) implemented in \texttt{FunktionWin} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.7651661}{2023f},
+\href{https://doi.org/10.5281/zenodo.17880113}{2025c}).\\
+²) implemented in \texttt{ThetaWin} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.7659264}{2023g},
+\href{https://doi.org/10.5281/zenodo.17880113}{2025a}).
+
+\hypertarget{consoleapp_eeg}{%
+\subsection{2. ConsoleApp\_EEG}\label{consoleapp_eeg}}
+
+Console applications (c.f. Schrausser,
+\href{https://doi.org/10.5281/zenodo.10701349}{2024b}) for \emph{EEG}
+(s. Galvani,
+\href{https://doi.org/10.5479/sil.324681.39088000932442}{1791}; Caton,
+\href{https://journals.lww.com/jonmd/fulltext/1875/10000/electrical_currents_of_the_brain.13.aspx}{1875};
+Beck,
+\href{https://scholar.google.com/scholar_lookup?\&title=Die\%20Str\%C3\%B6me\%20der\%20Nervenzentren\&journal=Zbl\%20Physiol\&volume=4\&pages=572-573\&publication_year=1890\&author=Beck\%2CA}{1890}
+and Berger, \href{https://doi.org/10.1007/BF01797193}{1929}) parameters
+implemented in \texttt{ATINA} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.19422127}{2006}), calculating
+\emph{coherence} (2.1.; c.f. French \& Graham,
+\href{https://doi.org/10.1016/0167-8760(84)90044-8}{1984}; Schrausser et
+al., \href{https://doi.org/10.5281/zenodo.13738772}{2001}; Guevara et
+al., \href{https://doi.org/10.4236/jbise.2011.412096}{2011}; Puthanmadam
+Subramaniyam \& Thiagarajan,
+\href{https://doi.org/10.1038/s41598-025-94076-0}{2025}), \emph{cross}
+\emph{correlation} (2.2.) and \emph{focus} parameters (2.3.-2.6.; s.
+Schrausser, \href{https://doi.org/10.13140/RG.2.2.32114.17601}{2000a},
+\href{http://doi.org/10.13140/RG.2.2.28637.90083}{b}) from
+\emph{Fourier-analyzed} data (c.f. Fourier,
+\href{https://archive.org/details/bub_gb_TDQJAAAAIAAJ/mode/1up}{1822}).
+More profound insight into the methods is provided by e.g.~Gerthsen
+(\href{https://doi.org/10.1007/978-3-662-30201-9}{1966}), Kumar and
+Bhuvaneswari
+(\href{https://doi.org/10.1016/j.proeng.2012.06.298}{2012}), Siuly et
+al.~(\href{https://doi.org/10.1007/978-3-319-47653-7}{2017}), Panov
+(\href{https://doi.org/10.1007/978-1-0716-3230-7_5}{2024}), Grafakos
+(\href{https://doi.org/10.1007/978-3-031-56500-7}{2024}), Panitz et al.
+(\href{https://doi.org/10.1017/9781009000796.024}{2024}), Brigola
+(\href{https://doi.org/10.1007/978-3-031-81311-5}{2025}) or Meschede et
+al. (\href{https://doi.org/10.1007/978-3-662-30201-9}{2026}).
+
+For the implementation of the methods in the fields of neuropsychology
+or psychobiology see e.g.~Neubauer et al.
+(\href{https://doi.org/10.1016/S0160-2896(02)00091-0}{2002}), Neubauer
+et al. (\href{https://doi.org/10.1016/j.cogbrainres.2005.05.011}{2005}),
+Micheloyannis et al.
+(\href{https://doi.org/10.1016/j.neulet.2006.04.006}{2006}), Neubauer
+and Fink (\href{https://doi.org/10.1016/j.neubiorev.2009.04.001}{2009}),
+Chiarionet
+al.~(\href{https://doi.org/10.3390/bioengineering10030372}{2023}), Zhang
+et al.~(\href{https://doi.org/10.1186/s40779-023-00502-7}{2023}) or
+Nguyen et al.
+(\href{https://doi.org/10.1161/circ.152.suppl/_3.4373687}{2025}), c.f.
+further Adrian (\href{https://doi.org/10.9783/9781512809794}{2016}),
+Tassinari (\href{https://doi.org/10.1016/j.clinph.2019.10.010}{2019})
+and Rossini et
+al.~(\href{https://doi.org/10.1016/j.clinph.2024.11.021}{2025}).
+
+\hypertarget{erc-ercx}{%
+\subsubsection{2.1. ERC, ERCX}\label{erc-ercx}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates \emph{event related} \emph{coherence} \(ERC\), where
+\emph{coherence}
+
+\[Coh_{xy}^{2} = \frac{P_{xy}^{2}(f)}{P_{xx}(f) \cdot P_{yy}(f)},\]
+
+with \emph{cross power} \(P_{xy}\) within given frequency \(f\) in
+\(\mathbb{C}\) defined by
+
+\[P_{xy}(f)\mathfrak{= R}\left( a_{xy} \right)^{2}\mathfrak{+ I}\left( a_{xy} \right)^{2},\]
+
+c.f. Schrausser
+(\href{http://doi.org/10.13140/RG.2.2.28637.90083}{2000b}).
+
+Usage:
+
+\begin{verbatim}
+erc [input][output][nCoh][nX][refs][refe][acts][acte][typ]
+[input] ................. Input File, Format ASCII tab. (e.g. coh.asc)
+[output] ................ Output File
+[nCOH] .................. Number of coherence values 
+[nX] .................... Number of channel combinations
+[refs] .................. Number of reference start value 
+[refe] .................. Number of reference end value
+[acts] .................. Number of active start value
+[acte] .................. Number of active end value
+[typ] ................... Type of output (0):individual (1):append
+\end{verbatim}
+
+\hypertarget{xcor}{%
+\subsubsection{2.2. XCOR}\label{xcor}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates \emph{cross correlation} \(xCOR\).
+
+Usage:
+
+\begin{verbatim}
+xcor [input][output][n][k]
+[input] ..... Input File, Format ASCII tab. (e.g. data.dat)
+[output] .... Output File
+[n] ......... Number of cases
+[k] ......... Number of variables
+\end{verbatim}
+
+\hypertarget{foc}{%
+\subsubsection{2.3. FOC}\label{foc}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates \emph{focus} parameter \(yf\), where
+
+\[yf = \sum_{i = 1}^{k}{1 - \frac{\frac{x_{i} - x_{\min}}{d}}{k - 1}},\]
+
+with
+
+\[d = x_{\max} - x_{\min}.\]
+
+Usage:
+
+\begin{verbatim}
+foc [input][output][n][k]
+[input] ..... Input File, Format ASCII tab. (e.g. data.dat)
+[output] .... Output File
+[n] ......... Number of cases
+[k] ......... Number of leads
+\end{verbatim}
+
+\hypertarget{dis}{%
+\subsubsection{2.4. DIS}\label{dis}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Reading in \emph{distance} values \(d_{ij}\) for \(x_{i}\), \(x_{j}\)
+and calculates \emph{wights} \(g_{ij}\) defined by
+
+\[g_{ij} = \frac{\frac{1}{d_{ij}}}{\sum_{j = 1}^{n}\frac{1}{d_{ij}}}.\]
+
+Usage:
+
+\begin{verbatim}
+dis [input][output][n][k]
+[input] ..... Input File, Format ASCII tab. 
+[output] .... Output File
+[n] ......... Number of cases
+[k] ......... Number of leads
+\end{verbatim}
+
+\hypertarget{floc}{%
+\subsubsection{2.5. FLOC}\label{floc}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates \emph{spatial} \emph{focus} parameter \(yloc\), where
+
+\[yloc = \frac{\sum_{i = 1}^{k}{\sum_{j = 1}^{k - 1}{\frac{1}{G_{i}} \cdot \left\lbrack \left( 1 - \frac{x_{i} - x_{\min}}{d} \right) \cdot w_{G_{ij}} \right\rbrack}}}{k - 2},\]
+
+with
+
+\[G_{i} = \sum_{j = 1}^{k - 1}g_{ij},\]
+\[w_{G_{ij}} = g_{ij} \cdot \left( 1 - \frac{x_{j} - x_{\min}}{d} \right).\]
+
+Usage:
+
+\begin{verbatim}
+floc [input][output][n][k][distance]
+[input] ..... Input File, Format ASCII tab. (e.g. data.dat)
+[output] .... Output File
+[n] ......... Number of cases
+[k] ......... Number of leads
+[distance] .. Distance Matrix File
+\end{verbatim}
+
+\hypertarget{out}{%
+\subsubsection{2.6. OUT}\label{out}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Generates output file.
+
+Usage:
+
+\begin{verbatim}
+out [input][n][k][start][end] 
+[input] ..... Input File, Format ASCII tab. (e.g. coh.asc)
+[n] ......... Number of values / cases / rows
+[k] ......... Number of variables / columns 
+[start] ..... Number of block start value 
+[end] ....... Number of block end value
+\end{verbatim}
+
+\hypertarget{consoleapp_integral}{%
+\subsection{3. ConsoleApp\_Integral}\label{consoleapp_integral}}
+
+Console applications for \emph{integral} and \emph{interpolation} (see
+Schrausser, \href{https://doi.org/10.5281/zenodo.7655056}{2023b}). For
+the basic concept of \emph{Riemann sums} (Riemann,
+\href{http://eudml.org/doc/135759}{1868}), see Lewis et al.
+(\href{https://doi.org/10.1007/978-3-0348-5563-1_25.}{1978}), Hassler
+(\href{https://doi.org/10.1007/978-3-540-73568-7_7}{2007}), Truc
+(\href{https://www.jstor.org/stable/48662056}{2019}), Torchinsky
+(\href{https://doi.org/10.1007/978-3-031-11799-2}{2022}), Forster and
+Lindemann (\href{https://doi.org/10.1007/978-3-658-40130-6_18}{2023}),
+further Goel and Rodriguez
+(\href{http://www.jstor.org/stable/2689344}{1987}), Guillemin and
+Stroock (\href{https://doi.org/10.1007/978-0-8176-4683-7_1}{2008}),
+Büchter and Henn
+(\href{https://doi.org/10.1007/978-3-8274-2680-2_6}{2010}), for
+\emph{integral calculus} in general see Schwarz
+(\href{https://doi.org/10.1007/978-3-663-01227-6_8}{1997}), Meyberg and
+Vachenauer (\href{https://doi.org/10.1007/978-3-642-56654-7_4}{2001a}),
+Allen and Isaacson
+(\href{https://doi.org/10.1002/9781119245476.ch7}{2019}) or Neher
+(\href{https://doi.org/10.1007/978-3-662-68815-1_7}{2024}).
+
+The included methods are as follows:
+
+(3.1.-3.2.) \emph{Romberg's method} (Romberg,
+\href{https://www.google.com/url?sa=t\&source=web\&rct=j\&opi=89978449\&url=https://web.eng.fiu.edu/LEVY/images/EGM5346/romberg\%2520textbook\%2520example.pdf\&ved=2ahUKEwiSxr-u846SAxVFQvEDHd83Bj8QFnoECHMQAQ\&usg=AOvVaw3vtOkKCF8WeDkOB49i_03i}{1955})
+as an analytical method for achieving higher approximation accuracy for
+integrals, based on the \emph{Richardson extrapolation} (Richardson,
+\href{https://doi.org/10.1098/rsta.1911.0009}{1911}; s. Rannacher,
+\href{https://doi.org/10.1007/978-3-322-85997-6_9}{1987}; Bickel \&
+Yahav, \href{http://www.jstor.org/stable/2288854}{1988}; Sidi,
+\href{https://doi.org/10.1007/978-3-0348-6398-8_22}{1988},
+\href{https://doi.org/10.1017/CBO9780511546815}{2003}; Dubeau,
+\href{https://doi.org/10.1016/j.jcpx.2019.100017}{2019}; Bach,
+\href{https://doi.org/10.1137/21M1397349}{2021}) or the
+\emph{trapezoidal rule} (c.f. Luke et al.,
+\href{https://doi.org/10.1016/S0076-5392(09)60075-8}{1969}; Abdulhameed
+\& Memon, \href{https://doi.org/10.1088/1742-6596/2090/1/012104}{2021};
+Izzo et al., \href{https://doi.org/10.1016/j.jcp.2022.111193}{2022};
+Bujang, \href{https://doi.org/10.1063/5.0294833}{2025}), respectively.
+The \emph{Richardson extrapolation} is further used, for example, in
+machine learning and other fields to \emph{accelerate} convergences. In
+this context c.f. Herrmann
+(\href{https://doi.org/10.1007/978-3-322-96321-5_27}{1983}), Jetter
+(\href{https://doi.org/10.1007/BF01389471}{1984}), Talay and Tubaro
+(\href{https://doi.org/10.1016/0167-4730(90)90036-O}{1990}), von
+Petersdorff (\href{http://www.jstor.org/stable/2324787}{1993}) or
+Meyberg and Vachenauer
+(\href{https://doi.org/10.1007/978-3-642-56654-7_4}{2001b}, p.~209).
+
+(3.3.-3.4.) the \emph{Cubic spline} interpolation (Schoenberg,
+\href{https://doi.org/10.1090/qam/15914}{1946}; c.f. Rabut,
+\href{https://doi.org/10.1016/0898-1221(92)90177-J}{1992}; Agarwal \&
+Wong, \href{https://doi.org/10.1007/978-94-011-2026-5_6}{1993}; Farin,
+\href{https://doi.org/10.1007/978-3-663-10602-9_9}{1994}) as a method
+for \emph{polynomial} \emph{curve fitting} and precise interpolation of
+\emph{empirical} data points, where the rate of change corresponds to
+the slope, resulting in smooth, continuous function curves. See in this
+context Cheng and Barsky
+(\href{https://doi.org/10.1016/0010-4485(91)90023-P}{1991}), Fredenhagen
+et al.~(\href{https://doi.org/10.1006/jath.1998.3247}{1999}), Jiang and
+Zhao (\href{https://doi.org/10.1109/FSKD.2009.591}{2009}), Moon
+(\href{https://doi.org/10.1016/S0096-3003(99)00178-2}{2001}), Sarfraz
+(\href{https://doi.org/10.1007/978-1-84628-871-5_8}{2008}), Sun et al.
+(\href{https://doi.org/10.1016/j.cam.2022.115039}{2023}), Török et al.
+(\href{https://doi.org/10.1016/j.amc.2025.129411}{2025}), Jarre
+(\href{https://doi.org/10.48550/arXiv.2507.05083}{2025},
+\href{https://doi.org/10.1016/j.cam.2025.117240}{2026}). For application
+in \emph{EEG} examination and psychophysiology, see e.g.~Perrin et al.
+(\href{https://doi.org/10.1016/0013-4694(87)90141-6}{1987}), Soufflet et
+al. (\href{https://doi.org/10.1016/0013-4694(91)90204-H}{1991}), Congedo
+et al. (\href{https://doi.org/10.1300/J184v06n04_08}{2002}), Roy and
+Shukla (\href{https://doi.org/10.1007/s11277-017-4846-3}{2017}),
+Abduganiev et al.
+(\href{https://doi.org/10.1007/978-3-031-27199-1_3}{2023}) or Schulter
+et al. (\href{https://doi.org/10.1038/s41598-023-49307-7}{2023}, p.~5).
+
+(3.5.-3.6.) the \emph{Newton} interpolation (Cardano,
+\href{https://web.archive.org/web/20220201093634/http:/www.filosofia.unimi.it/cardano/testi/operaomnia/vol_4_s_4.pdf}{1545};
+Newton,
+\href{https://books.google.at/books?id=XJwx0lnKvOgC\&pg=PP2\&redir_esc=y\#v=onepage\&q\&f=false}{1687})
+as a further method for \emph{curve fitting} which is easier to
+calculate, however, has lower accuracy and stability compared to
+interpolation via \emph{cubic splines}, calculates a significantly less
+smooth curve and is therefore better suited for \emph{smaller} datasets
+and lower accuracy requirements. For an overview c.f. Rutishauser
+(\href{https://doi.org/10.1007/978-1-4612-3468-5_6}{1990}), Scherer
+(\href{https://doi.org/10.1007/978-3-642-13990-1_2}{2010}) or Epperson
+(\href{https://doi.org/10.1002/9781119604570.ch4}{2021}), further
+insight give e.g.~Tsao (\href{https://doi.org/10.1007/BF01389317}{1977})
+and Zou et al.~(\href{https://doi.org/10.1155/2020/9020541}{2020}).
+
+\hypertarget{romi}{%
+\subsubsection{3.1. ROMI}\label{romi}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Approximates (i) \emph{surface} or (ii) \emph{curve integrals
+{[}Approximiert (i) Flächen- oder (ii) Kurven-Integrale{]}}
+
+\[\int_{a}^{b}f(x)dx\]
+
+by means of the \emph{Romberg method}, if applicable including file
+output to \textbf{\emph{romi.txt}} from the function \emph{matrix
+{[}mittels Romberg Methode, dabei ggf. Dateiausgabe nach romi.txt von
+Funktionsmatrix{]}}
+
+\[\mathbf{F =}\left( \mathbf{x|y} \right),\]
+
+where \emph{{[}bei{]}}
+
+\[x = \frac{x + d}{2},y = \int_{a}^{b}{f(x)dx}.\]
+
+\begin{itemize}
+\item
+  Execution of \textbf{\emph{ROMI.bat}}:
+\item
+  Definition of \(f(x)\) in \textbf{\emph{ROMI.h}};
+\item
+  Compiling \textbf{\emph{ROMI.c}};
+\item
+  Execution of \textbf{\emph{ROMI.exe}}.
+\item
+  \emph{{[}Ausführung von ROMI.bat:{]}}
+\item
+  \emph{{[}Definition von} \(f(x)\) \emph{in ROMI.h;{]}}
+\item
+  \emph{{[}Compilieren von ROMI.c;{]}}
+\item
+  \emph{{[}Ausführung von ROMI.exe.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ROMI [a][b][d][m][F]
+[a] ......... Integration Minimum a
+[b] ......... Integration Maximum b
+[d] ......... Delta d
+[m] ......... Mode (0):Area.I (1):Curve.I
+[F] ......... Function matrix (0):none (1):romi.txt
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ROMI.bat
+ROMI 1 10 0.0001 0 0
+ROMI -9 0 0.5 0 1
+\end{verbatim}
+
+\hypertarget{rome}{%
+\subsubsection{3.2. ROME}\label{rome}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Approximates \(\int_{a}^{b}f(x)dx\) using \emph{Romberg extrapolation}
+\emph{{[}Approximiert} \(\int_{a}^{b}f(x)dx\) \emph{mittels
+Romberg-Extrapolation{]}} (see. Meyberg \& Vachenauer,
+\href{https://doi.org/10.1007/978-3-642-56654-7_4}{2001b}, p.~209).
+
+\begin{itemize}
+\item
+  Execution of \textbf{\emph{ROME.bat}}:
+\item
+  Definition of \(f(x)\) in \textbf{\emph{ROME.h}}
+\item
+  Compiling \textbf{\emph{ROME.c}};
+\item
+  Execution of \textbf{\emph{ROME.exe}}.
+\item
+  \emph{{[}Ausführung von ROME.bat:{]}}
+\item
+  \emph{{[}Definition von} \(f(x)\) \emph{in ROME.h;{]}}
+\item
+  \emph{{[}Compilieren von ROME.c;{]}}
+\item
+  \emph{{[}Ausführung von ROME.exe.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ROME [a][b]
+[a] ......... Integration Minimum a
+[b] ......... Integration Maximum b
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ROME.bat
+ROME 1 10
+ROME -14 1
+\end{verbatim}
+
+\hypertarget{kusi}{%
+\subsubsection{3.3. KUSI}\label{kusi}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Cubic spline} interpolation: Calculation of the \emph{coefficient}
+\emph{matrix}
+\(\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)\)
+and \(\mathbf{s}\left( \mathbf{x} \right)\) for an (empirical) function
+\emph{matrix} \(\mathbf{F =}\left( \mathbf{x|y} \right)\), where
+\emph{{[}Kubische Spline Interpolation: Berechnung der
+Koeffizientenmatrix}
+\(\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)\)
+\emph{sowie} \(\mathbf{s}\left( \mathbf{x} \right)\) \emph{zu einer
+(empirischen) Funktionsmatrix}
+\(\mathbf{F =}\left( \mathbf{x|y} \right)\), \emph{wobei{]}}
+
+\[s_{i}(x) = y_{i} + b_{i} \cdot \left( x - x_{i} \right) + c_{i} \cdot \left( x - x_{i} \right)^{2} + d_{i} \cdot \left( x - x_{i} \right)^{3};i = 0,1,...,n - 1.\]
+
+\begin{itemize}
+\item
+  Import of an \emph{ASCII} function \emph{matrix} file \(\mathbf{F}\);
+\item
+  Output of the \emph{ASCII} coefficient \emph{matrix} file
+  \(\mathbf{A}\) (\textbf{\emph{KUSI.txt}});
+\item
+  Calculation of \(\mathbf{s}\left( \mathbf{x} \right)\) via the
+  interpolation function.
+\item
+  \emph{{[}Übernahme einer ASCII Funktionsmatrix Datei}
+  \(\mathbf{F}\)\emph{;{]}}
+\item
+  \emph{{[}Ausgabe der ASCII Koeffizientenmatrix Datei} \(\mathbf{A}\)
+  \emph{(KUSI.txt);{]}}
+\item
+  \emph{{[}Berechnung von} \(\mathbf{s}\left( \mathbf{x} \right)\)
+  \emph{über die Interpolations-Funktion.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+KUSI [f][x]
+[f] ......... Function matrix file (F)
+[x] ......... Function value x
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+KUSI in.txt 0.5
+\end{verbatim}
+
+\hypertarget{kusf}{%
+\subsubsection{3.4. KUSF}\label{kusf}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Cubic spline} function: Calculation of a function \emph{matrix}
+\(\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)\)
+corresponding to coefficient \emph{matrix}
+\(\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)\),
+where \emph{{[}Kubische Spline Funktion: Berechnung einer
+Funktionsmatrix\textless{}\ins\textgreater{}}
+\(\mathbf{S =}\left( \mathbf{x|s}\left( \mathbf{x} \right) \right)\)
+\emph{zu Koeffizientenmatrix}
+\(\mathbf{A =}\left( \mathbf{b}\left| \mathbf{c} \right|\mathbf{d} \right)\),
+\emph{wobei{]}}
+
+\[s_{i}(x) = y_{i} + b_{i} \cdot \left( x - x_{i} \right) + c_{i} \cdot \left( x - x_{i} \right)^{2} + d_{i} \cdot \left( x - x_{i} \right)^{3};i = 0,1,...,n - 1.\]
+
+\begin{itemize}
+\item
+  Import of an \emph{ASCII} function \emph{matrix} file \(\mathbf{F}\);
+\item
+  Import of the \emph{ASCII} coefficient \emph{matrix} file
+  \(\mathbf{A}\) (\textbf{\emph{KUSI.txt}});
+\item
+  Output of the \emph{ASCII} function \emph{matrix} file \(\mathbf{S}\)
+  (\textbf{\emph{KUSF.txt}}).
+\item
+  \emph{{[}Übernahme einer ASCII Funktionsmatrix Datei}
+  \(\mathbf{F}\)\emph{;{]}}
+\item
+  \emph{{[}Übernahme der ASCII Koeffizientenmatrix Datei} \(\mathbf{A}\)
+  \emph{(KUSI.txt);{]}}
+\item
+  \emph{{[}Ausgabe der ASCII Funktionsmatrix Datei} \(\mathbf{S}\)
+  \emph{(KUSF.txt).{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+KUSF [f][a][b][d] 
+[f] ......... Function matrix file (F)
+[a] ......... (x) Minimum
+[b] ......... (x) Maximum
+[d] ......... Interval d
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+KUSF in.txt 1 10 0.1
+\end{verbatim}
+
+\hypertarget{nwti}{%
+\subsubsection{3.5. NWTI}\label{nwti}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Newton} interpolation: Calculation of the coefficient
+\emph{vector} \(\mathbf{a}\) as well as
+\(\mathbf{p}\left( \mathbf{x} \right)\) for an (empirical) function
+\emph{matrix} \(\mathbf{F =}\left( \mathbf{x|y} \right)\), where
+\emph{{[}Newton Interpolation: Berechnung des Koeffizientenvektors}
+\(\mathbf{a}\) sowie \(\mathbf{p}\left( \mathbf{x} \right)\) \emph{zu
+einer (empirischen) Funktionsmatrix}
+\(\mathbf{F =}\left( \mathbf{x|y} \right)\), \emph{wobei{]}}
+
+\[p(x) = a_{0} + a_{1} \cdot (x - 1) + a_{2} \cdot (x - 1) \cdot (x - 2)...a_{n} \cdot (x - 1) \cdot (x - 2) \cdot ... \cdot (x - n).\]
+
+\begin{itemize}
+\item
+  Import of an \emph{ASCII} function \emph{matrix} file \(\mathbf{F}\);
+\item
+  Output of the \emph{ASCII} coefficient \emph{vector} file
+  \(\mathbf{a}\) (\textbf{\emph{nwti.txt}});
+\item
+  Calculation of \(\mathbf{p}\left( \mathbf{x} \right)\) using the
+  interpolation polynomial.
+\item
+  \emph{{[}Übernahme einer ASCII Funktionsmatrix Datei}
+  \(\mathbf{F}\)\emph{;{]}}
+\item
+  \emph{{[}Ausgabe einer ASCII Koeffizientenvektor Datei} \(\mathbf{a}\)
+  \emph{(nwti.txt);{]}}
+\item
+  \emph{{[}Berechnung von} \(\mathbf{p}\left( \mathbf{x} \right)\)
+  \emph{über das Interpolations-Polynom.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+NWTI [f][x]
+[f] ......... Function matrix file (F)
+[x] ......... Function value x
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+NWTI in.txt 3
+\end{verbatim}
+
+\hypertarget{nwtp}{%
+\subsubsection{3.6. NWTP}\label{nwtp}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Newton} Interpolation Polynomial: Calculation of a function
+\emph{matrix}
+\(\mathbf{F =}\left( \mathbf{x|p}\left( \mathbf{x} \right) \right)\)
+corresponding to coefficient \emph{vector} \(\mathbf{a}\), where
+\emph{{[}Newton Interpolations Polynom: Berechnung einer
+Funktionsmatrix}
+\(\mathbf{F =}\left( \mathbf{x|p}\left( \mathbf{x} \right) \right)\)
+\emph{zu Koeffizientenvektor} \(\mathbf{a}\)\emph{, wobei{]}}
+
+\[p(x) = a_{0} + a_{1} \cdot (x - 1) + a_{2} \cdot (x - 1) \cdot (x - 2)...a_{n} \cdot (x - 1) \cdot (x - 2) \cdot ... \cdot (x - n).\]
+
+\begin{itemize}
+\item
+  Import of the \emph{ASCII} coefficient \emph{vector} file
+  \(\mathbf{a}\) (\textbf{\emph{nwti.txt}});
+\item
+  Output of the \emph{ASCII} function \emph{matrix} file \(\mathbf{F}\)
+  (\textbf{\emph{nwtp.txt}}).
+\item
+  \emph{{[}Übernahme der ASCII Koeffizientenvektor Datei} \(\mathbf{a}\)
+  \emph{(nwti.txt);{]}}
+\item
+  \emph{{[}Ausgabe der ASCII Funktionsmatrix Datei} \(\mathbf{F}\)
+  \emph{(nwtp.txt).{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+NWTP [a][b][d]
+[a] ......... (x) Minimum
+[b] ......... (x) Maximum
+[d] ......... Interval d
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+NWTP 1 10 0.1
+\end{verbatim}
+
+\hypertarget{consoleapp_matrix}{%
+\subsection{4. ConsoleApp\_Matrix}\label{consoleapp_matrix}}
+
+Console applications for (4.1.-4.9.) \emph{matrix} calculation (Cayley,
+\href{http://www.jstor.org/stable/108649}{1858}; c.f. Cardano,
+\href{https://web.archive.org/web/20220201093634/http:/www.filosofia.unimi.it/cardano/testi/operaomnia/vol_4_s_4.pdf}{1545};
+Heisenberg, \href{https://doi.org/10.1007/BF01328377}{1925}; Turing,
+\href{https://turing.academicwebsite.com/publications/20-rounding-off-errors-in-matrix-processes}{1948}
+or Crilly, \href{https://doi.org/10.1016/0315-0860(86)90091-1}{1986})
+and (4.10.-4.21.) \emph{tools}, s. Schrausser
+(\href{https://doi.org/10.5281/zenodo.7655046}{2023c}); on the topic in
+general c.f. Meyberg and Vachenauer
+(\href{https://doi.org/10.1007/978-3-642-56654-7}{2001}), Grcar
+(\href{https://doi.org/10.1016/j.hm.2010.06.003}{2011}), Karpfinger
+(\href{https://doi.org/10.1007/978-3-662-65458-3_10}{2022a},
+\href{https://doi.org/10.1007/978-3-662-63305-2_11}{b}), Shores
+(\href{https://doi.org/10.1007/978-3-319-74748-4_2}{2018}), Gentle
+(\href{https://doi.org/10.1007/978-3-031-42144-0}{2024}) or Saff and
+Snider (\href{https://doi.org/10.1007/978-3-031-97222-5}{2025}).
+
+\hypertarget{ama}{%
+\subsubsection{4.1. AMA}\label{ama}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Adds or subtracts 2 \emph{matrices}, with given \emph{{[}Addiert oder
+subtrahiert 2 Matrizen{]}},
+
+\[k_{1} = k_{2}\text{,\ }n_{1} = n_{2}.\]
+
+\emph{{[}wird vorausgesetzt{]}}.
+
+\begin{itemize}
+\item
+  Import of 2 \emph{ASCII matrix} files.
+\item
+  Output of an \emph{ASCII matrix} file.
+\item
+  \emph{{[}Übernahme 2er ASCII Matrixdateien.{]}}
+\item
+  \emph{{[}Ausgabe einer ASCII Matrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+AMA [matrix1][matrix2][output][mode] 
+[matrix1] ... Input file 1 
+[matrix2] ... Input file 2 
+[output] .... Output file 
+[mode] ...... (0):Addition (1):Subtraction
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+AMA in1.txt in2.txt out.txt 0
+\end{verbatim}
+
+\hypertarget{ima}{%
+\subsubsection{4.2. IMA}\label{ima}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates the inverse \(\mathbf{A}^{- 1}\) of \(\mathbf{A}\) using the
+\emph{chained} form of \emph{Gaussian elimination {[}Berechnet die
+inverse} \(\mathbf{A}^{- 1}\) \emph{von} \(\mathbf{A}\) \emph{über die
+verkettete Form des Gaussschen Algorithmus{]}},
+
+\[k_{\max} = n_{\max} = 200,a_{11} \neq 0.\]
+
+This results in two triangular \emph{matrices} \(\mathbf{B}\) and
+\(\mathbf{C}\), as well as the \emph{matrix} \(\mathbf{T}\) to the
+generated identity \emph{matrix} \(\mathbf{E}\); \(\mathbf{A}^{- 1}\) is
+obtained by its transpose \emph{{[}Es resultieren 2 Dreiecksmatrizen}
+\(\mathbf{B}\) \emph{und} \(\mathbf{C}\)\emph{, sowie die Matrix}
+\(\mathbf{T}\) \emph{zur erzeugten Einheitsmatrix}
+\(\mathbf{E}\)\emph{,} \(\mathbf{A}^{- 1}\) \emph{entsteht
+transponiert{]}:}
+
+\begin{verbatim}
+. . .  A   1 0 0  E
+. . .      0 1 0
+. . .      0 0 1
+
+. . .  B   . . .  T
+  . .      . . .
+    .      . . .
+.      C
+. .
+
+. . . (1/A)'
+. . .
+. . .
+\end{verbatim}
+
+\begin{itemize}
+\item
+  Import of a square \emph{ASCII matrix} file.
+\item
+  Output of a square \emph{ASCII matrix} file.
+\item
+  \emph{{[}Übernahme einer quadratischen ASCII Matrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe einer quadratischen ASCII Matrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+IMA [matrix][output] 
+[matrix] ....... Input file 
+[output] ....... Output file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+IMA in.txt out.txt
+\end{verbatim}
+
+\hypertarget{mma}{%
+\subsubsection{4.3. MMA}\label{mma}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Multiplies two \emph{matrices} (\(k_{1} = n_{2}\) is assumed). The
+result is a \emph{matrix} with \emph{{[}Multipliziert 2 Matrizen
+(}\(k_{1} = n_{2}\) \emph{wird vorausgesetzt). Es resultiert eine Matrix
+mit{]}}
+
+\[n = n_{1},\text{\ }k = k_{2}:\]
+
+\begin{verbatim}
+       *          =
+ o . .   o o         o o
+ o . .   . .         o .
+         . .
+ 
+ 
+ o . .   o o         o o
+ o . .   . .         o .
+ o . .   . .         o .    
+ o . .               o .
+ o . .               o .
+\end{verbatim}
+
+\begin{itemize}
+\item
+  Import of 2 \emph{ASCII} \emph{matrix} files.
+\item
+  Output of an \emph{ASCII matrix} file.
+\item
+  \emph{{[}Übernahme 2er ASCII Matrixdateien.{]}}
+\item
+  \emph{{[}Ausgabe einer ASCII Matrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+MMA [matrix1][matrix2][output] 
+[matrix1] ...... Input file 1 
+[matrix2] ...... Input file 2 
+[output] ....... Output file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+MMA m1.txt m2.txt m3.txt
+\end{verbatim}
+
+\hypertarget{qma}{%
+\subsubsection{4.4. QMA}\label{qma}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Squaring a square \emph{matrix {[}Quadriert eine quadratische
+Matrix{]}}:
+
+\begin{verbatim}
+        *       =
+ o .   o o      o o
+ o .   . .      o .
+\end{verbatim}
+
+\begin{itemize}
+\item
+  Import of a square \emph{ASCII matrix} file.
+\item
+  Output of a square \emph{ASCII matrix} file.
+\item
+  \emph{{[}Übernahme einer quadratischen ASCII Matrixdateien.{]}}
+\item
+  \emph{{[}Ausgabe einer quadratischen ASCII Matrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+QMA [matrix][output] 
+[matrix] ....... Input file 
+[output] ....... Output file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+QMA a.txt b.txt
+\end{verbatim}
+
+\hypertarget{sma}{%
+\subsubsection{4.5. SMA}\label{sma}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Selects a \emph{submatrix} (or \emph{vector}) from a \emph{matrix}
+\emph{{[}Selegiert eine Sub Matrix (oder einen Vektor) aus einer
+Matrix{]}}.
+
+\begin{itemize}
+\item
+  Importing an \emph{ASCII matrix} file.
+\item
+  Output of an \emph{ASCII} (\emph{matrix}) file.
+\item
+  \emph{{[}Übernahme einer ASCII Matrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe einer ASCII (Matrix-)Datei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+SMA [matrix][output][i0][i1][j0][j1] 
+[matrix] ...... Matrix file 
+[output] ...... Matrix output file 
+[i0] .......... From line 
+[i1] .......... To line 
+[j0] .......... From column 
+[j1] .......... To column
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+SMA in.txt out1.txt 1 5 2 2 //Columnvector j2
+SMA in.txt out2.txt 2 2 1 5 //Linevector i2
+SMA in.txt out3.txt 2 4 2 4 //Submatrix
+SMA in.txt out4.txt 3 3 3 3 //Single number
+\end{verbatim}
+
+\hypertarget{spur}{%
+\subsubsection{4.6. SPUR}\label{spur}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates the trace (\emph{sp}) of a square \emph{matrix}
+\(\mathbf{A}\) \emph{{[}Berechnet die Spur (sp) einer quadratischen
+Matrix} \(\mathbf{A}\)\emph{{]}}:
+
+\begin{verbatim}
+o . .  A
+. o .  
+. . o
+       sp A
+\end{verbatim}
+
+\begin{itemize}
+\item
+  Import of a square \emph{ASCII matrix} file.
+\item
+  Output of \emph{sp} \(\mathbf{A}\) in file \textbf{\emph{SPUR.txt}}.
+\item
+  \emph{{[}Übernahme einer quadratischen ASCII Matrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe von sp} \(\mathbf{A}\) \emph{in die Datei
+  SPUR.txt.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+SPUR [matrix][mode] 
+[matrix] ...... Input file 
+[mode] ........ Mode of trace calculation: 
+                (0):Addition (Standard) 
+                (1):Multiplication (s. VMA.exe)
+                (2):Subtraction
+                (3):Division
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+SPUR in.txt 0
+\end{verbatim}
+
+\hypertarget{trp}{%
+\subsubsection{4.7. TRP}\label{trp}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Transposes a data \emph{matrix} \emph{{[}Transponiert eine
+Datenmatrix{]}},
+
+\[n_{\max} = k_{\max} = 1299.\]
+
+Column separator, input file: tab or space. Column separator, output
+file: 1 space \emph{{[}Spaltentrennzeichen, Eingabedatei: Tabulator oder
+Leerzeichen. Spaltentrennzeichen, Ausgabedatei: 1 Leerzeichen{]}.}
+
+\begin{itemize}
+\item
+  Importing an \emph{ASCII} data \emph{matrix} file.
+\item
+  Output of a transposed \emph{ASCII} data \emph{matrix} file.
+\item
+  \emph{{[}Übernahme einer ASCII Datenmatrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe einer transponierten ASCII Datenmatrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+TRP [input][output] 
+[input] ....... Input file 
+[output] ...... Output file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+TRP in.txt out.txt
+\end{verbatim}
+
+\hypertarget{vma}{%
+\subsubsection{4.8. VMA}\label{vma}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Calculates the \emph{chained} form of \emph{Gaussian elimination} of a
+square \emph{matrix} \(\mathbf{A}\), with \emph{{[}Berechnet die
+verkettete Form des Gaussschen Algorithmus einer quadratischen Matrix}
+\(\mathbf{A}\)\emph{, mit{]}}
+
+\[k_{\max} = n_{\max} = 250,a_{11} \neq 0.\]
+
+This results in two triangular matrices \(\mathbf{B}\) and
+\(\mathbf{C}\) \emph{{[}Es resultieren 2 Dreiecksmatrizen}
+\(\mathbf{B}\) \emph{und} \(\mathbf{C}\)\emph{{]}}:
+
+\begin{verbatim}
+. . .  A
+. . .  
+. . .
+
+. . .  B
+  . .
+    .
+.      C
+. .
+\end{verbatim}
+
+The determinant of \(\mathbf{A}\) (det \(\mathbf{A}\)) is the product of
+the elements in the main diagonal of \(\mathbf{B}\)
+(\(\mathbf{TT}b_{ii}\)) \emph{{[}Die Determinante von} \(\mathbf{A}\)
+\emph{(det} \(\mathbf{A})\) \emph{ist das Produkt der Elemente in der
+Hauptdiagonale von} \(\mathbf{B}\)
+\emph{(}\(\mathbf{TT}b_{ii}\)\emph{){]}}.
+
+\begin{itemize}
+\item
+  Import of a square \emph{ASCII matrix} file.
+\item
+  Output of a square \emph{ASCII matrix} file.
+\item
+  \emph{{[}Übernahme einer quadratischen ASCII Matrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe einer quadratischen ASCII Matrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+VMA [matrix][output] 
+[matrix] ...... Input file 
+[output] ...... Output file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+VMA in.txt out.txt
+\end{verbatim}
+
+\hypertarget{zma}{%
+\subsubsection{4.9. ZMA}\label{zma}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Multiplies a \emph{matrix} by a real number \emph{{[}Multipliziert eine
+Matrix mit einer reellen Zahl{]}}.
+
+\begin{itemize}
+\item
+  Import of an \emph{ASCII matrix} file.
+\item
+  Output of an \emph{ASCII matrix} file.
+\item
+  \emph{{[}Übernahme einer ASCII Matrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe einer ASCII Matrixdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ZMA [matrix][output][wert] 
+[matrix] ...... Input file 
+[output] ...... Output file 
+[wert] ........ Real number
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ZMA in.txt out.txt 3
+\end{verbatim}
+
+\hypertarget{ent}{%
+\subsubsection{4.10. ENT}\label{ent}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Performs a symmetrical interlaced split of a data \emph{vector} file
+\(\mathbf{x_0}\) \emph{{[}Führt eine symmetrische entwobene Aufteilung
+einer Datenvektordatei} \(\mathbf{x_0}\) \emph{durch{]}}:
+
+\begin{verbatim}
+x0
+--
+1
+2
+3
+4
+
+x1 x2
+-- --
+1
+   2
+3
+   4
+\end{verbatim}
+
+\begin{itemize}
+\item
+  Importing a single-column \emph{ASCII} file.
+\item
+  Output of 2 single-column \emph{ASCII} files.
+\item
+  \emph{{[}Übernahme einer einspaltigen ASCII Datei.{]}}
+\item
+  \emph{{[}Ausgabe von 2 einspaltigen ASCII Dateien.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ENT [input][output1][output2] 
+[input] ...... Input file  
+[output1] .... Output file 1 
+[output2] .... Output file 2
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ENT in.txt out1.txt out2.txt
+\end{verbatim}
+
+\hypertarget{ktf}{%
+\subsubsection{4.11. KTF}\label{ktf}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Reduces or increases the size of a \emph{perfectly} linear data
+\emph{vector}. The data adjustment up to \(n'\) is iteratively performed
+by \emph{{[}Verringert oder vergrössert den Umfang eines perfekt
+linearen Datenvektors. Die bis} \(n'\) \emph{iterative Datenanpassung
+erfolgt über{]}}
+
+\[x_{i}\lbrack n\rbrack = x_{i}\lbrack n + 1\rbrack \cdot \frac{n}{n - 1};n' < n,\]
+\[x_{i}\lbrack n\rbrack = x_{i}\lbrack n - 1\rbrack \cdot \frac{n - 2}{n - 1};n' > n.\]
+
+\begin{itemize}
+\item
+  Import of a single-column, ascendingly ordered \emph{ASCII} data
+  \emph{vector} file of size \(n\).
+\item
+  Output of a single-column, ascendingly ordered \emph{ASCII} data
+  \emph{vector} file of size \(n'\).
+\item
+  \emph{{[}Übernahme einer einspaltigen, aufsteigend geordneten ASCII
+  Datenvektordatei im Umfang} \(n.\)\emph{{]}}
+\item
+  \emph{{[}Ausgabe einer einspaltigen, aufsteigend geordneten ASCII
+  Datenvektordatei im Umfang} \(n^{'}.\)\emph{{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ktf [input][output][n] 
+[input] ....... Input file  
+[output] ...... Output file 
+[n] ........... Vector size n’
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ktf data_in.txt data_out.txt 30
+\end{verbatim}
+
+\hypertarget{ktf2}{%
+\subsubsection{4.12. KTF2}\label{ktf2}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Reduces or increases the size of a data \emph{vector}
+\emph{{[}Verringert oder vergrössert den Umfang eines Datenvektors{]}}
+(\(n_{\max} = n'_{\max} = 33000\)).
+
+\begin{itemize}
+\item
+  Import of a single-column, ascendingly ordered \emph{ASCII} data
+  \emph{vector} file of size \(n\).
+\item
+  Output of a single-column, ascendingly ordered \emph{ASCII} data
+  \emph{vector} file of size \(n'\).
+\item
+  \emph{{[}Übernahme einer einspaltigen, aufsteigend geordneten ASCII
+  Datenvektordatei im Umfang} \(n.\)\emph{{]}}
+\item
+  \emph{{[}Ausgabe einer einspaltigen, aufsteigend geordneten ASCII
+  Datenvektordatei im Umfang} \(n^{'}.\)\emph{{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ktf2 [input][output][n] 
+[input] ....... Input file 
+[output] ...... Output file 
+[n] ........... Vector size n’
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ktf2 in.txt out.txt 12
+ktf2 in.txt out.txt 110
+\end{verbatim}
+
+\hypertarget{ktf3}{%
+\subsubsection{4.13. KTF3}\label{ktf3}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Adapts a data \emph{vector} to a target coordinate system. The data
+adaptation is performed by \emph{{[}Passt einen Datenvektor an ein
+Ziel-Koordinatensystem an. Die Datenanpassung erfolgt über{]}}
+
+\[x_{i}' = min_{x} + \{\lbrack\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{i} \right)\rbrack \cdot \frac{max_{x} - min_{x}}{\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{\max} \right)}\}\]
+
+When inverting a value, \(x''_i\) is calculated as \emph{{[}bei einer
+Wertinvertierung errechnet man} \(x''_i\) \emph{über{]}}
+
+\[x''_{i} = \left( min_{x} + max_{x} \right) - x'_{i},\]
+
+where \emph{{[}mit{]}}
+
+\(min_{x}\) \ldots.. Value of the minimum point in the target coordinate
+system\\
+\(max_{x}\) \ldots. Value of the maximum point in the target coordinate
+system\\
+\(x_{\min}\) \ldots\ldots. \emph{Vector} minimum value\\
+\(x_{\max}\) \ldots... \emph{Vector} maximum value
+
+\(min_{x}\) \ldots.. \emph{{[}Wert des Minimalpunktes im
+Ziel-Koordinatensystem{]}}\\
+\(max_{x}\) \ldots.\emph{{[}Wert des Maximalpunktes im
+Ziel-Koordinatensystem{]}}\\
+\(x_{\min}\) \ldots\ldots. \emph{{[}Vektor Minimalwert{]}}\\
+\(x_{\max}\) \ldots\ldots{} \emph{{[}Vektor Maximalwert{]}}
+
+\begin{itemize}
+\item
+  Import of a single-column, ascendingly ordered \emph{ASCII} data
+  \emph{vector} file.
+\item
+  Output of a two-column, ascendingly ordered \emph{ASCII} data
+  \emph{matrix} file containing:
+\item
+  \emph{{[}Übernahme einer einspaltigen, aufsteigend geordneten ASCII
+  Datenvektordatei.{]}}
+\item
+  \emph{{[}Ausgabe einer zweispaltigen, aufsteigend geordneten ASCII
+  Datenmatrixdatei beinhaltend:{]}}
+\end{itemize}
+
+The data \emph{vector} adapted to the target coordinate system; the
+initial data \emph{vector} \emph{{[}Den an das Ziel-Koordinatensystem
+angepassten Datenvektor; den ursprünglichen Datenvektor{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ktf3 [input][output][minx][maxx][inv] 
+[input] ....... Input file 
+[output] ...... Output file 
+[minx] ........ Val. of the min. point in the target coordinate system
+[maxx] ........ Val. of the max. point in the target coordinate system
+[inv] ......... (1):Value inversion (0):No Value inversion
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ktf3 data_in.txt data_out.txt 1 100 1
+ktf3 data_in.txt data_out.txt 371 51 0
+\end{verbatim}
+
+\hypertarget{ntf}{%
+\subsubsection{4.14. NTF}\label{ntf}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Generates an ascending linear data \emph{vector} and fits it to a target
+coordinate system. The data fitting is performed by \emph{{[}Erzeugt
+einen aufsteigend geordneten linearen Datenvektor und passt diesen an
+ein Ziel-Koordinatensystem an. Die Datenanpassung erfolgt über{]}}
+
+\[x_{i}' = min_{x} + \{\lbrack\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{i} \right)\rbrack \cdot \frac{max_{x} - min_{x}}{\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{\max} \right)}\}\]
+
+When inverting a value, \(x_{i}''\) is calculated as \emph{{[}bei einer
+Wertinvertierung errechnet man} \(x_{i}''\) \emph{über{]}}
+
+\[x''_{i} = \left( min_{x} + max_{x} \right) - x'_{i},\]
+
+where \emph{{[}mit{]}}
+
+\(min_{x}\) \ldots.. Value of the minimum point in the target coordinate
+system\\
+\(max_{x}\) \ldots. Value of the maximum point in the target coordinate
+system\\
+\(x_{\min}\) \ldots\ldots. \emph{Vector} minimum value\\
+\(x_{\max}\) \ldots\ldots{} \emph{Vector} maximum value
+
+\(min_{x}\) \ldots.. \emph{{[}Wert des Minimalpunktes im
+Ziel-Koordinatensystem{]}}\\
+\(max_{x}\) \ldots. \emph{{[}Wert des Maximalpunktes im
+Ziel-Koordinatensystem{]}}\\
+\(x_{\min}\) \ldots\ldots. \emph{{[}Vektor Minimalwert{]}}\\
+\(x_{\max}\) \ldots\ldots{} \emph{{[}Vektor Maximalwert{]}}
+
+\begin{itemize}
+\tightlist
+\item
+  Output of a single-column, ascending linear \emph{ASCII} data
+  \emph{vector} file.
+\item
+  \emph{{[}Ausgabe einer einspaltigen, aufsteigend geordneten linearen
+  ASCII Datenvektordatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ntf [output][minn][maxn][min][max][inv] 
+[output] ...... Output file
+[minn] ........ n Minimum value 
+[maxn] ........ n Maximum value 
+[min] ......... Coordinates Minimum Position Value 
+[max] ......... Coordinates Maximum Position Value 
+[inv] ......... (1):inverted (0):not inverted
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ntf data_out.txt 1 30000 1 30000 0
+ntf data_out.txt 1 30000 372 50 1
+\end{verbatim}
+
+\hypertarget{sel}{%
+\subsubsection{4.15. SEL}\label{sel}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Selects a data \emph{vector} from a data \emph{matrix}
+\emph{{[}Selegiert einen Datenvektor aus einer Datenmatrix{]}},
+
+\[n_{\max} = 33000.\]
+
+\begin{itemize}
+\item
+  Import of an \emph{ASCII} data \emph{matrix} file.
+\item
+  Output of a single-column \emph{ASCII} data \emph{vector} file.
+\item
+  \emph{{[}Übernahme einer ASCII Datenmatrixdatei.{]}}
+\item
+  \emph{{[}Ausgabe einer einspaltigen ASCII Datenvektordatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+sel [input][output][a][k] 
+[input] ....... Input file 
+[output] ...... Output file 
+[a] ........... Vector number 
+[k] ........... Number of vectors
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+sel in.txt out.asc 3 5
+\end{verbatim}
+
+\hypertarget{srt}{%
+\subsubsection{4.16. SRT}\label{srt}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Sorts a data \emph{vector} \emph{{[}Sortiert einen Datenvektor{]}},
+
+\[n_{\max} = 33000,\]
+
+16-digit output \emph{{[}16 stellige Ausgabe{]}}.
+
+\begin{itemize}
+\item
+  Import of a single-column \emph{ASCII} data \emph{vector} file.
+\item
+  Output of a sorted single-column \emph{ASCII} data \emph{vector} file.
+\item
+  \emph{{[}Übernahme einer einspaltigen ASCII Datenvektordatei.{]}}
+\item
+  \emph{{[}Ausgabe einer sortierten einspaltigen ASCII
+  Datenvektordatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+srt [input][output] [[d]] 
+[input] ...... Input file 
+[output] ..... Output file 
+[d] .......... optional (1):descending sorting
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+srt in.txt out.txt
+srt in.txt out.txt 1
+\end{verbatim}
+
+\hypertarget{srt1}{%
+\subsubsection{4.17. SRT1}\label{srt1}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Concatenates two sorted data \emph{vectors} using filestream processing
+\emph{{[}Verkettet 2 sortierte Datenvektoren mit Filestream
+Verarbeitung{]}},
+
+\[n_{\max} \rightarrow \infty.\]
+
+\begin{itemize}
+\item
+  Import of two ascendingly sorted single-column \emph{ASCII} data
+  \emph{vector} files.
+\item
+  Output of a sorted single-column \emph{ASCII} file \emph{vector} file.
+\item
+  \emph{{[}Übernahme von zwei aufsteigend sortierten einspaltigen ASCII
+  Datenvektordateien.{]}}
+\item
+  \emph{{[}Ausgabe einer sortierten einspaltigen ASCII
+  Datenvektordatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+srt1 [input1][input2][output] 
+[input1] ...... Input file 1 
+[input2] ...... Input file 2 
+[output] ...... Output file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+srt1 in1.asc in2.asc out.asc
+\end{verbatim}
+
+\hypertarget{srt2}{%
+\subsubsection{4.18. SRT2}\label{srt2}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Sorts a data \emph{vector {[}Sortiert einen Datenvektor{]}},
+
+\[n_{\max} = 33000.\]
+
+Data sorting is performed via iterative pairwise comparison \emph{{[}Die
+Datensortierung erfolgt über iterativen Paarvergleich{]}}
+
+\[i\text{\ vs.\ }i + 1\]
+
+and pairwise exchange \emph{{[}und Paartausch{]}}
+
+\[i > i + 1.\]
+
+(slower than \textbf{\emph{SRT.EXE}}) \emph{{[}(langsamer als
+SRT.EXE){]}}.
+
+\begin{itemize}
+\item
+  Import of a single-column \emph{ASCII} data \emph{vector} file.
+\item
+  Output of a sorted single-column \emph{ASCII} data \emph{vector} file.
+\item
+  \emph{{[}Übernahme einer einspaltigen ASCII Datenvektordatei.{]}}
+\item
+  \emph{{[}Ausgabe einer sortierten einspaltigen ASCII
+  Datenvektordatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+srt2 [input][output] [[d]] 
+[input] ...... Input file 
+[output] ..... Output file
+[d] .......... optional (1):descending sorting
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+srt2 in.txt out.txt
+srt2 in.txt out.txt 1
+\end{verbatim}
+
+\hypertarget{srt3}{%
+\subsubsection{4.19. SRT3}\label{srt3}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Sorts a data \emph{vector} \emph{{[}Sortiert einen Datenvektor{]}},
+
+\[n_{\max} = 33000,\]
+
+max. 8 digits \emph{{[}max. 8-Stellen{]}}.
+
+Very fast calculation through implementation of the \emph{C}-function
+\textbf{\emph{Qsort}} \emph{{[}Sehr schnelle Berechnung durch Umsetzung
+der C-eigenen Qsort Funktion{]}}.
+
+\begin{itemize}
+\item
+  Import of a single-column \emph{ASCII} data \emph{vector} file.
+\item
+  Output of a sorted single-column \emph{ASCII} data \emph{vector} file.
+\item
+  \emph{{[}Übernahme einer einspaltigen ASCII Datenvektordatei.{]}}
+\item
+  \emph{{[}Ausgabe einer sortierten einspaltigen ASCII
+  Datenvektordatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+srt3 [input][output] [[d]] 
+[input] ...... Input file 
+[output] ..... Output file 
+[d] .......... optional (1):descending sorting
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+srt3 in.txt out.txt
+srt3 in.txt out.txt 1
+\end{verbatim}
+
+\hypertarget{v2v}{%
+\subsubsection{4.20. V2V}\label{v2v}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Concatenates two single-column \emph{ASCII} files (\(n_{1} = n_{2}\)
+required) \emph{{[}Fügt 2 einspaltige ASCII Dateien aneinander
+(}\(n_{1} = n_{2}\) \emph{wird vorausgesetzt){]}}.
+
+\begin{itemize}
+\item
+  Import of 2 single-column \emph{ASCII} files.
+\item
+  Output of a two-column \emph{ASCII} file.
+\item
+  \emph{{[}Übernahme von 2 einspaltigen ASCII Dateien.{]}}
+\item
+  \emph{{[}Ausgabe einer zweispaltigen ASCII Datei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+V2V [input1][input2][output][tab] 
+[input1] ...... Input file 1 
+[input2] ...... Input file 2 
+[output] ...... Output file 
+[tab] ......... Column separator
+                (0):Tabulator 
+                (1):Blank 
+                (*):String
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+V2V in1.txt in2.txt out.txt 1
+V2V in1.txt in2.txt out.txt <---->
+\end{verbatim}
+
+\hypertarget{z2z}{%
+\subsubsection{4.21. Z2Z}\label{z2z}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Concatenates two \emph{ASCII} files \emph{{[}Fügt zwei ASCII Dateien
+aneinander{]}}.
+
+\begin{itemize}
+\item
+  Import of two \emph{ASCII} files.
+\item
+  Output of an \emph{ASCII} file.
+\item
+  \emph{{[}Übernahme zweier ASCII Dateien.{]}}
+\item
+  \emph{{[}Ausgabe einer ASCII Datei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+Z2Z [input1][input2][output] 
+[input1] ...... Input file 1 
+[input2] ...... Input file 2 
+[output] ...... Output file 
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+Z2Z in1.txt in2.txt out.txt
+\end{verbatim}
+
+\textbf{Table 2}. \emph{ConsoleApp} functions overview with
+corresponding functions in \texttt{SCHRAUSSER-MAT} (Schrausser,
+\href{https://doi.org/10.17605/OSF.IO/8XE42}{2022}).
+
+\begin{verbatim}
+Category                    chpt.   nr.     Function    
+                                            ConsoleApp      SCHRAUSSER-MAT
+
+EEG/ Focus parameters       2       1       ERC, ERCX   
+                            2       2       XCOR    
+                            2       3       FOC¹    
+                            2       4       DIS¹    
+                            2       5       FLOC¹   
+                            2       6       OUT¹    
+
+Integral/ Interpolation     3       1       ROMI    
+                            3       2       ROME    
+                            3       3       KUSI    
+                            3       4       KUSF    
+                            3       5       NWTI    
+                            3       6       NWTP    
+
+Matrix/ Data manipulation   4       1       AMA             MXA, MXS
+                            4       2       IMA             MXI
+                            4       3       MMA             MXM
+                            4       4       QMA             MXQ
+                            4       5       SMA 
+                            4       6       SPUR            MSP
+                            4       7       TRP             MXT
+                            4       8       VMA             MXV
+                            4       9       ZMA 
+                            4       10      ENT 
+                            4       11      KTF 
+                            4       12      KTF2    
+                            4       13      KTF3    
+                            4       14      NTF 
+                            4       15      SEL 
+                            4       16      SRT 
+                            4       17      SRT1    
+                            4       18      SRT2    
+                            4       19      SRT3    
+                            4       20      V2V 
+                            4       21      Z2Z      
+\end{verbatim}
+
+¹) implemented in \texttt{ATINA} (Schrausser,
+\href{https://doi.org/10.5281/zenodo.19422127}{2006}).
+
+\hypertarget{consoleapp_string}{%
+\subsection{5. ConsoleApp\_String}\label{consoleapp_string}}
+
+Console applications for \emph{string-} and
+\emph{number-transformation}, see Schrausser
+(\href{https://doi.org/10.5281/zenodo.7653790}{2023d}).
+
+\hypertarget{dec}{%
+\subsubsection{5.1. 2DEC}\label{dec}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Converts the argument to a decimal \emph{number} \emph{{[}Argument in
+Dezimalzahl{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+2DEC [x] 
+[x] .......... Argument
+\end{verbatim}
+
+\hypertarget{dec2}{%
+\subsubsection{5.2. DEC2}\label{dec2}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Decimal \emph{number} conversion \emph{{[}Dezimalzahl Umwandlung{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+DEC2 [d]
+[d] .......... Decimal number
+\end{verbatim}
+
+\hypertarget{bin2dec}{%
+\subsubsection{5.3. BIN2DEC}\label{bin2dec}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Binary \emph{number} converted to decimal \emph{number}
+\emph{{[}Binärzahl in Dezimalzahl{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+BIN2DEC [b]
+[b] .......... Binary number
+\end{verbatim}
+
+\hypertarget{dec2bin}{%
+\subsubsection{5.4. DEC2BIN}\label{dec2bin}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Binary \emph{number} converted to decimal \emph{number}
+\emph{{[}Dezimalzahl in Binärzahl{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+DEC2BIN [d]
+[d] .......... Decimal number
+\end{verbatim}
+
+\hypertarget{abcd}{%
+\subsubsection{5.5. ABCD}\label{abcd}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Modifies or deletes \emph{strings} in an \emph{ASCII} file
+\emph{{[}Ändert oder löscht Strings einer ASCII Datei{]}.}
+
+\begin{itemize}
+\item
+  Import of an \emph{ASCII} file.
+\item
+  Output of a modified \emph{ASCII} file.
+\item
+  \emph{{[}Übernahme einer ASCII Datei.{]}}
+\item
+  \emph{{[}Ausgabe einer modifizierten ASCII Datei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+ABCD [input][output][ab][cd][sw]
+[input] ...... Input file
+[output] ..... Output file 
+[ab] ......... String to be modified
+[cd] ......... String to be inserted
+[sw] ......... (0):modifies 
+               (1):deletes (2):inserts a space
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+ABCD input.txt output.txt .txt .asc 0
+ABCD input.txt output.txt REM 0 1
+\end{verbatim}
+
+\hypertarget{azube}{%
+\subsubsection{5.6. AZUBE}\label{azube}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Changing individual characters in an \emph{ASCII} file \emph{{[}Änderung
+einzelner Zeichen einer ASCII Datei{]}.}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+AZUBE [input][output][a][b] 
+[input] ...... Input file
+[output] ..... Output file
+[a] .......... Character
+[b] .......... Modify 
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+AZUBE input.txt output.txt , .
+\end{verbatim}
+
+\hypertarget{tezute}{%
+\subsubsection{5.7. TEZUTE}\label{tezute}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Changing individual \emph{strings} in a file \emph{{[}Änderung einzelner
+Strings einer Datei{]}.}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+TEZUTE [input][output][a][b] 
+[input] ...... Input file
+[output] ..... Output file 
+[a] .......... String
+[b] .......... Modify 
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+78 00
+67 8
+null 00
+9 null
+\end{verbatim}
+
+\begin{verbatim}
+TEZUTE input.txt output.txt null 00
+\end{verbatim}
+
+\begin{verbatim}
+78
+00
+67
+8
+00
+00
+9
+00
+\end{verbatim}
+
+Edit source code for formatted output \emph{{[}Zur formatierten Ausgabe
+Quellcode bearbeiten{]}}.
+
+\hypertarget{ab_l}{%
+\subsubsection{5.8. AB\_L}\label{ab_l}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Inserts a \emph{string} (i) before and/or a \emph{string} (ii) after
+each line of a file \emph{{[}Fügt einen String (i) vor und/oder einen
+String (ii) nach jeder Zeile einer Datei ein{]}}.
+
+\begin{itemize}
+\item
+  Import of a single-column \emph{ASCII} file.
+\item
+  Output of a (one-,) two- or three-column \emph{ASCII} file.
+\item
+  \emph{{[}Übernahme einer einspaltigen ASCII Datei.{]}}
+\item
+  \emph{{[}Ausgabe einer (ein-,) zwei- oder dreispaltigen ASCII
+  Datei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+AB_L [input][output][a][sw][z][sw]
+[input] ...... Input file 
+[output] ..... Output file
+[a] .......... String inserted before each line of input file
+[sw] ......... (0):no insert before each line 
+[z] .......... String inserted after each line of input file
+[sw] ......... (0):no insert after each line
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+AB_L in.txt out.txt move 1 verzeichnis 1
+AB_L in.txt out.txt del 1 0 0
+\end{verbatim}
+
+\hypertarget{biia}{%
+\subsubsection{5.9. BIIA}\label{biia}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Encodes a file into an \emph{ASCII} file (recoding via
+\textbf{\emph{AIIB.EXE}}) \emph{{[}Encodiert eine Datei in eine ASCII
+Datei (Recodierung via AIIB.EXE){]}}.
+
+\begin{itemize}
+\item
+  Import of a file.
+\item
+  Output of an encoded \emph{ASCII} file (\textbf{\emph{*.bii}}).
+\item
+  \emph{{[}Übernahme einer Datei.{]}}
+\item
+  \emph{{[}Ausgabe einer} \emph{encodierten ASCII Datei (*.bii).{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+BIIA [input][output][mode][form]
+[input] ...... Input file
+[output] ..... Output file in ASCII format (*.bii)
+[mode] ....... (1):cd01 SCHRAUSSER CODE, uppercase letter combination (2 characters, e.g. AA, FD, ..., good readability – unambiguous, for archiving)
+               (2):cd02 SCHRAUSSER CODE, keyboard character comb. (1 or 2 characters, e.g. a, 1A, ..., small file) 
+               (3):cd03 SCHRAUSSER CODE, number combination (3 characters, e.g. 001, 123, ..., optimal readability)
+               (4):cd04 SCHRAUSSER CODE, ASCII-combination (1 or 2 characters, e.g. -, #+, ..., minimum file size) 
+               (5):HEX Hexadecimal value - No AIIB recoding
+               (6):DEZ Decimal value
+               (7):OKT Octal value – No AIIB recoding
+               (8):ASCII characters directly - No AIIB recoding
+[form] ....... (1):1-column ASCII output 
+               (2):1-line ASCII output in block format without breaks
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+BIIA bild.jpg bild.bii 4 2
+\end{verbatim}
+
+\hypertarget{aiib}{%
+\subsubsection{5.10. AIIB}\label{aiib}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Recodes a \emph{SCHRAUSSER CODE} or decimal encoded file (encoding via
+\textbf{\emph{BIIA.EXE}}) \emph{{[}Recodiert eine SCHRAUSSER CODE oder
+dezimal encodierte Datei (Encodierung via BIIA.EXE){]}}.
+
+\begin{itemize}
+\item
+  Importing a \emph{SCHRAUSSER CODE} file (\textbf{\emph{*.bii}}).
+\item
+  Output of the recoded original file.
+\item
+  \emph{{[}Übernahme einer SCHRAUSSER CODE Datei (*.bii).{]}}
+\item
+  \emph{{[}Ausgabe der recodierten Ursprungsdatei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+AIIB [input]
+[input] ...... SCHRAUSSER CODE file
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+AIIB bild.bii
+\end{verbatim}
+
+\hypertarget{stgersetz}{%
+\subsubsection{5.11. STGERSETZ}\label{stgersetz}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Modification of one or more \emph{substrings} (single characters or
+\emph{strings}) in a contiguous \emph{string} (without spaces), read as
+a line of an \emph{ASCII} file \emph{{[}Änderung ein oder mehrerer
+Substrings (Einzelzeichen oder Zeichenketten) in einem zusammenhängenden
+String (ohne Leerzeichen), eingelesen als Zeile einer ASCII Datei{]}}.
+
+\begin{itemize}
+\tightlist
+\item
+  Importing a line from an \emph{ASCII} file.
+\item
+  \emph{{[}Übernahme einer Zeile aus einem ASCII-File.{]}}
+\end{itemize}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+12345678
+abcdefghijk
+ABCDEFG
+1234567890
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Line-by-line processing of the \emph{strings} and output to an
+  \emph{ASCII} file.
+\item
+  \emph{{[}zeilenweise Bearbeitung der Strings und Ausgabe in ein
+  ASCII-File.{]}}
+\end{itemize}
+
+The processing steps are logged in \textbf{\emph{stgersetz\_log.txt}}
+\emph{{[}Die Bearbeitungsschritte werden in stgersetz\_log.txt
+protokolliert{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+STGERSETZ [input][output][typ][alt][neu]
+[input] ...... Input file (strings line by line)
+[output] ..... Output file (strings line by line)
+[typ] ........ (0):deletes
+               (1):modifies
+               (2):insert a space
+[alt] ........ String to be modified
+[neu] ........ Change to string
+\end{verbatim}
+
+The type of argument {[}neu{]} has no effect on {[}typ{]} (0)
+\emph{delete} and (2) \emph{insert a space}, but must be specified as
+character (e.g.~`-'). A space in the input file splits the \emph{string}
+and results in a new line in the output file. Some special characters
+are ignored \emph{{[}Die Art des Arguments {[}neu{]} hat für {[}typ{]}
+(0) löschen und (2) ein Leerzeichen einfügen keine Auswirkung, muss aber
+als beliebiges Zeichen angegeben werden (iuF. `-'). Ein Leerzeichen in
+der Eingabedatei trennt die Zeichenkette und führt zu einer neuen Zeile
+in der Ausgabedatei. Manche Sonderzeichen bleiben unberücksichtigt{]}.}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+STGERSETZ input.txt output.txt 0 8 - //deletes 8
+\end{verbatim}
+
+\begin{verbatim}
+1234567
+abcdefghijk
+ABCDEFG
+123456790
+\end{verbatim}
+
+\begin{verbatim}
+STGERSETZ input.txt output.txt 1 def DEF //changes def to DEF
+\end{verbatim}
+
+\begin{verbatim}
+12345678
+abcDEFghijk
+ABCDEFG
+1234567890
+\end{verbatim}
+
+\begin{verbatim}
+STGERSETZ input.txt output.txt 2 234 - //inserts a space for 234
+\end{verbatim}
+
+\begin{verbatim}
+1 5678
+abcdefghijk
+ABCDEFG
+1 567890
+\end{verbatim}
+
+\hypertarget{consoleapp_tools}{%
+\subsection{6. ConsoleApp\_Tools}\label{consoleapp_tools}}
+
+Console \emph{tool} applications, see Schrausser
+(\href{https://doi.org/10.5281/zenodo.7655239}{2023e}).
+
+\hypertarget{auto}{%
+\subsubsection{6.1. AUTO}\label{auto}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Creates a \emph{C}-source file and directory structure.
+
+\begin{itemize}
+\tightlist
+\item
+  Declaration of parmeters (\emph{name}, \emph{filestreams},
+  \emph{loops}).
+\item
+  Creation of framework-file \textbf{\emph{NAME.c}} as specified.
+\item
+  Creation of \emph{ASCII} framework-file
+  \textbf{\emph{NOTE\_NAME.txt}}.
+\end{itemize}
+
+Directory structure:
+
+\begin{verbatim}
+_NAME_\NAME.c
+_NAME_\debug\NOTE_NAME.txt
+             DOSCOM.exe
+\end{verbatim}
+
+Usage:
+
+\begin{verbatim}
+AUTO [name][input][output][nl][L]
+[name] ....... C projekt mame 
+[input] ...... ASCII input filename
+[output] ..... ASCII output filename
+[nl] ......... Number of loop-shells to implement
+[L] .......... Language (0):English (1):German
+\end{verbatim}
+
+Example:
+
+\begin{verbatim}
+AUTO TEST 0 0 0 0
+AUTO PRO1 input.txt output.txt 3 1
+AUTO PRO2 0 output.txt 1 0
+\end{verbatim}
+
+\hypertarget{dls}{%
+\subsubsection{6.2. DLS}\label{dls}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Writes a file to the console \emph{{[}Schreibt eine Datei zur
+Konsole{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+DLS [input] [ [i][m1][m2] ]
+[input] ...... Input file 
+optional:
+[i] .......... (1):displays file name, n, k, m1, m2, i, j 
+               (0):displays no additional information
+[m1] ......... Start line of text output 
+[m2] ......... End line of text output
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+DLS NOTIZ_DLS.txt
+DLS NOTIZ_DLS.txt 1
+DLS NOTIZ_DLS.txt 1 1
+DLS NOTIZ_DLS.txt 0 3 10
+DLS NOTIZ_DLS.txt 1 10 10
+\end{verbatim}
+
+\hypertarget{fil}{%
+\subsubsection{6.3. FIL}\label{fil}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Writes a list of all specified files in the current directory to an
+\emph{ASCII} file \emph{{[}Schreibt eine Liste aller spezifizierten
+Dateien des aktuellen Verzeichnisses in eine ASCII Datei{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+FIL [output][*] 
+[output] ..... Output file 
+[*] .......... File specification
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+FIL dir.txt *.*
+\end{verbatim}
+
+\hypertarget{kopie}{%
+\subsubsection{6.4. KOPIE}\label{kopie}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Copies a file \emph{{[}Kopiert eine Datei{]}}.
+
+\begin{itemize}
+\item
+  Import of a file.
+\item
+  Output of a copy of a file (if applicable modified).
+\item
+  \emph{{[}Übernahme einer Datei.{]}}
+\item
+  \emph{{[}Ausgabe einer (ggf. modifizierten) Dateikopie.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+KOPIE [input][output] ([switch]) 
+[input] ...... Input file 
+[output] ..... Output file 
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+KOPIE DTREN.BAT DTRENA.BAT
+\end{verbatim}
+
+\hypertarget{src}{%
+\subsubsection{6.5. SRC}\label{src}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Writes the command-line argument to an \emph{ASCII} file
+\emph{{[}Schreibt das Kommandozeilenargument in eine ASCII Datei{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+SRC [output][typ][arg][sw]
+[output] ..... Output file
+[typ] ........ (0):attach (1):create 
+[arg] ........ Argument
+[sw] ......... (0):line break (1):space (2):no character
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+SRC out.bat 1 lsn 1
+SRC out.bat 0 nul.txt 0
+\end{verbatim}
+
+\hypertarget{t}{%
+\subsubsection{6.6. T}\label{t}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Inserts the commandline arguments into the \emph{ASCII} file
+\textbf{\emph{T.txt}}. The arguments are separated by a space
+\emph{{[}Fügt die Kommandozeilenargumente in die ASCII Datei T.txt ein.
+Die Argumente werden in der Datei durch ein Leerzeichen getrennt{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+T [argi]…[argn]
+[argi] ....... String
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+T This is a very simple program
+T for fast text input into a file.
+T Das ist ein sehr einfaches Programm
+T zur schnellen Texteingabe in eine Datei.
+\end{verbatim}
+
+\hypertarget{doscom}{%
+\subsubsection{6.7. DOSCOM}\label{doscom}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Starts a \emph{DOS} \emph{shell} in the current directory. Copies itself
+to the directory \textbf{\emph{{[}\_DOSCOM{]}}}, which is linked to the
+desktop. Renames to \emph{nil} after use in the current directory
+\emph{{[}Startet eine DOS-Shell im aktuellen Verzeichnis. Kopiert sich
+selbst in das mit dem Desktop verknüfte Verzeichis {[}\_DOSCOM{]}.
+Umbenennung in nil nach Gebrauch im aktuellen Verzeichis{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\emph{Drag} the desktop shortcut \textbf{\emph{{[}\_DOSCOM{]}}} to any
+directory, run it there, and delete it after use \emph{{[}Aus der
+Desktopverknüpfung {[}\_DOSCOM{]} in ein beliebiges Verzeichnis ziehen,
+dort ausführen und nach Gebrauch löschen{]}}.
+
+\hypertarget{finde}{%
+\subsubsection{6.8. FINDE}\label{finde}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Search and \emph{find} files \emph{{[}Dateien suchen und finden{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+FINDE [file]
+[file] ....... File to be found
+\end{verbatim}
+
+\hypertarget{lsn}{%
+\subsubsection{6.9. LSN}\label{lsn}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Deletes a file \emph{{[}Löscht eine Datei{]}}.
+
+\begin{itemize}
+\tightlist
+\item
+  Input the name of a file to be deleted.
+\item
+  \emph{{[}Übernahme des Namens einer zu löschenden Datei.{]}}
+\end{itemize}
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+LSN [file] 
+[file] ....... Filename 
+\end{verbatim}
+
+Example \emph{{[}Bsp.{]}}:
+
+\begin{verbatim}
+LSN oo
+\end{verbatim}
+
+\hypertarget{cmnd-cmndw}{%
+\subsubsection{6.10. CMND, CMNDw}\label{cmnd-cmndw}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Executes \emph{console} commands with arguments \emph{{[}Führt
+Consolenbefehle mit Argumenten aus{]}}.
+
+Usage \emph{{[}Handhabung{]}}:
+
+\begin{verbatim}
+CMND [cmd]
+[cmd] ........ Command
+
+CMNDw [cmd][argc]
+[cmd] ........ Command
+[argc] ....... n of Arguments
+\end{verbatim}
+
+\textbf{Table 3}. \emph{ConsoleApp} tools overview.
+
+\begin{verbatim}
+Category        chpt.   nr.     Function
+
+String/ Number  5       1       2DEC
+                5       2       DEC2
+                5       3       BIN2DEC
+                5       4       DEC2BIN
+                5       5       ABCD
+                5       6       AZUBE
+                5       7       TEZUTE
+                5       8       AB_L
+                5       9       BIIA
+                5       10      AIIB
+                5       11      STGERSETZ
+
+Tools           6       1       AUTO
+                6       2       DLS
+                6       3       FIL
+                6       4       KOPIE
+                6       5       SRC
+                6       6       T
+                6       7       DOSCOM
+                6       8       FINDE
+                6       9       LSN
+                6       10      CMND, CMNDw           
+\end{verbatim}
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
+
+\end{document}
