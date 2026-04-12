@@ -778,7 +778,7 @@ nr.		Function
 21		Verteilungsform		
 22		Verteilungsform_2u		
 23		Verteilungsform_kor
-~~~	
+~~~
 
 ¹) implemented in `FunktionWin` (Schrausser, [2023f](https://doi.org/10.5281/zenodo.7651661),
 [2025c](https://doi.org/10.5281/zenodo.17880113)).  
