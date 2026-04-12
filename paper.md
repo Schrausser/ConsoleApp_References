@@ -13,7 +13,7 @@ Applications for calculating (1) *distribution* functions and
 *bootstrap* estimators (s. Tab. 1; c.f. Schrausser,
 [2023a](https://doi.org/10.5281/zenodo.7664141),
 [2024a](https://doi.org/10.31234/osf.io/rvzxa)), (2) various parameters
-within the framework of psycho-physiological *EEG* measurements (c.f.
+within the framework of psychophysiological *EEG* measurements (c.f.
 Schrausser, [2024b](https://doi.org/10.5281/zenodo.10701349)), (3)
 *integral* and *interpolation* (Schrausser,
 [2023b](https://doi.org/10.5281/zenodo.7655056)) and (4) *matrix*
@@ -30,7 +30,7 @@ The applications are written in *ANSI-C* (c.f. Gerlach,
 [2019](https://doi.org/10.1007/978-3-662-59246-5_4); Joyce,
 [2019](https://doi.org/10.1007/978-1-4842-5064-8); Gonzalez-Morris &
 Horton, [2024](https://doi.org/10.1007/979-8-8688-0149-5)), executables
-were com-piled for *MS-DOS* (c.f. Kaier,
+were compiled for *MS-DOS* (c.f. Kaier,
 [1990](https://doi.org/10.1007/978-3-322-89035-1_1); Herrmann,
 [2001](https://doi.org/10.1007/978-3-322-94365-1_16)).
 
@@ -59,7 +59,7 @@ The following functions are available:
 (1.1.-1.2.) *Binomial* distribution (de Moivre,
 [1711](https://doi.org/10.1098/rstl.1710.0018); Bernoulli,
 [1713](https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001)) as a discrete
-distribution of probability values from fre-quency ratios of two groups,
+distribution of probability values from frequency ratios of two groups,
 c.f. Collani and Dräger
 ([2001](https://doi.org/10.1007/978-1-4612-0215-8)), Philippou and
 Antzoulakos ([2025](https://doi.org/10.1007/978-3-662-69359-9_71)),
@@ -90,7 +90,7 @@ Möller ([2023](https://doi.org/10.1007/s42519-023-00323-w),
 
 (1.4.) Fisher-Snedecor $F$-distribution (Fisher,
 [1924](https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics)),
-a continu-ous probability distribution for determining significance
+a continuous probability distribution for determining significance
 levels in multigroup and factorial designs, c.f. also David
 ([1949](http://www.jstor.org/stable/2332676)), Patnaik
 ([1949](http://www.jstor.org/stable/2332542)), Zinger
@@ -106,8 +106,8 @@ Moran ([1978](https://doi.org/10.2307/3213414)), Herrmann
 (1.5.) *Fisher's exact test* (Fisher,
 [1922](https://doi.org/10.2307/2340521); s. Altham,
 [1969](http://www.jstor.org/stable/2984209)), *[exact]{.underline}*
-*hypergeometric* 4-field test, a non-parametric statistical proce-dure
-for significance testing of frequency distributions in 2×2 de-signs, see
+*hypergeometric* 4-field test, a nonparametric statistical procedure
+for significance testing of frequency distributions in 2×2 designs, see
 in this context e.g. Upton
 ([1992](http://www.jstor.org/stable/2982890)), Camilli
 ([1995](https://doi.org/10.1007/BF02301418)), Hersh-berger
@@ -115,9 +115,9 @@ in this context e.g. Upton
 ([2025](https://doi.org/10.1007/978-3-662-69359-9_693)).
 
 (1.6.) *Fisher* $Z$-transformation (Fisher,
-[1915](https://doi.org/10.2307/2331838)), to adjust the distri-bution of
+[1915](https://doi.org/10.2307/2331838)), to adjust the distribution of
 *product moment* correlation coefficients $r$ to a *normal* distribution
-in order to perform valid significance tests, inter-esting discussions
+in order to perform valid significance tests, interesting discussions
 on the topic are given by Hjelm and Norris
 ([1962](http://www.jstor.org/stable/20156574)), Mendoza
 ([1993](https://doi.org/10.1007/BF02294830)), Bond and Richardson
@@ -127,7 +127,7 @@ on the topic are given by Hjelm and Norris
 
 (1.7.-1.8.) *Gamma* function $\Gamma$ (Bernoulli,
 [1729](https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg))
-to extend the fac-torial to non-integer arguments (c.f. Borwein &
+to extend the factorial to noninteger arguments (c.f. Borwein &
 Corless, [2018](https://www.jstor.org/stable/48663320)). The *gamma*
 integral, or *gamma* value, is also a *[central]{.underline}* parame-ter
 of the $F$, $t$, and $\chi ²$ distributions implemented here, s. e.g.
@@ -169,14 +169,14 @@ into this method provide e.g. Rao and Chakravarti
 ([1958](http://www.jstor.org/stable/2333201)), Haight
 ([1967](https://books.google.com/books?id=l8Y-AAAAIAAJ)), Simonton
 ([1978](http://www.jstor.org/stable/284821)), Jolicoeur
-([1999](https://doi.org/10.1007/978-1-4615-4777-8_19)), Finkel-shtein et
+([1999](https://doi.org/10.1007/978-1-4615-4777-8_19)), Finkelshtein et
 al. ([2025](https://doi.org/10.1007/s11009-025-10171-9)) or Zhang
 ([2025](https://doi.org/10.54254/2754-1169/2025.BJ24761)).
 
 (1.12.) Student's $t$-distribution (Lüroth,
 [1876](https://doi.org/10.1002/asna.18760871402); Gosset,
 [1908](https://doi.org/10.2307/2331554)) to approximate significance
-levels if sample sizes $n$ are small, it con-verges to the *normal*
+levels if sample sizes $n$ are small, it converges to the *normal*
 distribution as $n$ increases (s. Wang,
 [2011](https://doi.org/10.1016/j.spl.2011.03.037)), c.f. further
 Cacoullos ([1965](http://www.jstor.org/stable/2282687)), Yang et al.
@@ -211,7 +211,7 @@ and Hilferty ([1931](http://www.jstor.org/stable/86022)), Patnaik
 (1.14.-1.15.) *Normal* distribution (de Moivre,
 [1738](https://books.google.com/books?id=PII\_AAAAcAAJ)) or *Gaussian*
 distribution is fundamental to the *central limit theorem*, which states
-that the means of many independent, identically distri-buted random
+that the means of many independent, identically distributed random
 variables tend to follow this *normal* distribution, the
 *[basis]{.underline}* of *inferential statistics*. The
 $z$-transformation with a mean of $\overline{x\ } = \ 0$ and a standard
@@ -240,7 +240,7 @@ Musselwhite Thompson
 
 *Theta* applications (1.16.-1.23.) generating distributions and
 *estimators* for several parameters $\theta$ (*theta*) within different
-de-signs via *bootstrap* method (Efron,
+designs via *bootstrap* method (Efron,
 [1979](https://doi.org/10.1214/aos/1176344552),
 [1981](https://doi.org/10.1093/biomet/68.3.589),
 [1982](https://doi.org/10.1137/1.9781611970319), res.), with given
@@ -796,11 +796,11 @@ Console applications (c.f. Schrausser,
 Beck,
 [1890](https://scholar.google.com/scholar_lookup?&title=Die%20Str%C3%B6me%20der%20Nervenzentren&journal=Zbl%20Physiol&volume=4&pages=572-573&publication_year=1890&author=Beck%2CA)
 and Berger, [1929](https://doi.org/10.1007/BF01797193)) parameters
-im-plemented in *ATINA* (Schrausser,
+implemented in *ATINA* (Schrausser,
 [[2006](https://github.com/Schrausser/ATINA)](https://doi.org/10.5281/zenodo.19422127)),
 calculating *coherence* (2.1.; c.f. French & Graham,
 [1984](https://doi.org/10.1016/0167-8760(84)90044-8); Schrausser et al.,
-[2001](https://doi.org/10.5281/zenodo.13738772); Gueva-ra et al.,
+[2001](https://doi.org/10.5281/zenodo.13738772); Guevara et al.,
 [2011](https://doi.org/10.4236/jbise.2011.412096); Puthanmadam
 Subramaniyam & Thiagarajan,
 [2025](https://doi.org/10.1038/s41598-025-94076-0)), *cross*
@@ -819,7 +819,7 @@ Siuly et al. ([2017](https://doi.org/10.1007/978-3-319-47653-7)), Panov
 ([2025](https://doi.org/10.1007/978-3-031-81311-5)) or Meschede et al.
 ([2026](https://doi.org/10.1007/978-3-662-30201-9)).
 
-For the implementation of the methods in the fields of neuro-psychology
+For the implementation of the methods in the fields of neuropsychology
 or psychobiology see e.g. Neubauer et al.
 ([2002](https://doi.org/10.1016/S0160-2896(02)00091-0)), Neubauer et al.
 ([2005](https://doi.org/10.1016/j.cogbrainres.2005.05.011)),
@@ -990,7 +990,7 @@ The included methods are as follows:
 (3.1.-3.2.) *Romberg's method* (Romberg,
 [1955](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://web.eng.fiu.edu/LEVY/images/EGM5346/romberg%2520textbook%2520example.pdf&ved=2ahUKEwiSxr-u846SAxVFQvEDHd83Bj8QFnoECHMQAQ&usg=AOvVaw3vtOkKCF8WeDkOB49i_03i))
 as an analytical method for achieving higher approximation accuracy for
-inte-grals, based on the *Richardson extrapolation* (Richardson,
+integrals, based on the *Richardson extrapolation* (Richardson,
 [1911](https://doi.org/10.1098/rsta.1911.0009); s. Rannacher,
 [1987](https://doi.org/10.1007/978-3-322-85997-6_9); Bickel & Yahav,
 [1988](http://www.jstor.org/stable/2288854); Sidi,
@@ -1016,7 +1016,7 @@ Jetter ([1984](https://doi.org/10.1007/BF01389471)), Talay and Tubaro
 [1992](https://doi.org/10.1016/0898-1221(92)90177-J); Agarwal & Wong,
 [1993](https://doi.org/10.1007/978-94-011-2026-5_6); Farin,
 [1994](https://doi.org/10.1007/978-3-663-10602-9_9)) as a method for
-*polynomial* *curve fitting* and precise interpolation of *em-pirical*
+*polynomial* *curve fitting* and precise interpolation of *empirical*
 data points, where the rate of change corresponds to the slope,
 resulting in smooth, continuous function curves. See in this context
 Cheng and Barsky ([1991](https://doi.org/10.1016/0010-4485(91)90023-P)),
@@ -1044,10 +1044,10 @@ as a further method for *curve fitting* which is easier to calculate,
 however, has lower accuracy and stability compared to interpolation via
 *cubic splines*, calculates a significantly less smooth curve and is
 therefore better suited for *smaller* datasets and lower accuracy
-requirements. For an overview c.f. Rutis-hauser
+requirements. For an overview c.f. Rutishauser
 ([1990](https://doi.org/10.1007/978-1-4612-3468-5_6)), Scherer
 ([2010](https://doi.org/10.1007/978-3-642-13990-1_2)) or Epperson
-([2021](https://doi.org/10.1002/9781119604570.ch4)), further in-sight
+([2021](https://doi.org/10.1002/9781119604570.ch4)), further insight
 give e.g. Tsao ([1977](https://doi.org/10.1007/BF01389317)) and Zou et
 al. ([2020](https://doi.org/10.1155/2020/9020541)).
 
@@ -1062,7 +1062,7 @@ $$\int_{a}^{b}f(x)dx$$
 
 by means of the *Romberg method*, if applicable including file output to
 ***romi.txt*** from the function *matrix \[mittels Romberg Methode,
-dabei ggf. Dateiausgabe nach romi.txt von Funkti-onsmatrix\]*
+dabei ggf. Dateiausgabe nach romi.txt von Funktionsmatrix\]*
 
 $$\mathbf{F =}\left( \mathbf{x|y} \right),$$
 
@@ -1105,7 +1105,7 @@ ROMI -9 0 0.5 0 1
 
 Approximates $\int_{a}^{b}f(x)dx$ using *Romberg extrapolation*
 *\[Appro-ximiert* $\int_{a}^{b}f(x)dx$ *mittels Romberg-Extrapolation\]*
-(see. Mey-berg & Vachenauer,
+(see. Meyberg & Vachenauer,
 [2001b](https://doi.org/10.1007/978-3-642-56654-7_4), p. 209).
 
 -   Execution of ***ROME.bat***:
@@ -1268,7 +1268,7 @@ NWTI in.txt 3
 $\mathbf{F =}\left( \mathbf{x|p}\left( \mathbf{x} \right) \right)$
 corresponding to coefficient *vector* $\mathbf{a}$, where *\[Newton
 Interpolations Polynom: Berechnung einer
-[Funk]{.underline}-[tionsmatrix]{.underline}*
+[Funktionsmatrix]{.underline}*
 $\mathbf{F =}\left( \mathbf{x|p}\left( \mathbf{x} \right) \right)$ *zu
 Koeffizientenvektor* $\mathbf{a}$*, wobei\]*
 
@@ -1324,7 +1324,7 @@ general c.f. Meyberg and Vachenauer
 
 ---
 
-Adds or subtracts 2 *matrices*, with given *\[Addiert oder subtra-hiert
+Adds or subtracts 2 *matrices*, with given *\[Addiert oder subtrahiert
 2 Matrizen\]*,
 
 $$k_{1} = k_{2}\text{,\ }n_{1} = n_{2}.$$
@@ -1358,8 +1358,8 @@ AMA in1.txt in2.txt out.txt 0
 ---
 
 Calculates the inverse $\mathbf{A}^{- 1}$ of $\mathbf{A}$ using the
-*chained* form of *Gaus-sian elimination \[Berechnet die inverse*
-$\mathbf{A}^{- 1}$ *von* $\mathbf{A}$ *über die ver-kettete Form des
+*chained* form of *Gaussian elimination \[Berechnet die inverse*
+$\mathbf{A}^{- 1}$ *von* $\mathbf{A}$ *über die verkettete Form des
 Gaussschen Algorithmus\]*,
 
 $$k_{\max} = n_{\max} = 200,a_{11} \neq 0.$$
@@ -1369,7 +1369,7 @@ as well as the *matrix* $\mathbf{T}$ to the generated identity *matrix*
 $\mathbf{E}$; $\mathbf{A}^{- 1}$ is obtained by its transpose *\[Es
 resultieren 2 Dreiecksmatrizen* $\mathbf{B}$ *und* $\mathbf{C}$*, sowie
 die Matrix* $\mathbf{T}$ *zur erzeugten Einheitsmatrix* $\mathbf{E}$*,*
-$\mathbf{A}^{- 1}$ *entsteht trans-poniert\]:*
+$\mathbf{A}^{- 1}$ *entsteht transponiert\]:*
 
 ~~~
 . . .  A   1 0 0  E
@@ -1413,7 +1413,7 @@ IMA in.txt out.txt
 
 Multiplies two *matrices* ($k_{1} = n_{2}$ is assumed). The
 result is a *matrix* with *\[Multipliziert 2 Matrizen (*$k_{1} = n_{2}$
-*wird voraus-gesetzt). Es resultiert eine Matrix mit\]*
+*wird vorausgesetzt). Es resultiert eine Matrix mit\]*
 
 $$n = n_{1},\text{\ }k = k_{2}:$$
 
@@ -1565,7 +1565,7 @@ Transposes a data *matrix* *\[Transponiert eine Datenmatrix\]*,
 $$n_{\max} = k_{\max} = 1299.$$
 
 Column separator, input file: tab or space. Column separator, output
-file: 1 space *\[Spaltentrennzeichen, Eingabedatei: Tabula-tor oder
+file: 1 space *\[Spaltentrennzeichen, Eingabedatei: Tabulator oder
 Leerzeichen. Spaltentrennzeichen, Ausgabedatei: 1 Leerzeichen\].*
 
 -   Importing an *ASCII* data *matrix* file.
@@ -1674,7 +1674,7 @@ ZMA in.txt out.txt 3
 
 Performs a symmetrical interlaced split of a data *vector* file
 $\mathbf{x}_{0}$ *\[Führt eine symmetrische entwobene Aufteilung einer
-Datenvek-tordatei* $\mathbf{x}_{0}$ *durch\]*:
+Datenvektordatei* $\mathbf{x}_{0}$ *durch\]*:
 
 ~~~
 x0
@@ -1718,8 +1718,8 @@ ENT in.txt out1.txt out2.txt
 ---
 
 Reduces or increases the size of a *perfectly* linear data *vector*. The
-data adjustment up to $n'$ is iteratively performed by *\[Verrin-gert
-oder vergrössert den Umfang eines perfekt linearen Daten-vektors. Die
+data adjustment up to $n'$ is iteratively performed by *\[Verringert
+oder vergrössert den Umfang eines perfekt linearen Datenvektors. Die
 bis* $n'$ *iterative Datenanpassung erfolgt über\]*
 
 $$x_{i}\lbrack n\rbrack = x_{i}\lbrack n + 1\rbrack \cdot \frac{n}{n - 1};n' < n,$$
@@ -1857,7 +1857,7 @@ Ziel-Koordinatensystem an. Die Datenanpassung erfolgt über\]*
 $$x_{i}' = min_{x} + \{\lbrack\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{i} \right)\rbrack \cdot \frac{max_{x} - min_{x}}{\left( min_{x} - x_{\min} \right) - \left( min_{x} - x_{\max} \right)}\}$$
 
 When inverting a value, $x_{i}''$ is calculated as *\[bei einer
-Wertinver-tierung errechnet man* $x_{i}''$ *über\]*
+Wertinvertierung errechnet man* $x_{i}''$ *über\]*
 
 $$x''_{i} = \left( min_{x} + max_{x} \right) - x'_{i},$$
 
@@ -1904,7 +1904,7 @@ ntf data_out.txt 1 30000 372 50 1
 ---
 
 Selects a data *vector* from a data *matrix* *\[Selegiert einen
-Daten-vektor aus einer Datenmatrix\]*,
+Datenvektor aus einer Datenmatrix\]*,
 
 $$n_{\max} = 33000.$$
 
@@ -1944,7 +1944,7 @@ $$n_{\max} = 33000,$$
 -   Output of a sorted single-column *ASCII* data *vector* file.
 
 -   *\[Übernahme einer einspaltigen ASCII Datenvektordatei.\]*
--   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvek-tordatei.\]*
+-   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvektordatei.\]*
 
 Usage *\[Handhabung\]*:
 
@@ -1966,8 +1966,8 @@ srt in.txt out.txt 1
 
 ---
 
-Concatenates two sorted data *vectors* using filestream proces-sing
-*\[Verkettet 2 sortierte Datenvektoren mit Filestream Verar-beitung\]*,
+Concatenates two sorted data *vectors* using filestream processing
+*\[Verkettet 2 sortierte Datenvektoren mit Filestream Verarbeitung\]*,
 
 $n_{\max} \rightarrow \infty$.
 
@@ -1975,9 +1975,9 @@ $n_{\max} \rightarrow \infty$.
     files.
 -   Output of a sorted single-column *ASCII* file *vector* file.
 
--   *\[Übernahme von zwei aufsteigend sortierten einspalti-gen ASCII
+-   *\[Übernahme von zwei aufsteigend sortierten einspaltigen ASCII
     Datenvektordateien.\]*
--   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvek-tordatei.\]*
+-   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvektordatei.\]*
 
 Usage *\[Handhabung\]*:
 
@@ -2017,7 +2017,7 @@ $$i > i + 1.$$
 -   Output of a sorted single-column *ASCII* data *vector* file.
 
 -   *\[Übernahme einer einspaltigen ASCII Datenvektordatei.\]*
--   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvek-tordatei.\]*
+-   *\[Ausgabe einer sortierten einspaltigen ASCII Datenvektordatei.\]*
 
 Usage *\[Handhabung\]*:
 
@@ -2075,7 +2075,7 @@ srt3 in.txt out.txt 1
 
 Concatenates two single-column *ASCII* files ($n_{1} = n_{2}\ $required)
 *\[Fügt 2 einspaltige ASCII Dateien aneinander (*$n_{1} = n_{2}$ *wird
-vor-ausgesetzt)\]*.
+vorausgesetzt)\]*.
 
 -   Import of 2 single-column *ASCII* files.
 -   Output of a two-column *ASCII* file.
@@ -2190,7 +2190,7 @@ Schrausser ([2023d](https://doi.org/10.5281/zenodo.7653790)).
 ---
 
 Converts the argument to a decimal *number* *\[Argument in
-Dezi-malzahl\]*.
+Dezimalzahl\]*.
 
 Usage *\[Handhabung\]*:
 
@@ -2336,7 +2336,7 @@ TEZUTE input.txt output.txt null 00
 00
 ~~~
 
-Edit source code for formatted output *\[Zur formatierten Ausga-be
+Edit source code for formatted output *\[Zur formatierten Ausgabe
 Quellcode bearbeiten\]*.
 
 ### 5.8. AB_L
@@ -2444,7 +2444,7 @@ AIIB bild.bii
 
 Modification of one or more *substrings* (single characters or
 *strings*) in a contiguous *string* (without spaces), read as a line of
-an *ASCII* file *\[Änderung ein oder mehrerer Substrings (Einzelzei-chen
+an *ASCII* file *\[Änderung ein oder mehrerer Substrings (Einzelzeichen
 oder Zeichenketten) in einem zusammenhängenden String (ohne
 Leerzeichen), eingelesen als Zeile einer ASCII Datei\]*.
 
@@ -2466,7 +2466,7 @@ ABCDEFG
     ASCII-File.\]*
 
 The processing steps are logged in ***stgersetz_log.txt*** *\[Die
-Bear-beitungsschritte werden in stgersetz_log.txt protokolliert\]*.
+Bearbeitungsschritte werden in stgersetz_log.txt protokolliert\]*.
 
 Usage *\[Handhabung\]*:
 
@@ -2605,7 +2605,7 @@ DLS NOTIZ_DLS.txt 1 10 10
 
 Writes a list of all specified files in the current directory to an
 *ASCII* file *\[Schreibt eine Liste aller spezifizierten Dateien des
-aktu-ellen Verzeichnisses in eine ASCII Datei\]*.
+aktuellen Verzeichnisses in eine ASCII Datei\]*.
 
 Usage *\[Handhabung\]*:
 
@@ -2671,9 +2671,9 @@ SRC out.bat 0 nul.txt 0
 
 ---
 
-Inserts the command-line arguments into the *ASCII* file ***T.txt***.
+Inserts the commandline arguments into the *ASCII* file ***T.txt***.
 The arguments are separated by a space *\[Fügt die
-Kommandozeilen-argumente in die ASCII Datei T.txt ein. Die Argumente
+Kommandozeilenargumente in die ASCII Datei T.txt ein. Die Argumente
 werden in der Datei durch ein Leerzeichen getrennt\]*.
 
 Usage *\[Handhabung\]*:
@@ -2697,10 +2697,10 @@ T zur schnellen Texteingabe in eine Datei.
 ---
 
 Starts a *DOS* *shell* in the current directory. Copies itself to the
-di-rectory ***\[\_DOSCOM\]***, which is linked to the desktop. Renames
+directory ***\[\_DOSCOM\]***, which is linked to the desktop. Renames
 to *nil* after use in the current directory *\[Startet eine DOS-Shell im
 aktuellen Verzeichnis. Kopiert sich selbst in das mit dem Desktop
-verknüfte Verzeichis \[\_DOSCOM\]. Umbenennung in nil nach Ge-brauch im
+verknüfte Verzeichis \[\_DOSCOM\]. Umbenennung in nil nach Gebrauch im
 aktuellen Verzeichis\]*.
 
 Usage *\[Handhabung\]*:
@@ -2749,7 +2749,7 @@ LSN oo
 
 ---
 
-Executes *console* commands with arguments *\[Führt Consolenbe-fehle mit
+Executes *console* commands with arguments *\[Führt Consolenbefehle mit
 Argumenten aus\]*.
 
 Usage *\[Handhabung\]*:
