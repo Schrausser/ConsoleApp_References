@@ -1841,8 +1841,8 @@ ktf3 [input][output][minx][maxx][inv]
 Example *\[Bsp.\]*:
 
 ~~~
-**ktf3** data_in.txt data_out.txt 1 100 1
-**ktf3** data_in.txt data_out.txt 371 51 0
+ktf3 data_in.txt data_out.txt 1 100 1
+ktf3 data_in.txt data_out.txt 371 51 0
 ~~~
 
 ### 4.14. NTF
@@ -2368,8 +2368,8 @@ AB_L [input][output][a][sw][z][sw]
 Example *\[Bsp.\]*:
 
 ~~~
-**AB_L** in.txt out.txt move 1 verzeichnis 1\
-**AB_L** in.txt out.txt del 1 0 0
+AB_L in.txt out.txt move 1 verzeichnis 1\
+AB_L in.txt out.txt del 1 0 0
 ~~~
 
 ### 5.9. BIIA
