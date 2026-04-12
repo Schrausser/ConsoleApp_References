@@ -1687,9 +1687,9 @@ x0
 x1 x2
 -- --
 1
- 2
+   2
 3
- 4
+   4
 ~~~
 
 -   Importing a single-column *ASCII* file.
@@ -2136,42 +2136,7 @@ functions in *SCHRAUSSER-MAT* (Schrausser,
 [2022](https://doi.org/10.17605/OSF.IO/8XE42)).
 
 ~~~
-   Category                                      chpt.   nr.         Function    
-                                                                                      Console SCHRAUSSER-MAT
-
-  EEG/ Focus parameters                             2           1               ERC, ERCX         
-                                                      2           2               XCOR              
-                                                      2           3               FOC¹              
-                                                      2           4               DIS¹              
-                                                      2           5               FLOC¹             
-                                                      2           6               OUT¹              
-  Integral/ Interpolation                           3           1               ROMI              
-                                                      3           2               ROME              
-                                                      3           3               KUSI              
-                                                      3           4               KUSF              
-                                                      3           5               NWTI              
-                                                      3           6               NWTP              
-  Matrix/ Data manipulation                         4           1               AMA               MXA, MXS
-                                                      4           2               IMA               MXI
-                                                      4           3               MMA               MXM
-                                                      4           4               QMA               MXQ
-                                                      4           5               SMA               
-                                                      4           6               SPUR              MSP
-                                                      4           7               TRP               MXT
-                                                      4           8               VMA               MXV
-                                                      4           9               ZMA               
-                                                      4           10              ENT               
-                                                      4           11              KTF               
-                                                      4           12              KTF2              
-                                                      4           13              KTF3              
-                                                      4           14              NTF               
-                                                      4           15              SEL               
-                                                      4           16              SRT               
-                                                      4           17              SRT1              
-                                                      4           18              SRT2              
-                                                      4           19              SRT3              
-                                                      4           20              V2V               
-                                                      4           21              Z2Z         
+     
 ~~~
                                                                                                         
 ¹) implemented in *ATINA* (Schrausser, [2006](https://doi.org/10.5281/zenodo.19422127)).
@@ -2765,29 +2730,7 @@ CMNDw [cmd][argc]
 **Table 3**. *ConsoleApp* tools overview.
 
 ~~~
-Category       chpt.   nr.              Function
-  
-  String/ Number     5           1                    2DEC
-                       5           2                    DEC2
-                       5           3                    BIN2DEC
-                       5           4                    DEC2BIN
-                       5           5                    ABCD
-                       5           6                    AZUBE
-                       5           7                    TEZUTE
-                       5           8                    AB_L
-                       5           9                    BIIA
-                       5           10                   AIIB
-                       5           11                   STGERSETZ
-  Tools              6           1                    AUTO
-                       6           2                    DLS
-                       6           3                    FIL
-                       6           4                    KOPIE
-                       6           5                    SRC
-                       6           6                    T
-                       6           7                    DOSCOM
-                       6           8                    FINDE
-                       6           9                    LSN
-                       6           10                   CMND, CMNDw
+            
 ~~~
                                                             
 <br>
