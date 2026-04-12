@@ -488,7 +488,7 @@ Usage:
 ~~~
 z_Dichte [mode][value] [[f]]
 [mode] ......... (1):fx=z->d (2):fy=d->z (3):∫x=z->p
-                     (4):∫'p->z (5):∫'p->d (6):∫y=d->p
+				 (4):∫'p->z (5):∫'p->d (6):∫y=d->p
 [value] ........ z-value/z-density/percent-rank p
 [f] ............ (1):z-density function graph
 ~~~
@@ -518,7 +518,7 @@ Theta [sd][min][max][qq][q][v][s] [[x]] [[g]]
 [max] .......... R Maximum value
 [qq]  .......... Theta-Theta/
 [q]   .......... Theta:
-             |0| Harmonic mean (HM)
+            	 |0| Harmonic mean (HM)
                  |1| Arithmetic mean (AM)
                  |2| Sum (SUM)
                  |3| Standard deviation (SD)
@@ -807,7 +807,7 @@ Subramaniyam & Thiagarajan,
 *correlation* (2.2.) and *focus* parameters (2.3.-2.6.; s. Schrausser,
 [2000a](https://doi.org/10.13140/RG.2.2.32114.17601),
 [b](http://doi.org/10.13140/RG.2.2.28637.90083)) from
-*[Fourier-analyzed]{.underline}* data (c.f. Fourier,
+*[Fourieranalyzed]{.underline}* data (c.f. Fourier,
 [1822](https://archive.org/details/bub_gb_TDQJAAAAIAAJ/mode/1up)). More
 profound insight into the methods is provided by e.g. Gerthsen
 ([1966](https://doi.org/10.1007/978-3-662-30201-9)), Kumar and
