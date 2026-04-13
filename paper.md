@@ -72,7 +72,7 @@ further e.g. Mulholland and Jones
 
 (1.3.) Effect size, *Cohen's* $d$ (Cohen,
 [1977](https://doi.org/10.1016/C2013-0-10517-X),
-[1988](https://doi.org/10.4324/9780203771587), p.20, p.49,
+[1988](https://doi.org/10.4324/9780203771587), p. 20, p. 49,
 [1992](https://doi.org/10.1037/0033-2909.112.1.155)), an effect size
 measure that represents the magnitude of the difference between two
 group means in standard deviation units. Further works on this topic are
