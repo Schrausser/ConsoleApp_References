@@ -796,32 +796,32 @@ https://doi.org/10.13140/RG.2.2.14377.26727.
 applications for distribution functions. Zenodo.
 https://doi.org/10.5281/zenodo.7664141.
 
-———. 2023b. Schrausser/ConsoleApp_EEG: 2.0. Zenodo.
-https://doi.org/10.5281/zenodo.10701350.
-
-———. 2023c. Schrausser/ConsoleApp_Integral: Console applications for
+———. 2023b. Schrausser/ConsoleApp_Integral: Console applications for
 integral and interpolation. Zenodo.
 https://doi.org/10.5281/zenodo.7655056.
 
-———. 2023d. Schrausser/ConsoleApp_Matrix: Console applications for
+———. 2023c. Schrausser/ConsoleApp_Matrix: Console applications for
 matrix calculation and tools. Zenodo.
 https://doi.org/10.5281/zenodo.7655046.
 
-———. 2023e. Schrausser/ConsoleApp_String: Console applications for
+———. 2023d. Schrausser/ConsoleApp_String: Console applications for
 string and transformation. Zenodo.
 https://doi.org/10.5281/zenodo.7653790.
 
-———. 2023f. Schrausser/ConsoleApp_Tools: Console tool applications.
+———. 2023e. Schrausser/ConsoleApp_Tools: Console tool applications.
 Zenodo. https://doi.org/10.5281/zenodo.7655239.
 
-———. 2023g. Schrausser/FunktionWin: Windows Interface for distribution
+———. 2023f. Schrausser/FunktionWin: Windows Interface for distribution
 functions. Zenodo. https://doi.org/10.5281/zenodo.7651660.
 
-———. 2023h. Schrausser/ThetaWin: Distribution simulator. Zenodo.
+———. 2023g. Schrausser/ThetaWin: Distribution simulator. Zenodo.
 https://doi.org/10.5281/zenodo.7659263.
 
-———. 2024. Handbook: Distribution Functions (Verteilungs Funktionen).
+———. 2024a. Handbook: Distribution Functions (Verteilungs Funktionen).
 PsyArXiv. https://doi.org/10.31234/osf.io/rvzxa.
+
+———. 2024b. Schrausser/ConsoleApp_EEG: 2.0. Zenodo.
+https://doi.org/10.5281/zenodo.10701350.
 
 ———. 2025a. HP_prime_MATH: Manual. 1st ed.
 https://doi.org/10.5281/zenodo.15713317.
