@@ -526,7 +526,7 @@ references:
   - literal: Schrausser, D. G.
   doi: 10.5281/zenodo.10701350
   id: schrausser_2024_10701350
-  issued: 2023
+  issued: 2024
   publisher: Zenodo
   title: "Schrausser/ConsoleApp_EEG: 2.0"
   title-short: Schrausser/ConsoleApp_EEG
